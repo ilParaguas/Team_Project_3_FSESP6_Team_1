@@ -7,7 +7,7 @@ export function useFooterJsonFetch() {
     
     async function jsonFetch() {
         try{
-            const response = await fetch("./json/footer.json");
+            const response = await fetch("/src/home_page/json/footer.json");
             const data = await response.json();
             setData({...data})
     

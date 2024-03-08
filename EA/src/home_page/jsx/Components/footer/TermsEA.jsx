@@ -2,9 +2,9 @@ import { useContext } from "react";
 import { JsonContext } from "/src/home_page/jsx/Contexts/FooterJson.jsx";
 
 export function TermsEA() {
-    const data = useContext(JsonContext)["terms-ea"];
+    const data = useContext(JsonContext);
 
     return <div>
-        <p>{data.start}<strong><a>{data.link}</a></strong>{data.final}</p>
+       {data && <p>{data["terms-ea"].start}<strong><a>{data["terms-ea"].link}</a></strong>{data["terms-ea"].final}</p>}
     </div>
 }

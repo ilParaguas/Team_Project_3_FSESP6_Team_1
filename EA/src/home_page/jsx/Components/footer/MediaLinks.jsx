@@ -2,21 +2,23 @@ import { useContext } from "react";
 import { JsonContext } from "/src/home_page/jsx/Contexts/FooterJson.jsx";
 
 export function MediaLinks() {
-    const data = useContext(JsonContext)["media-links"];
+    const data = useContext(JsonContext);
 
-    return <div>
-        <section>
-            <div>{data["local-links"].map(link => {
+    return (
+    <div>
+        {data && <section>
+            <div>{data["media-links"]["local-links"].map(link => {
                 return <InfoDiv key={link} link={link}/>;
             })}</div>
             <div>
                 <h3>{data.join}</h3>
-                <div>{data["social-links"].map(link => {
+                <div>{data["media-links"]["social-links"].map(link => {
                     return <NetworkDiv key={link} link={link} />
                 })}</div>
             </div>
-        </section>
-    </div>;
+        </section>}
+    </div>
+    );
 }
 
 function InfoDiv({ link }) {
@@ -26,5 +28,5 @@ function InfoDiv({ link }) {
 
 function NetworkDiv({ link }) {
 
-    return <div><a><img src={`./src/media/footer/social/${link}.svg`} alt={link} /></a></div>
+    return <div><a><img src={`./src/home_page/media/img/footer/social/${link}.svg`} alt={link} /></a></div>
 }

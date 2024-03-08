@@ -1,20 +1,21 @@
 import { useContext } from "react";
 import { JsonContext } from "/src/home_page/jsx/Contexts/FooterJson.jsx";
+import ButtonSelector from "./ButtonSelector";
 
 export function ServsAndLegalTerms() {
-    const data = useContext(JsonContext)["servs-and-legal-terms"];
+    const data = useContext(JsonContext);
 
     return <div>
-        <section>
-            <div><img src="./src/media/footer/ea-violet.png" alt="ea-logo" /></div>
+        {data && <section>
+            <div><img src="./src/home_page/media/img/footer/ea-violet.png" alt="ea-logo" /></div>
             <div>
                 <div>
-                    <div>{data.servs.map(link => {
+                    <div>{data["servs-and-legal-terms"].servs.map(link => {
                         return <Serv key={link} link={link} />;
                     })}</div>
                     <div>
-                        <ButtonSelector items={data.prices} />
-                        <ButtonSelector items={data.langs} />
+                        <ButtonSelector items={data["servs-and-legal-terms"].prices} />
+                        <ButtonSelector items={data["servs-and-legal-terms"].langs} />
                     </div>
                 </div>
                 <div>
@@ -22,32 +23,11 @@ export function ServsAndLegalTerms() {
                     <div></div>
                 </div>
             </div>
-        </section>
+        </section>}
     </div>;
 }
 
 function Serv({ link }) {
 
     return <><span>{link}</span></>;
-}
-
-function ButtonSelector({ items }) {
-
-    return (
-        <div>
-            <button>
-                <div>{items.title}</div>
-                <div></div>
-            </button>
-            <div>
-                {items.content.map(item => {
-                    return (
-                    <>
-                        Hi
-                    </>
-                    );
-                })}
-            </div>
-        </div>
-    );
 }
