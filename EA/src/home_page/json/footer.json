@@ -1,0 +1,54 @@
+{
+    "es-es": {
+        "terms-ea": {
+            "start": "*SUJETO A CONDICIONES, LIMITACIONES Y EXCLUSIONES. CONSULTA LOS ",
+            "link": "TÉRMINOS DE EA PLAY",
+            "final": " PARA OBTENER MÁS INFORMACIÓN."
+        },
+        "media-links": {
+            "local-links": ["Empleo", "Ejecutivos", "Informe de impacto", "Nuestros compromisos", "Comunicar inquietudes"],
+            "join": "Únete a la conversación",
+            "social-links": ["Facebook", "Twitter", "Youtube", "Instagram", "Twitch"]
+        },
+        "servs-and-legal-terms": {
+            "servs": ["Biblioteca de juegos", "Suscribirse", "Canjear Código", "EA app", "Acerca de", "Accesibilidad", "Ayuda"],
+            "prices": {
+                "title": "Precios regionales",
+                "content": ["Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", 
+                    "Iceland", "Ireland", "Italy", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Norway", "Poland", "Portugal", "Romania", 
+                    "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland"]},
+            "langs": {
+                "title": "Idioma",
+                "content": [
+                    { "country": "United States", "ISO": "us" },
+                    { "country": "United Kingdom", "ISO": "uk" },
+                    { "country": "Australia", "ISO": "au" },
+                    { "country": "France", "ISO": "fr" },
+                    { "country": "Deutschland", "ISO": "ge" },
+                    { "country": "Italia", "ISO": "it" },
+                    { "country": "日本", "ISO": "ja" },
+                    { "country": "Polska", "ISO": "po" },
+                    { "country": "Brasil", "ISO": "br" },
+                    { "country": "Россия", "ISO": "ru" },
+                    { "country": "España", "ISO": "es" },
+                    { "country": "Česká republika", "ISO": "rc" },
+                    { "country": "Canada (En)", "ISO": "ca" },
+                    { "country": "Canada (Fr)", "ISO": "ca" },
+                    { "country": "Danmark", "ISO": "da" },
+                    { "country": "Suomi", "ISO": "su" },
+                    { "country": "México", "ISO": "mx" },
+                    { "country": "Nederland", "ISO": "ne" },
+                    { "country": "Norge", "ISO": "no" },
+                    { "country": "Sverige", "ISO": "sv" },
+                    { "country": "中国", "ISO": "ch" },
+                    { "country": "대한민국", "ISO": "ks" },
+                    { "country": "繁體中文", "ISO": "ch" },
+                    { "country": "Türkiye", "ISO": "tu" }
+                ]
+            },
+            "legal-terms": ["Información legal y privacidad", "Acuerdo de usuario", " Política de privacidad y directiva de cookies (tus derechos de privacidad)",
+                "Actualizaciones del servicio online", "Seguridad", "Sus preferencias de cookies" ],
+            "copyright": "© 2024 Electronic Arts Inc."
+        }
+    }
+}
