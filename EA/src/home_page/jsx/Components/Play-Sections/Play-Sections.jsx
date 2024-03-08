@@ -1,6 +1,7 @@
 import PlayHeader from "./PlayHeader";
 import PlayFooter from "./PlayFooter";
 
+
 export function PlaySectionsHeader(){
     return(
     <section>
@@ -8,7 +9,6 @@ export function PlaySectionsHeader(){
     </section>
     )
 }
-
 export function PlaySectionsFooter(){
     return(
         <section>
