@@ -1,76 +1,91 @@
-import { useEffect } from 'react';
-
 export default function PlayHeader() {
-  useEffect(() => {
 
-    // SECCION AZUL
-    const imgZonaAzul = <img src="sources EA/azul-mesa-juegos7x2.1920w.jpg" id="imgZonaAzul" />;
-    
-    const teamOfTheYear = (
-      <img src="sources EA/team-of-the-year7x2.1920w.png" id="imagenTOTY" alt="Team of the year" />
-    );
+  // PURPLE SECTION
+  const imgZonaPurple = (
+    <img
+      src={"./src/home_page/media/Play-Sections/purple.crop7x2.1920w.jpg"}
+      id="imgZonaPurple"
+      className="imgZonaPurple"
+    />
+  )
+  const formula1 = (
+    <img
+      src={"./src/home_page/media/Play-Sections/f124-7x2.1920w.png"}
+      id="formula1"
+      alt="formula1"
+      className="imagenFormula1"
+    />
+  );
+  const ParrafoAcercate = (
+    <p className="ParrafoAcercate">ACÉRCATE A LA PARRILLA</p>)
+   
+  const textoAcercate = (
+    <p>Prepárate para encender tu pasión por las carreras y acercarte a la parrilla como nunca antes con EA SPORTS™ F1® 24, el videojuego oficial del 2024 FIA Formula One World Championship™.</p>)
 
-    const textoParrafo = "La votación ha terminado. Cada voto cuenta. Vuelve pronto para ver el anuncio de los onces oficiales del TOTY masculino y femenino de EA SPORTS FC.";
-    const parrafoTOTY = <p id="parrafoTOTY">{textoParrafo}</p>;
+  const parrafoFormula1 = (
+    <p id="parrafoFormula1" className="parrafoFormula1">
+      {ParrafoAcercate}
+      {textoAcercate}
+    </p>
+  )
+  const botonMasInfo = (
+    <button id="botonMasInfo" className="botonMasInfo">
+     RESERVAR AHORA
+    </button>
+  )
+  const sectionTOTY = (
+    <div id="formula1-contenido" className="formula1-contenido">
+      {formula1}
+      {parrafoFormula1}
+      {botonMasInfo}
+    </div>
+  )
 
-    const botonMasInfo = (
-      <button id="botonMasInfo" className="botonMasInfo">Mas Informacion</button>
-    );
+  const zonaPurple = (
+    <div id="zonaPurple" className="zona-purple">
+      {imgZonaPurple}
+      {sectionTOTY}
+    </div>
+  )
 
-    const sectionTOTY = (
-      <div id="team-of-the-year">
-        {teamOfTheYear}
-        {parrafoTOTY}
-        {botonMasInfo}
-      </div>
-    );
+// GRAY SECCION 
+const imgZonaGris = <img 
+src={"./src/home_page/media/Play-Sections/grey.1920w.png"} 
+id="imgZonaGris" 
+className="imgZonaGris"/>
 
-    // SECCION GRIS
-    const imgZonaGris = <img src="sources EA/Gris.1920w.jpg" id="imgZonaGris" />;
-    
-    const textoParrafoGris = "EA SPORTS™ F1® 23 ESTÁ EN THE PLAY LIST";
-    const parrafoGris = <p id="parrafoGris">{textoParrafoGris}</p>;
+const parrafoGris = <p 
+id="parrafoGris"
+className="parrafoGris"
+>DESCUBRE MÁS SOBRE NEED FOR SPEED™ UNBOUND VOLUMEN 6
+</p>
 
-    const PlayLogo = <img src="sources EA/play-logo-small.svg" id="PlayLogo" alt="Play Logo" />;
+const botonJugar = (
+<button 
+id="botonJugar" 
+className="botonMasInfo">MAS INFORMACIÓN
+</button>
+)
 
-    const botonJugar = (
-      <button id="botonJugar" className="botonJugar">Jugar ahora</button>
-    );
+const zonaGrisContenido = (
+  <div id="zona-gris-contenido"
+  className="zona-gris-contenido">
+   {parrafoGris}
+   {botonJugar}
+   </div>
+)
 
-    const divZonaGris = (
-      <div id="divZonaGris">
-        {PlayLogo}
-        {botonJugar}
-      </div>
-    );
+const zonaGris = (
+  <div className="zona-gris">
+    {imgZonaGris}
+    {zonaGrisContenido}
+  </div>
+)
 
-    const zonaGrisContenido = (
-      <div id="zona-gris-contenido">
-        {parrafoGris}
-        {divZonaGris}
-      </div>
-    );
-
-    const playToY = document.getElementById("play-ToY");
-    playToY.appendChild(
-      <div>
-        <div id="zona-azul">
-          {imgZonaAzul}
-          {sectionTOTY}
-        </div>
-        <div id="zona-gris">
-          {imgZonaGris}
-          {zonaGrisContenido}
-        </div>
-      </div>
-    );
-
-    return () => {
-      playToY.removeChild(zonaAzul);
-      playToY.removeChild(zonaGris);
-    };
-  }, []); 
-
-  return null;
+return (
+  <>
+  {zonaPurple}
+  {zonaGris}
+  </>
+  )
 }
-

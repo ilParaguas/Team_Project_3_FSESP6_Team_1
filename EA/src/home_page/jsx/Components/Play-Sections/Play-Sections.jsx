@@ -1,7 +1,7 @@
-import PlayHeader from "./Playheader";
+import PlayHeader from "./PlayHeader";
 import PlayFooter from "./PlayFooter";
 
-export default function PlaySectionsHeader(){
+export function PlaySectionsHeader(){
     return(
     <section>
     <PlayHeader/>
@@ -9,7 +9,7 @@ export default function PlaySectionsHeader(){
     )
 }
 
-export default function PlaySectionsFooter(){
+export function PlaySectionsFooter(){
     return(
         <section>
         <PlayFooter/>

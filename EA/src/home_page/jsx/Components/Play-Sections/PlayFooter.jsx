@@ -4,7 +4,7 @@ export default function PlayFooter() {
 
   useEffect(() => {
     // ZONA ROJA
-    const imgZonaRoja = <img src="sources EA/recuadros7x2.1920w.jpg" id="imgZonaRoja" />;
+    const imgZonaRoja = <img src={"./src/home_page/media/Play-Sections/purple7x2-xl.jpg.adapt.crop7x2.1920w.jpg"} id="imgZonaRoja" />
     const imgZonaRojaGradient = <img src="sources EA/gradient-azul7x2.1920w.png" id="imgZonaRojaGradient" />;
 
     const PlayLogo2 = <img src="sources EA/play-logo-small.svg" id="PlayLogo2" alt="Play Logo2" />;
