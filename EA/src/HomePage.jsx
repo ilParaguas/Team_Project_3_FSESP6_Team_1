@@ -3,7 +3,7 @@ import { LastUpdates } from "./home_page/jsx/Components/Last-Updates/Last-Update
 import { LanguageContext } from "./home_page/jsx/Contexts/Language-Context";
 import "./home_page/css/styles.css"
 import { PlaySectionsFooter, PlaySectionsHeader } from "./home_page/jsx/Components/Play-Sections/Play-Sections";
-
+import { Footer } from "./home_page/jsx/Components/footer/Footer";
 
 export function HomePage() {
 
@@ -15,6 +15,7 @@ export function HomePage() {
       <PlaySectionsHeader/>
       <LastUpdates/>
       <PlaySectionsFooter/>
+      <Footer />
     </LanguageContext.Provider>
   );
 }
