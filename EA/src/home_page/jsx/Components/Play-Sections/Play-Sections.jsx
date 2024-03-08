@@ -1,6 +1,5 @@
 import PlayHeader from "./PlayHeader";
-import PlayFooter from "./PlayFooter";
-
+import PlayFooter from "./playFooter";
 
 export function PlaySectionsHeader(){
     return(
