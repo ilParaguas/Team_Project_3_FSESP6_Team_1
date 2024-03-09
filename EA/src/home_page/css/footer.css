@@ -1,0 +1,54 @@
+div, p, a, ul, li, section {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'ElectronicArtsTextRegular';
+    src: url(../fonts/ElectronicArtsText-Regular.woff2);
+}
+
+.footer {
+    font-family: 'ElectronicArtsTextRegular', Verdana;
+    background-color: #f3f3f3;
+    color: rgb(22, 22, 22);
+    line-height: 27px;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
+.terms-EA {
+    margin: 48px 76px 0px;
+    display: flex; 
+    justify-content: center;
+}
+.terms-EA-p {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-indent: -0.65em;
+
+    padding: 0px 0px 16px 0.65em;
+    border-bottom: 1px solid rgb(150, 150, 150);
+
+    max-width: 1120px;
+}
+.terms-EA a {
+    text-decoration: none;
+    color: rgb(255, 71, 71);
+}
+.terms-EA a:visited {
+    color: rgb(255, 71, 71);
+}
+@media (max-width: 1024px) {
+    .terms-EA {
+        margin: 48px 60px 0px;
+        line-height: 26.4px;
+    }
+}
+@media (max-width: 768px) {
+    .terms-EA {
+        margin: 32px 22px 0px;
+    }
+}
