@@ -10,16 +10,20 @@ a:visited {
 }
 
 @font-face {
-    font-family: 'ElectronicArtsTextRegular';
-    src: url(../fonts/ElectronicArtsText-Regular.woff2);
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'ElectronicArtsDisplayBold';
-    src: url(../fonts/ElectronicArtsDisplay-Bold.woff2);
+    font-family: 'ElectronicArtsDisplay';
+    src: url(/EA/src/fonts/ElectronicArtsDisplay-Bold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
 }
 
 #footer {
-    font-family: 'ElectronicArtsTextRegular', Verdana;
+    font-family: 'ElectronicArtsText';
     font-size: 18px;
     background-color: rgb(234, 234, 234);
     color: rgb(22, 22, 22);
@@ -72,19 +76,18 @@ a:visited {
     padding: 19px 168px 16px;
     background-color: rgb(234, 234, 234);
     color: rgb(22, 22, 22);
-
-    display: flex;
-    justify-content: center;
 }
 #media-links section {
     padding-bottom: 47px;
+    margin: auto;
 
     max-width: 1120px;
-
-    
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
+    
 }
 
 #local-links {                       /*     local-links     */
@@ -95,6 +98,7 @@ a:visited {
     flex-wrap: wrap;
 }
 .local-link {
+    font-size: 16px;
     margin: 8px 48px 5px 0px;
 }
 .local-link :hover {
@@ -105,9 +109,8 @@ a:visited {
 }
 
 #social-links-h3 {                  /*       social-links       */
-    font-family: 'ElectronicArtsDisplayBold';
+    font-family: 'ElectronicArtsDisplay';
     font-size: 16px;
-    font-weight: 600;
     line-height: 1.35em;
 
     margin: 32px 0px 13px;
@@ -241,6 +244,7 @@ a:visited {
     }
 
     #social-container {
+        width: 100%;
         border-top: 1px solid rgb(150, 150, 150);
     }
     #social-links-h3 {
@@ -257,5 +261,6 @@ a:visited {
 @media (max-width: 321px) {
     #local-links {
         flex-direction: column;
+        width: 100%;
     }
 }
