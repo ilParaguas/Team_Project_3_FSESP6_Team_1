@@ -8,7 +8,6 @@ export function useUpdateNews(language) {
       );
       if (r.status === 200) {
         const json = await r.json();
-        console.log(json);
         setNewsJson(json);
       } else {
         throw new Error(r.status);
