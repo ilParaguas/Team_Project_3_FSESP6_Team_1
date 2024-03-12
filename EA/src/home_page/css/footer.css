@@ -1,6 +1,12 @@
-div, p, a, ul, li, section {
+footer, div, p, a, ul, li, section {
     margin: 0px;
     padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: currentColor;
 }
 
 @font-face {
@@ -8,23 +14,28 @@ div, p, a, ul, li, section {
     src: url(../fonts/ElectronicArtsText-Regular.woff2);
 }
 
-.footer {
+#footer {
     font-family: 'ElectronicArtsTextRegular', Verdana;
-    background-color: #f3f3f3;
+    font-size: 18px;
+    background-color: rgb(234, 234, 234);;
     color: rgb(22, 22, 22);
-    line-height: 27px;
+    line-height: 1.5em;
 
     overflow-wrap: break-word;
     word-break: break-word;
     -webkit-font-smoothing: antialiased;
 }
 
-.terms-EA {
+
+
+/*                          EA Terms                           */
+
+#terms-EA {
     margin: 48px 76px 0px;
     display: flex; 
     justify-content: center;
 }
-.terms-EA-p {
+#terms-EA-p {
     font-size: 14px;
     line-height: 1.5em;
     text-indent: -0.65em;
@@ -34,21 +45,141 @@ div, p, a, ul, li, section {
 
     max-width: 1120px;
 }
-.terms-EA a {
-    text-decoration: none;
-    color: rgb(255, 71, 71);
-}
-.terms-EA a:visited {
+#terms-EA a {
     color: rgb(255, 71, 71);
 }
 @media (max-width: 1024px) {
-    .terms-EA {
+    #terms-EA {
         margin: 48px 60px 0px;
-        line-height: 26.4px;
     }
 }
 @media (max-width: 768px) {
-    .terms-EA {
+    #terms-EA {
         margin: 32px 22px 0px;
+    }
+}
+
+
+
+/*                      media links                     */
+
+#media-links {
+    padding: 19px 168px 16px;
+    background-color: rgb(234, 234, 234);
+    color: rgb(22, 22, 22);
+
+}
+#media-links section {
+    padding-bottom: 47px;
+
+    max-width: 1120px;
+
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#local-links {
+    margin-top: 12px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.local-link {
+    margin: 8px 48px 5px 0px;
+}
+.local-link :hover {
+    color: rgb(255, 71, 71);
+}
+#local-links :last-child {
+    margin-right: 0px;
+}
+
+#media-space-div {
+    font-size: 14px;
+    line-height: 1.5em;
+
+    max-width: 736px;
+
+    margin: 0px 0px 34px 0px;
+}
+
+
+
+@media (max-width: 1456px) {
+    #media-links {
+        padding: 12px 76px;
+    }
+    #media-links section {
+        padding-bottom: 28px;
+    }
+
+    #local-links {
+        margin-top: 11px;
+    }
+    .local-link {
+        margin: 8px 40px 5px 0px;
+    }
+
+    #media-space-div {
+        margin: -4px 0px 23px 0px;
+
+        max-width: 572px;
+    }
+}
+@media (max-width: 1024px) {
+    #media-links {
+        padding: 12px 60px 40px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    #local-links {
+        font-size: 16px;
+        line-height: 1.5em;
+
+        margin-top: 0px;
+    }
+    .local-link {
+        font-size: 16px;
+        line-height: 1.5em;
+
+        margin: 8px 32px 5px 0px;
+    }
+
+    #media-space-div {
+        margin: 30px 0px -5px 0px;
+
+        max-width: 480px;
+    }
+}
+@media (max-width: 768px) {
+    #media-links {
+        padding: 12px 22px 32px;
+    }
+    #media-links section {
+        padding-bottom: 0px;
+        font-size: 16px;
+        line-height: 1.5em;
+
+        flex-direction: column;
+    }
+
+    #local-links {
+        margin-bottom: 9px;
+    }
+    .local-link {
+        margin: 6px 0px 5px 0px;
+    }
+
+    #media-space-div {
+        margin: 27px 0px 3px 0px;
+    }
+}
+@media (max-width: 321px) {
+    #local-links {
+        flex-direction: column;
     }
 }
