@@ -13,6 +13,7 @@ export function Footer() {
                 <TermsEA />
                 <footer>
                     <MediaLinks />
+                    <div id="media-space-div"></div>
                     <ServsAndLegalTerms />
                 </footer>
             </JsonContext.Provider>
