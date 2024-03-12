@@ -8,11 +8,14 @@ export function Footer() {
     const json = useFooterJsonFetch()
 
     return (
-        <div className="footer">
+        <div id="footer">
             <JsonContext.Provider value={json}>
                 <TermsEA />
-                <MediaLinks />
-                <ServsAndLegalTerms />
+                <footer>
+                    <MediaLinks />
+                    <div id="media-space-div"></div>
+                    <ServsAndLegalTerms />
+                </footer>
             </JsonContext.Provider>
         </div>
     );

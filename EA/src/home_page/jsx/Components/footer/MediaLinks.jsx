@@ -5,14 +5,14 @@ export function MediaLinks() {
     const data = useContext(JsonContext);
 
     return (
-    <div>
+    <div id="media-links">
         {data && <section>
-            <div>{data["media-links"]["local-links"].map(link => {
+            <div id="local-links">{data["media-links"]["local-links"].map(link => {
                 return <InfoDiv key={link} link={link}/>;
             })}</div>
-            <div>
-                <h3>{data.join}</h3>
-                <div>{data["media-links"]["social-links"].map(link => {
+            <div id="social-container">
+                <h3 id="social-links-h3">{data["media-links"].join}</h3>
+                <div id="social-links">{data["media-links"]["social-links"].map(link => {
                     return <NetworkDiv key={link} link={link} />
                 })}</div>
             </div>
@@ -23,10 +23,10 @@ export function MediaLinks() {
 
 function InfoDiv({ link }) {
 
-    return <div><a>{link}</a></div>;
+    return <div className="local-link" title={link}><a href="">{link}</a></div>;
 }
 
 function NetworkDiv({ link }) {
 
-    return <div><a><img src={`./src/home_page/media/img/footer/social/${link}.svg`} alt={link} /></a></div>
+    return <div className="social-link" title={link}><a href=""><img src={`./src/home_page/media/img/footer/social/${link}.svg`} alt={link} /></a></div>
 }
