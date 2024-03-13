@@ -7,7 +7,7 @@ export function ServsAndLegalTerms() {
 
     return <div>
         {data && <section>
-            <div><img src="./src/home_page/media/img/footer/ea-violet.png" alt="ea-logo" /></div>
+            <div><a href="" title={data["servs-and-legal-terms"]["ea-icon"]}><img src="./src/home_page/media/img/footer/ea-violet.png" alt="ea-logo" /></a></div>
             <div>
                 <div>
                     <div>{data["servs-and-legal-terms"].servs.map(link => {
