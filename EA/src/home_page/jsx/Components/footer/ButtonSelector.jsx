@@ -1,5 +1,3 @@
-import Selector from "./Selector";
-
 export default function ButtonSelector({ items }) {
 
     return (

@@ -3,9 +3,12 @@ import { TermsEA } from "./TermsEA";
 import { MediaLinks } from "./MediaLinks";
 import { ServsAndLegalTerms } from "./ServsAndLegalTerms";
 import { useFooterJsonFetch } from "../../Hooks/useFooterJsonFetch";
+import { useContext } from "react";
+import { LanguageContext } from "../../Contexts/Language-Context";
 
 export function Footer() {
-    const json = useFooterJsonFetch()
+    const lang = useContext(LanguageContext)
+    const json = useFooterJsonFetch(lang)
 
     return (
         <div id="footer">
