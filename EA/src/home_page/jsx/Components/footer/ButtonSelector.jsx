@@ -8,7 +8,7 @@ export default function ButtonSelector({ items }) {
             </button>
             <div>
                 {items.content.map(item => (
-                    <div key={item.ISO}><a href={`/${item.lang}`}>{item.country}</a></div>
+                    <div key={item.ISO ? item.ISO : item}><a href={`/${item.lang}`}>{item.country}</a></div>
                 ))}
             </div>
         </div>
