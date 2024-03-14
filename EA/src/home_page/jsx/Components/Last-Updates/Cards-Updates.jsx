@@ -1,12 +1,11 @@
 import { useContext } from "react";
 import { Card } from "./Card";
 import { NewsContext } from "../../Contexts/NewsContext";
+import { TabContext } from "../../Contexts/TabContext";
 
-export function CardsUpdates({ selectedTab }) {
+export function CardsUpdates() {
   const cards = useContext(NewsContext);
-  if(cards){
-    console.log(cards);
-  }
+  const selectedTab=useContext(TabContext);
   return (
     <div id="cards-updates">
       {cards && cards[selectedTab] &&

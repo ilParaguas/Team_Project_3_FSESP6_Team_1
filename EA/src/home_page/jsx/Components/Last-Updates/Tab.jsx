@@ -1,19 +1,16 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { TabContext } from "../../Contexts/TabContext";
 
 export function Tab({ news, isFirst, isLast, changeTab }) {
-  const [isSelected, setIsSelected] = useState(false);
-  const splitUrl = window.location.href.split("#");
-  if (splitUrl[1] && splitUrl[1]===news && !isSelected) {
-    setIsSelected(true)
-    changeTab(news);
-  }else if(!splitUrl[1]&&isFirst && !isSelected){
-    setIsSelected(true)
-    changeTab(news);
-  }
-  const handleLinkClick = () => {
+  const [isSelected, setIsSelected] = useState(news===useContext(TabContext));
+  
+  const handleLinkClick = (event) => {
+    event.preventDefault();
+    window.location = window.location.href.split("#")[0] + "#" + news;
     document.getElementById(`radio-${news}`).checked = true;
     changeTab(news);
   };
+
   return (
     <li id={news}>
       <input
