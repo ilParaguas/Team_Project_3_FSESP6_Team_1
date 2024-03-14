@@ -21,8 +21,8 @@
             "langs": {
                 "title": "Idioma",
                 "content": [
-                    { "country": "United States", "ISO": "us" },
-                    { "country": "United Kingdom", "ISO": "uk" },
+                    { "country": "United States", "ISO": "us", "lang": "en-us" },
+                    { "country": "United Kingdom", "ISO": "uk", "lang": "en-gb" },
                     { "country": "Australia", "ISO": "au" },
                     { "country": "France", "ISO": "fr" },
                     { "country": "Deutschland", "ISO": "ge" },
@@ -31,7 +31,7 @@
                     { "country": "Polska", "ISO": "po" },
                     { "country": "Brasil", "ISO": "br" },
                     { "country": "Россия", "ISO": "ru" },
-                    { "country": "España", "ISO": "es" },
+                    { "country": "España", "ISO": "es", "lang": "es-es" },
                     { "country": "Česká republika", "ISO": "rc" },
                     { "country": "Canada (En)", "ISO": "ca-e" },
                     { "country": "Canada (Fr)", "ISO": "ca-f" },
@@ -74,8 +74,8 @@
             "langs": {
                 "title": "Language",
                 "content": [
-                    { "country": "United States", "ISO": "us" },
-                    { "country": "United Kingdom", "ISO": "uk" },
+                    { "country": "United States", "ISO": "us", "lang": "en-us" },
+                    { "country": "United Kingdom", "ISO": "uk", "lang": "en-gb" },
                     { "country": "Australia", "ISO": "au" },
                     { "country": "France", "ISO": "fr" },
                     { "country": "Deutschland", "ISO": "ge" },
@@ -84,7 +84,7 @@
                     { "country": "Polska", "ISO": "po" },
                     { "country": "Brasil", "ISO": "br" },
                     { "country": "Россия", "ISO": "ru" },
-                    { "country": "España", "ISO": "es" },
+                    { "country": "España", "ISO": "es", "lang": "es-es" },
                     { "country": "Česká republika", "ISO": "rc" },
                     { "country": "Canada (En)", "ISO": "ca-e" },
                     { "country": "Canada (Fr)", "ISO": "ca-f" },
@@ -127,8 +127,8 @@
             "langs": {
                 "title": "Language",
                 "content": [
-                    { "country": "United States", "ISO": "us" },
-                    { "country": "United Kingdom", "ISO": "uk" },
+                    { "country": "United States", "ISO": "us", "lang": "en-us" },
+                    { "country": "United Kingdom", "ISO": "uk", "lang": "en-gb" },
                     { "country": "Australia", "ISO": "au" },
                     { "country": "France", "ISO": "fr" },
                     { "country": "Deutschland", "ISO": "ge" },
@@ -137,7 +137,7 @@
                     { "country": "Polska", "ISO": "po" },
                     { "country": "Brasil", "ISO": "br" },
                     { "country": "Россия", "ISO": "ru" },
-                    { "country": "España", "ISO": "es" },
+                    { "country": "España", "ISO": "es", "lang": "es-es" },
                     { "country": "Česká republika", "ISO": "rc" },
                     { "country": "Canada (En)", "ISO": "ca-e" },
                     { "country": "Canada (Fr)", "ISO": "ca-f" },
