@@ -5,15 +5,14 @@ import "./home_page/css/styles.css";
 import { useEffect } from "react";
 const languages = ["es-es", "en-gb", "en-us"];
 export function HomePage() {
-  const { language } = useParams();
+  const { lang } = useParams();
   const navigate = useNavigate();
   useEffect(()=>{
-    if (language && !languages.includes(language)) navigate("/");
-  },[language]);
+    if (lang && !languages.includes(lang)) navigate("/");
+  },[lang]);
 
   return (
-    <LanguageContext.Provider value={language || "es-es"}>
-      
+    <LanguageContext.Provider value={lang || "es-es"}>
         <LastUpdates />
     </LanguageContext.Provider>
   );

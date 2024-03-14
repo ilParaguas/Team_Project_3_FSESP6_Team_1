@@ -41,6 +41,5 @@ const setTab=(newTab,json,prevTab,setSelectedTab,navigate)=>{
     else{
       setSelectedTab(Object.keys(json)[0]);
     }
-    
   }
 }
