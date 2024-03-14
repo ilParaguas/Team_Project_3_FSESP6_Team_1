@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { LanguageContext } from "/src/home_page/jsx/Contexts/Language-Context.jsx";
+import { LanguageContext } from "/src/home_page/jsx/Contexts/LanguageContext.jsx";
 
 export function useFooterJsonFetch() {
     const [data, setData] = useState({})
