@@ -7,14 +7,15 @@ export function useUpdateNews(language) {
         `${location.protocol}//${location.host}/src/home_page/json/last-updates-${language}.json`
       );
       if (r.status === 200) {
+        console.log(r)
         const json = await r.json();
-        console.log(json);
         setNewsJson(json);
       } else {
+        console.log("aqui")
         throw new Error(r.status);
       }
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
   };
   useEffect(() => {
