@@ -6,7 +6,7 @@ export function Root() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/:language" element={<HomePage />} />
+        <Route path="/:lang" element={<HomePage />} />
         <Route path="/" element={<HomePage/>} />
       </Routes>
     </BrowserRouter>

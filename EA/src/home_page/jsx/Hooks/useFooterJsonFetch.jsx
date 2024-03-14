@@ -4,7 +4,6 @@ import { LanguageContext } from "/src/home_page/jsx/Contexts/Language-Context.js
 export function useFooterJsonFetch() {
     const [data, setData] = useState({})
     const lang = useContext(LanguageContext)
-    console.log(lang);
     
     async function jsonFetch() {
         try{

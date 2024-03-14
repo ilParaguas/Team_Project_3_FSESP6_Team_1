@@ -11,7 +11,7 @@ export function ServsAndLegalTerms() {
             <div>
                 <div>
                     <div>{data["servs-and-legal-terms"].servs.map(link => {
-                        return <Serv key={link} link={link} />;
+                        return <div key={link}>{link}</div>
                     })}</div>
                     <div>
                         <ButtonSelector items={data["servs-and-legal-terms"].prices} />
@@ -19,15 +19,10 @@ export function ServsAndLegalTerms() {
                     </div>
                 </div>
                 <div>
-                    <div>Terminos legales + copyright</div>
+                    <div></div>
                     <div></div>
                 </div>
             </div>
         </section>}
     </div>;
-}
-
-function Serv({ link }) {
-
-    return <><span>{link}</span></>;
 }

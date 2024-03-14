@@ -1,4 +1,4 @@
-import SelectorColumn from "./SelectorColumn";
+import Selector from "./Selector";
 
 export default function ButtonSelector({ items }) {
 
@@ -8,7 +8,11 @@ export default function ButtonSelector({ items }) {
                 <div>{items.title}</div>
                 <div></div>
             </button>
-            <SelectorColumn items={items.content} />
+            <div>
+                {items.content.map(item => (
+                    <div key={item.ISO}><a href={`/${item.lang}`}>{item.country}</a></div>
+                ))}
+            </div>
         </div>
     );
 }
