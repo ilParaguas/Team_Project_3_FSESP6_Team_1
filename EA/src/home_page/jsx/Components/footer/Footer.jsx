@@ -4,7 +4,7 @@ import { MediaLinks } from "./MediaLinks";
 import { ServsAndLegalTerms } from "./ServsAndLegalTerms";
 import { useFooterJsonFetch } from "../../Hooks/useFooterJsonFetch";
 import { useContext } from "react";
-import { LanguageContext } from "../../Contexts/Language-Context";
+import { LanguageContext } from "../../Contexts/LanguageContext";
 
 export function Footer() {
     const lang = useContext(LanguageContext)
