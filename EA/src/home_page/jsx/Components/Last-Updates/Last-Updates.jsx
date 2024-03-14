@@ -6,14 +6,18 @@ import { NewsContext } from "../../Contexts/NewsContext";
 import { useNavigate } from "react-router-dom";
 import { useUpdateNews } from "../../Hooks/useUpdateNews";
 import { LanguageContext } from "../../Contexts/LanguageContext";
+import { ReadMore } from "./ReadMore";
 
 export function LastUpdates() {
   const [selectedTab, setSelectedTab] = useState("");
   const newsJson = useUpdateNews(useContext(LanguageContext));
   const splitUrl = window.location.href.split("#");
   const navigate = useNavigate();
-  
-  useEffect(()=>setTab(splitUrl[1],newsJson,selectedTab,setSelectedTab,navigate),[splitUrl])
+
+  useEffect(
+    () => setTab(splitUrl[1], newsJson, selectedTab, setSelectedTab, navigate),
+    [splitUrl]
+  );
   return (
     <section id="last-updates">
       <NewsContext.Provider value={newsJson}>
@@ -23,23 +27,26 @@ export function LastUpdates() {
           <div className="hr"></div>
           <div id="news">
             <CardsUpdates />
+            <ReadMore/>
           </div>
         </TabContext.Provider>
       </NewsContext.Provider>
     </section>
   );
 }
-const setTab=(newTab,json,prevTab,setSelectedTab,navigate)=>{
+const setTab = (newTab, json, prevTab, setSelectedTab, navigate) => {
   if (
-    newTab && json && Object.keys(json).includes(newTab) && prevTab != newTab
+    newTab &&
+    json &&
+    Object.keys(json).includes(newTab) &&
+    prevTab != newTab
   ) {
     setSelectedTab(newTab);
   } else if (json && !prevTab) {
     if (newTab && !Object.keys(json).includes(newTab)) {
       navigate("/");
-    }
-    else{
+    } else {
       setSelectedTab(Object.keys(json)[0]);
     }
   }
-}
+};
