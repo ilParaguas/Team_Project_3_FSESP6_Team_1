@@ -22,8 +22,8 @@ export function LastUpdates() {
     <section id="last-updates">
       <NewsContext.Provider value={newsJson}>
         <h2 id="updates-title">Ultimas Actualizaciones</h2>
-        <TabContext.Provider value={selectedTab}>
-          <TabsBar changeTab={setSelectedTab} />
+        <TabContext.Provider value={{selectedTab,setSelectedTab}}>
+          <TabsBar />
           <div className="hr"></div>
           <div id="news">
             <CardsUpdates />

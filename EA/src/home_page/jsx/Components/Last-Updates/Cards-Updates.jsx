@@ -5,7 +5,7 @@ import { TabContext } from "../../Contexts/TabContext";
 
 export function CardsUpdates() {
   const cards = useContext(NewsContext);
-  const selectedTab=useContext(TabContext);
+  const {selectedTab}=useContext(TabContext);
   return (
     <div id="cards-updates">
       {cards && cards[selectedTab] &&

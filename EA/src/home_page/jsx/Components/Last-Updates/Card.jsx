@@ -2,12 +2,13 @@ import { useEffect, useRef, useState } from "react";
 
 export function Card({ content }) {
   const linkRef = useRef();
-  const removeHoverEffect = () => {
-    linkRef.current.classList.remove("updates-hovered");
-  };
   useEffect(() => {
     linkRef.current.classList.add("updates-hovered");
-    setTimeout(() => removeHoverEffect(), 300);
+    const id = setTimeout(
+      () => linkRef.current.classList.remove("updates-hovered"),
+      200
+    );
+    return () => clearTimeout(id);
   }, [content]);
   return (
     <a ref={linkRef} href="#" className="card-updates updates-hovered">
