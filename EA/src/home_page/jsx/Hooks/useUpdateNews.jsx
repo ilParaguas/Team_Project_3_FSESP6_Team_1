@@ -7,7 +7,6 @@ export function useUpdateNews(language) {
         `${location.protocol}//${location.host}/src/home_page/json/last-updates-${language}.json`
       );
       if (r.status === 200) {
-        console.log(r)
         const json = await r.json();
         setNewsJson(json);
       } else {

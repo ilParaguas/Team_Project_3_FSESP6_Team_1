@@ -1,26 +1,32 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { TabContext } from "../../Contexts/TabContext";
 
-export function Tab({ news, isFirst, isLast, changeTab }) {
-  const [isSelected, setIsSelected] = useState(news===useContext(TabContext));
-  
+export function Tab({ news, isFirst, isLast }) {
+  const {selectedTab,setSelectedTab} = useContext(TabContext);
+  const tabRef = useRef();
+  useEffect(()=>{
+    if(selectedTab==news){
+      document.getElementById(`radio-${news}`).checked = true;
+      document.getElementById(news+"-link").scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
+    }
+    
+  },[selectedTab])
   const handleLinkClick = (event) => {
-    event.preventDefault();
-    window.location = window.location.href.split("#")[0] + "#" + news;
-    document.getElementById(`radio-${news}`).checked = true;
-    changeTab(news);
+    //event.target.scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
+    setSelectedTab(news);
   };
-
+  
   return (
-    <li id={news}>
+    <li>
       <input
         type="radio"
         id={`radio-${news}`}
         className="tab-radio"
         name="tab-value"
-        defaultChecked={isSelected}
+        ref={tabRef}
       ></input>
       <a
+        id={news+"-link"}
         onClick={handleLinkClick}
         href={`#${news}`}
         className="update-tab"
@@ -29,7 +35,7 @@ export function Tab({ news, isFirst, isLast, changeTab }) {
           (isLast && { borderRight: "none" })
         }
       >
-        <span>{news.replaceAll("-", "\xa0")}</span>
+        <span>{news.replaceAll("-", " ")}</span>
       </a>
       <hr />
     </li>
