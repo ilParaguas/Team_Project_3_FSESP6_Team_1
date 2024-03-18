@@ -1,17 +1,21 @@
-import PlayHeader from "./PlayHeader";
-import PlayFooter from "./PlayFooter";
+import ZonaGris from "./ZonaGris";
+import ZonaPurple from "./ZonaPurple";
+import ZonaRoja from "./ZonaRoja";
+import ZonaCeleste from "./ZonaCeleste";
 
 export function PlaySectionsHeader(){
     return(
-    <section>
-    <PlayHeader/>
-    </section>
+        <div>
+          <ZonaPurple/>
+          <ZonaGris/>
+        </div>
     )
 }
 export function PlaySectionsFooter(){
     return(
-        <section>
-        <PlayFooter/>
-        </section>
-        )
+        <div>
+          <ZonaRoja/>
+          <ZonaCeleste/>
+        </div>
+    )
 }

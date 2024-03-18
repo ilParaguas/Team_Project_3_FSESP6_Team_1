@@ -19,29 +19,33 @@ body {
   }
   .formula1-contenido {
     font-family: ElectronicArtsText;
-    margin-left: 57%;
+    margin-left: 55%;
+    margin-right: 5%;
     display: grid;
-    max-width: 35%;
     position: absolute;
+
   }
   .imagenFormula1 {
     justify-self: center;
-    max-width: 30vw;
+    max-width: 35vw;
   }
   .ParrafoAcercate{
     font-family: ElectronicArtsText;
     font-weight: bold;
     line-height: 3rem;
     font-size: 45px;
-    margin-top: 0;
-    margin-bottom: 0;
+  }
+  .textoAcercate{
+    line-height: 1.5rem;
+    max-width: 35vw;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: ElectronicArtsText;
   }
   .parrafoFormula1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 16px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: white;
   }
   .botonMasInfo {
@@ -52,10 +56,10 @@ body {
     background-color: white;
     border-color: white;
     color: rgb(0, 0, 0);
-    padding: 15px 17px;
+    padding: 12px 20px;
     font-size: 16px;
     transition: padding 0.2s ease;
-  
+   text-wrap: nowrap;
     border-width: 2.5px;
     border-radius: 3px;
     border-style: solid;
@@ -68,7 +72,7 @@ body {
   
   .imgZonaGris {
     width: 100%;
-    height: 6.5vw;
+    height: 6vw;
   }
   .zona-gris-contenido {
     display: flex;
@@ -79,13 +83,34 @@ body {
   .parrafoGris {
     font-family: ElectronicArtsText;
     align-self: center;
-    max-width: 50%;
-    padding-right: 16rem;
+    max-width: 45%;
+    padding-right: 20rem;
     font-size: 26px;
     font-weight: bold;
     color: rgb(219, 218, 218);
   }
-  
+  .botonJugar {
+    font-family: ElectronicArtsText;
+    text-wrap: nowrap;
+    margin-right: 5rem;
+    place-self: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-color: white;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    font-size: 16px;
+    transition: padding 0.2s ease;
+   text-wrap: nowrap;
+    border-width: 2.5px;
+    border-radius: 3px;
+    border-style: solid;
+  }
+  .botonMasInfo:hover {
+    transform: scale(1.1);
+  }
+
  /*ZONA ROJA*/
 
   .imgZonaRoja {
@@ -167,7 +192,7 @@ body {
     height: fit-content;
     background-color: transparent;
     color: #2e2e2e;
-    padding: 20px 25px;
+    padding: 13px 15px;
     font-size: 16px;
     transition: padding 0.2s ease;
   
@@ -185,69 +210,60 @@ body {
   @media (max-width: 1456px) {
     /*zona Azul*/
   
-    #imgZonaAzul {
-      content: src("");
+    .imgZonaPurple {
       width: 100%;
       height: 35vw;
     }
-    #team-of-the-year {
+    .team-of-the-year {
       margin-left: 10%;
       max-width: 40%;
     }
-    #imagenTOTY {
-      content: src("");
+    .ParrafoAcercate{
+      text-wrap: nowrap;
+    }
+    .textoAcercate{
       max-width: 40vw;
+      font-size: 16px;
     }
-    #parrafoTOTY {
-      font-size: 18px;
+    .formula1-contenido{
+      margin-left: 50%;
+      margin-right: 10%;
     }
-  
+
     /*zona Gris*/
-  
-    #imgZonaGris {
-      content: url("sources EA/Gris.1920w.jpg");
-      height: 8vw;
-    }
-    #parrafoGris {
+    .parrafoGris {
       font-size: 22px;
+      margin-right: 20%;
       padding-right: 5rem;
     }
-    #zona-gris-contenido {
+    .zona-gris-contenido {
       margin-left: 10%;
     }
-    #divZonaGris {
-      margin-right: 3rem;
-    }
-  
+
     /*zona roja*/
   
-    #PlayLogo {
+    .PlayLogo {
       margin-left: 5rem;
     }
-    #imgZonaRoja {
-      content: url("sources EA/recuadros5x2.1455w.jpg");
+    .imgZonaRoja {
       height: 35vw;
     }
-    #imgZonaRojaGradient {
-      content: url("sources EA/gradient-azul5x2.1455w.png");
+    .imgZonaRojaGradient {
       height: 35vw;
     }
-    #play-container {
+    .play-container {
       margin-left: 10%;
+      max-width: 38%;
     }
-    #PlayLogo2 {
-      max-width: 40vw;
+    .playLogo {
+      width: 15vw;
     }
   
     /*zona celeste*/
-  
-    #imgZonaCeleste {
-      height: 8vw;
-    }
-    #zona-celeste-contenido {
+    .zona-celeste-contenido {
       margin-left: 10%;
     }
-    #parrafoCeleste {
+    .parrafoCeleste {
       font-size: 22px;
       max-width: 90%;
     }
@@ -288,8 +304,8 @@ body {
   @media (max-width: 1024px) {
     /* Zona Azul */
   
-    #imgZonaAzul {
-      content: url("sources EA/azul-mesa-juegos2x1.1023w.jpg");
+    .imgZonaPurple {
+      content: url("./src/home_page/media/Play-Sections/purple.crop2x1.1023w.jpg");
       width: 100%;
       height: 55%;
     }
@@ -395,7 +411,7 @@ body {
   }
   
   @media (max-width: 768px) {
-    #zona-azul,
+    #zona-purple,
     #zona-gris,
     #zona-roja,
     #zona-celeste {
@@ -404,8 +420,8 @@ body {
   
     /* Zona Azul */
   
-    #imgZonaAzul {
-      content: url("sources EA/azul-mesa-juegos16x9.767w.jpg");
+   .imgZonaPurple{
+      content: url("./src/home_page/media/Play-Sections/purple.crop16x9.767w.jpg");
       width: 100%;
       height: auto;
     }
@@ -728,6 +744,9 @@ body {
   
   @media (max-width: 350px) {
     /*zona azul*/
+    .imgZonaPurple{
+      content: url("./src/home_page/media/Play-Sections/purple.crop16x9.320w.jpg");
+    }
     #parrafoTOTY {
       font-size: 14px;
     }
