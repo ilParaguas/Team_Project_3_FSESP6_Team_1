@@ -1,5 +1,3 @@
-import SelectorColumn from "./SelectorColumn";
-
 export default function ButtonSelector({ items }) {
 
     return (
@@ -8,7 +6,11 @@ export default function ButtonSelector({ items }) {
                 <div>{items.title}</div>
                 <div></div>
             </button>
-            <SelectorColumn items={items.content} />
+            <div>
+                {items.content.map(item => (
+                    <div key={item.ISO ? item.ISO : item}><a href={`/${item.lang}`}>{item.country}</a></div>
+                ))}
+            </div>
         </div>
     );
 }

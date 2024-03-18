@@ -1,396 +1,450 @@
 {
-    "EA-News":[
-        {
-            "Company": "Electronic Arts Inc.",
-            "Date": "18-Jan-2024",
-            "Title": "Unlocking Opportunities: A Look into Life at EA",
-            "Text": "Electronic Arts Recruiter Kirk Chavarie shares his knowledge about the company’s culture, values, and career development opportunities",
-            "Picture": "ea-news-1.png"
-        },
-        {
-            "Company": "Frostbite",
-            "Date": "18-Dec-2023",
-            "Title": "Announcing a new look and vision for EA's Frostbite engine",
-            "Text": "Electronic Arts’ 2024 Frostbite rebrand signals a new, more collaborative era for its cutting-edge game engine.",
-            "Picture": "ea-news-2.png"
-        },
-        {
-            "Company": "Maxis",
-            "Date": "14-Dec-2023",
-            "Title": "Behind The Sims 4 ‘For Rent’ Expansion Pack",
-            "Text": "The designers at Maxis reveal how the all-new Residential Rentals bring Sims-style storytelling to multi-unit living.",
-            "Picture": "ea-news-3.jpg"
-        },
-        {
-            "Company": "Electronic Arts Inc.",
-            "Date": "13-Dec-2023",
-            "Title": "Celebrating a Milestone Year for EA SPORTS ",
-            "Text": "It’s been a huge year for EA SPORTS, and we’re reflecting on some of our biggest achievements and efforts across our games, communities, and teams as we head into the New Year.",
-            "Picture": "ea-news-4.png"
-        },
-        {
-            "Company": "Electronic Arts Inc.",
-            "Date": "13-Dec-2023",
-            "Title": "Electronic Arts Named to Several ‘Best Places to Work’ Lists",
-            "Text": "Electronic Arts has been recognized for several achievements in workplace excellence.",
-            "Picture": "ea-news-5.png"
-        },
-        {
-            "Company": "Electronic Arts Inc.",
-            "Date": "01-Dec-2023",
-            "Title": "Electronic Arts Continues to Move Inclusive Gaming Forward",
-            "Text": "EA open sources photosensitivity tool IRIS and adds four additional patents to its accessibility patent pledge.",
-            "Picture": "ea-news-6.png"
-        }
-    ],
-    "EA-SPORTS-FC":[
-        {
-            "Company": "",
-            "Date": "05-Dec-2023",
-            "Title": "EA SPORTS FC™ 24 | Pitch Notes - Holiday Update",
-            "Text": "The Holiday Update (Title Update #6) is upon us and we’re eager to tell you all about the exciting changes and additions to EA SPORTS FC™ 24.",
-            "Picture": "ea-sports-fc-1.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "23-Nov-2023",
-            "Title": "EA SPORTS FC™ 24 - UEFA EURO 2024",
-            "Text": "EA SPORTS FC 24 is welcoming UEFA EURO 2024™ to the Club—play now and get a UEFA EURO 2024 player in Ultimate Team™.",
-            "Picture": "ea-sports-fc-2.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "30-Nov-2023",
-            "Title": "Ultimate Team™ 24 - Pundit Picks",
-            "Text": "Introducing Pundit Picks to Ultimate Team™ 24",
-            "Picture": "ea-sports-fc-3.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "26-Oct-2023",
-            "Title": "24 Days of EA SPORTS FC™ 24 - EA SPORTS Official Site",
-            "Text": "Welcome to the Club: Check out The Latest Achievements From The Community In The First 24 Days of FC 24",
-            "Picture": "ea-sports-fc-4.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "26-Oct-2023",
-            "Title": "EA SPORTS FC 24 - FC Founder adidas Offer - EA SPORTS Official Site",
-            "Text": "EA SPORTS FC 24 and adidas have teamed up to give our FC Founders 25% off eligible items at www.adidas.com/ea_sports",
-            "Picture": "ea-sports-fc-5.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "22-Sep-2023",
-            "Title": "EA SPORTS FC™ 24 | PC Update",
-            "Text": "Explore the PC updates coming to EA SPORTS FC™ 24 addressing community feedback.",
-            "Picture": "ea-sports-fc-7.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "22-Sep-2023",
-            "Title": "EA SPORTS FC™ 24 - Pack Probabilities",
-            "Text": "See Pack probabilities in EA SPORTS FC™ 24, which will detail the likelihood of what you will get in the Packs you purchase.",
-            "Picture": "ea-sports-fc-6.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "20-Sep-2023",
-            "Title": "EA SPORTS FC 24 | Pitch Notes - PlayStyles Deep Dive",
-            "Text": "Use this as a PlayStyles guide as you jump into EA SPORTS FC 24.",
-            "Picture": "ea-sports-fc-8.png"
-        },
-        {
-            "Company": "",
-            "Date": "20-Sep-2023",
-            "Title": "EA SPORTS FC 24 | Pitch Notes - Nintendo Switch Deep Dive",
-            "Text": "EA SPORTS FC™ 24 on Switch is getting a significant upgrade with the Frostbite Engine and will have feature parity with PS4 and Xbox One.",
-            "Picture": "ea-sports-fc-9.png"
-        },
-        {
-            "Company": "",
-            "Date": "18-Sep-2023",
-            "Title": "EA SPORTS FC™ 24 Ratings - Hidden Gems in Manager Career",
-            "Text": "Meet the players every Manager's been looking for. Here are the players with the largest room for growth in EA SPORTS FC 24.",
-            "Picture": "ea-sports-fc-10.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "18-Sep-2023",
-            "Title": "EA SPORTS FC™ 24 Ratings - Highest Potential in Manager Career",
-            "Text": "These players are headed straight to the top. Here are the players with the highest potential in EA SPORTS FC 24.",
-            "Picture": "ea-sports-fc-11.jpg"
-        },
-        {
-            "Company": "",
-            "Date": "17-Sep-2023",
-            "Title": "EA SPORTS FC™ 24 Ratings - Fastest Players",
-            "Text": "Gone in the blink of an eye. Here are the fastest players in EA SPORTS FC 24.",
-            "Picture": "ea-sports-fc-12.jpg"
-        }
-    ],
-    "Apex-Legends":[
-        {
-            "Company": "Apex Legends",
-            "Date": "16-Jan-2024",
-            "Title": "Year 4 Pro League: Everything You Need to Know",
-            "Text": "Good news - the ALGS Pro league is back and kicks off January 20-21, 2024! Click for competitors, schedules, groups, talent, and more!",
-            "Picture": "apex-legends-1.jpg"
-        },
-        {
-            "Company": "Apex Legends",
-            "Date": "08-Jan-2024",
-            "Title": "Apex Legends™: Ignite Mid-Season Patch Notes",
-            "Text": "Get ready for the next patch ahead of tomorrow’s launch with our full Patch Notes.",
-            "Picture": "apex-legends-2.jpg"
-        },
-        {
-            "Company": "Apex Legends",
-            "Date": "04-Jan-2024",
-            "Title": "Apex Legends™ & FINAL FANTASY™ VII REBIRTH Event",
-            "Text": "Unleash your Limit Break with a new Takeover featuring the Buster Sword R2R5, Materia Hop-Ups, Final Fantasy™-inspired cosmetics & more!",
-            "Picture": "apex-legends-3.png"
-        },
-        {
-            "Company": "Apex Legends",
-            "Date": "30-Nov-2023",
-            "Title": "Year 4: Partnership Program",
-            "Text": "Learn more about the ALGS Partnership Program and our 12 Partner Teams",
-            "Picture": "apex-legends-4.png"
-        },
-        {
-            "Company": "Apex Legends",
-            "Date": "30-Nov-2023",
-            "Title": "Take on the swarm or become it in the Uprising Event",
-            "Text": "The fate of the Outlands rests in the hands of the Legends with the final chapter of Kill Code and an all-out 30v30 limited-time mode.",
-            "Picture": "apex-legends-5.png"
-        },
-        {
-            "Company": "Apex Legends",
-            "Date": "22-Nov-2023",
-            "Title": "Apex Legends™ Holiday Gift Guide 2023",
-            "Text": "Looking for legendary loot for the holidays? We’ve got you.",
-            "Picture": "apex-legends-6.jpg"
-        }
-    ],
-    "The-Sims4":[
-        {
-            "Company": "The Sims 4",
-            "Date": "16-Jan-2024",
-            "Title": "Update 1/16/2024",
-            "Text": "Did someone call for some fixes?",
-            "Picture": "sims4-1.jpg"
-        },
-        {
-            "Company": "The Sims 4",
-            "Date": "16-Jan-2024",
-            "Title": "The Sims 4 Castle Estate and Goth Galore Kits Are Here",
-            "Text": "Bring all the dramatics to your next story!",
-            "Picture": "sims4-2.png"
-        },
-        {
-            "Company": "The Sims 4",
-            "Date": "11-Jan-2024",
-            "Title": "The Sims 4 - Sensationally You",
-            "Text": "2 Highly Anticipated Kits, 1 Beautiful SDX Drop, 1 Sparkling Stuff Pack, 1 Celebratory Kit, and 1 Co-created Style Kit",
-            "Picture": "sims4-3.png"
-        },
-        {
-            "Company": "The Sims 4",
-            "Date": "18-Dec-2023",
-            "Title": "Have an Outrageous Rental Story? ",
-            "Text": "Australian-Filipino creators Angelo and Alexandra Marasigan share some of your wildest experiences",
-            "Picture": "sims4-4.png"
-        },
-        {
-            "Company": "The Sims 4",
-            "Date": "14-Dec-2023",
-            "Title": "Update 12/14/2023",
-            "Text": "Fast-Track Fixes for four For Rent faults!",
-            "Picture": "sims4-5.jpg"
-        },
-        {
-            "Company": "The Sims 4",
-            "Date": "01-Dec-2023",
-            "Title": "Laundry List - December 1st, 2023",
-            "Text": "Laundry List",
-            "Picture": "sims4-6.png"
-        }
-    ],
-    "Star-Wars":[
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "17-Jan-2024",
-            "Title": "Kit Reveal - Comeuppance",
-            "Text": "Check out the abilities of Comeuppance in this Kit Reveal!",
-            "Picture": "star-wars-1.png"
-        },
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "05-Dec-2023",
-            "Title": "Kit Reveal - Kelleran Beq",
-            "Text": "Check out the abilities of Kelleran Beq in this Kit Reveal!",
-            "Picture": "star-wars-2.png"
-        },
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "14-Nov-2023",
-            "Title": "Kit Reveal - IG-12 and Grogu",
-            "Text": "Check out the abilities of IG-12 and Grogu in this Kit Reveal!",
-            "Picture": "star-wars-3.png"
-        },
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "17-Oct-2023",
-            "Title": "Kit Reveal - Paz Vizsla",
-            "Text": "Check out the abilities of Paz Vizsla in this Kit Reveal!",
-            "Picture": "star-wars-4.png"
-        },
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "30-Oct-2020",
-            "Title": "Kit Reveal - Marauder",
-            "Text": "Check out the abilities of Marauder in this Kit Reveal!",
-            "Picture": "star-wars-5.png"
-        },
-        {
-            "Company": "Star Wars™ Galaxy of Heroes",
-            "Date": "27-Sep-2023",
-            "Title": "October Calendar Preview",
-            "Text": "Check out the upcoming events!",
-            "Picture": "star-wars-6.jpg"
-        }
-    ],
-    "F1":[
-        {
-            "Company": "F1® 23",
-            "Date": "12-Dec-2023",
-            "Title": "EA SPORTS™ F1® - MAX CELEBRATION",
-            "Text": "A sensational year for you to relive",
-            "Picture": "f1-1.png"
-        },
-        {
-            "Company": "F1® 23",
-            "Date": "07-Dec-2023",
-            "Title": "F1® 23 DRIVER RATINGS UPDATE (END OF SEASON)",
-            "Text": "The final F1® 23’s Driver Ratings update is here, taking into account Las Vegas and the curtain-closer in Abu Dhabi",
-            "Picture": "f1-2.png"
-        },
-        {
-            "Company": "F1® 23",
-            "Date": "16-Oct-2023",
-            "Title": "F1® 23 PATCH NOTES (v1.15)",
-            "Text": "Two big changes arrive with this update in the Sports Update and F2™ 23",
-            "Picture": "f1-3.jpg"
-        },
-        {
-            "Company": "F1® 23",
-            "Date": "16-Oct-2023",
-            "Title": "F2™ 2023 AND SPORTS UPDATE HAS ARRIVED",
-            "Text": "Relive this year’s Formula 2™ season right now in F1® 23",
-            "Picture": "f1-4.jpg"
-        },
-        {
-            "Company": "F1® 23",
-            "Date": "19-Sep-2023",
-            "Title": "F1® 23 DRIVER RATINGS UPDATE (SEPTEMBER)",
-            "Text": "The Dutch and Italian Grands Prix are the latest to be included in this F1® 23’s Driver Ratings update",
-            "Picture": "f1-5.png"
-        },
-        {
-            "Company": "F1® 23",
-            "Date": "29-Aug-2023",
-            "Title": "F1® 23 PATCH NOTES (v1.10)",
-            "Text": "Some big additions and a fan-favourite Australian arrive with this F1® 23 patch",
-            "Picture": "f1-6.jpg"
-        }
-    ],
-    "Battlefield":[
-        {
-            "Company": "Battlefield 2042",
-            "Date": "12-Jan-2024",
-            "Title": "BATTLEFIELD 2042 UPDATE #6.2.1",
-            "Text": "Small Hotfix Update for Battlefield 2042!",
-            "Picture": "battlefield-1.jpg"
-        },
-        {
-            "Company": "Battlefield 2042",
-            "Date": "01-Dec-2023",
-            "Title": "BATTLEFIELD 2042 UPDATE #6.2.0",
-            "Text": "Take a look at the latest Battlefield 2042 Update Notes featuring Weapon Balancing, Air Vehicle Improvements and more.",
-            "Picture": "battlefield-2.jpg"
-        },
-        {
-            "Company": "Battlefield 2042",
-            "Date": "30-Nov-2023",
-            "Title": "Dev Notes - State of Vehicle Gameplay",
-            "Text": "Season 6, Vehicle Gameplay",
-            "Picture": "battlefield-3.jpg"
-        },
-        {
-            "Company": "Battlefield 2042",
-            "Date": "27-Oct-2023",
-            "Title": "BATTLEFIELD 2042 UPDATE #6.1.0",
-            "Text": "Battlefield 2042 Update #6.1.0 introduces further Quality of Life Improvements alongside our Limited Time Event, Dark Protocol.",
-            "Picture": "battlefield-4.jpg"
-        },
-        {
-            "Company": "Battlefield 2042",
-            "Date": "26-Oct-2023",
-            "Title": "Battlefield Briefing – Dark Protocol",
-            "Text": "Dark Protocol Event, limited-time Killswitch game mode",
-            "Picture": "battlefield-5.jpg"
-        },
-        {
-            "Company": "Battlefield 2042",
-            "Date": "06-Oct-2023",
-            "Title": "BATTLEFIELD 2042 UPDATE #6.0.0",
-            "Text": "What’s new in Battlefield 2042’s Season 6: Dark Creations",
-            "Picture": "battlefield-6.jpg"
-        }
-    ],
-    "Need-for-Speed":[
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "24-Jun-2021",
-            "Title": "Reignite the pursuit with EA Play",
-            "Text": "Need for Speed™ Hot Pursuit Remastered is now on The Play List.",
-            "Picture": "need-for-speed-1.jpg"
-        },
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "25-Feb-2021",
-            "Title": "NFS™ Hot Pursuit Remastered Update Delivers New Wrap Editor on February 25",
-            "Text": "Plus, Gen5 and Gen4+ consoles get improved resolution and performance.",
-            "Picture": "need-for-speed-2.jpg"
-        },
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "18-Nov-2020",
-            "Title": "Under the Hood: Race and Chase Together",
-            "Text": "How social competition is at the heart of Need for Speed™ Hot Pursuit Remastered.",
-            "Picture": "need-for-speed-3.jpg"
-        },
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "06-Nov-2020",
-            "Title": "Need for Speed™ Hot Pursuit Remastered is Available Now",
-            "Text": "Reignite the pursuit on PS4, Xbox One, and PC today, and on Nintendo Switch next week!",
-            "Picture": "need-for-speed-4.jpg"
-        },
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "30-Oct-2020",
-            "Title": "Under the Hood: Gameplay Updates",
-            "Text": "Get up to speed with all gameplay updates coming to Need for Speed Hot Pursuit Remastered.",
-            "Picture": "need-for-speed-5.jpg"
-        },
-        {
-            "Company": "Need for Speed: Hot Pursuit Remastered",
-            "Date": "23-Oct-2020",
-            "Title": "Under the Hood: Welcome Back to Seacrest County",
-            "Text": "Check out the visual enhancements and race through a stunning world in Need for Speed Hot Pursuit Remastered.",
-            "Picture": "need-for-speed-6.jpg"
-        }
-    ]
+  "EA-News": [
+    {
+      "id": 1,
+      "Company": "Electronic Arts Inc.",
+      "Date": "18-Jan-2024",
+      "Title": "Unlocking Opportunities: A Look into Life at EA",
+      "Text": "Electronic Arts Recruiter Kirk Chavarie shares his knowledge about the company’s culture, values, and career development opportunities",
+      "Picture": "ea-news-1.png"
+    },
+    {
+      "id": 2,
+      "Company": "Frostbite",
+      "Date": "18-Dec-2023",
+      "Title": "Announcing a new look and vision for EA's Frostbite engine",
+      "Text": "Electronic Arts’ 2024 Frostbite rebrand signals a new, more collaborative era for its cutting-edge game engine.",
+      "Picture": "ea-news-2.png"
+    },
+    {
+      "id": 3,
+      "Company": "Maxis",
+      "Date": "14-Dec-2023",
+      "Title": "Behind The Sims 4 ‘For Rent’ Expansion Pack",
+      "Text": "The designers at Maxis reveal how the all-new Residential Rentals bring Sims-style storytelling to multi-unit living.",
+      "Picture": "ea-news-3.jpg"
+    },
+    {
+      "id": 4,
+      "Company": "Electronic Arts Inc.",
+      "Date": "13-Dec-2023",
+      "Title": "Celebrating a Milestone Year for EA SPORTS ",
+      "Text": "It’s been a huge year for EA SPORTS, and we’re reflecting on some of our biggest achievements and efforts across our games, communities, and teams as we head into the New Year.",
+      "Picture": "ea-news-4.png"
+    },
+    {
+      "id": 5,
+      "Company": "Electronic Arts Inc.",
+      "Date": "13-Dec-2023",
+      "Title": "Electronic Arts Named to Several ‘Best Places to Work’ Lists",
+      "Text": "Electronic Arts has been recognized for several achievements in workplace excellence.",
+      "Picture": "ea-news-5.png"
+    },
+    {
+      "id": 6,
+      "Company": "Electronic Arts Inc.",
+      "Date": "01-Dec-2023",
+      "Title": "Electronic Arts Continues to Move Inclusive Gaming Forward",
+      "Text": "EA open sources photosensitivity tool IRIS and adds four additional patents to its accessibility patent pledge.",
+      "Picture": "ea-news-6.png"
+    }
+  ],
+  "EA-SPORTS-FC": [
+    {
+      "id": 7,
+      "Company": "",
+      "Date": "05-Dec-2023",
+      "Title": "EA SPORTS FC™ 24 | Pitch Notes - Holiday Update",
+      "Text": "The Holiday Update (Title Update #6) is upon us and we’re eager to tell you all about the exciting changes and additions to EA SPORTS FC™ 24.",
+      "Picture": "ea-sports-fc-1.jpg"
+    },
+    {
+      "id": 8,
+      "Company": "",
+      "Date": "23-Nov-2023",
+      "Title": "EA SPORTS FC™ 24 - UEFA EURO 2024",
+      "Text": "EA SPORTS FC 24 is welcoming UEFA EURO 2024™ to the Club—play now and get a UEFA EURO 2024 player in Ultimate Team™.",
+      "Picture": "ea-sports-fc-2.jpg"
+    },
+    {
+      "id": 9,
+      "Company": "",
+      "Date": "30-Nov-2023",
+      "Title": "Ultimate Team™ 24 - Pundit Picks",
+      "Text": "Introducing Pundit Picks to Ultimate Team™ 24",
+      "Picture": "ea-sports-fc-3.jpg"
+    },
+    {
+      "id": 10,
+      "Company": "",
+      "Date": "26-Oct-2023",
+      "Title": "24 Days of EA SPORTS FC™ 24 - EA SPORTS Official Site",
+      "Text": "Welcome to the Club: Check out The Latest Achievements From The Community In The First 24 Days of FC 24",
+      "Picture": "ea-sports-fc-4.jpg"
+    },
+    {
+      "id": 11,
+      "Company": "",
+      "Date": "26-Oct-2023",
+      "Title": "EA SPORTS FC 24 - FC Founder adidas Offer - EA SPORTS Official Site",
+      "Text": "EA SPORTS FC 24 and adidas have teamed up to give our FC Founders 25% off eligible items at www.adidas.com/ea_sports",
+      "Picture": "ea-sports-fc-5.jpg"
+    },
+    {
+      "id": 12,
+      "Company": "",
+      "Date": "22-Sep-2023",
+      "Title": "EA SPORTS FC™ 24 | PC Update",
+      "Text": "Explore the PC updates coming to EA SPORTS FC™ 24 addressing community feedback.",
+      "Picture": "ea-sports-fc-7.jpg"
+    },
+    {
+      "id": 13,
+      "Company": "",
+      "Date": "22-Sep-2023",
+      "Title": "EA SPORTS FC™ 24 - Pack Probabilities",
+      "Text": "See Pack probabilities in EA SPORTS FC™ 24, which will detail the likelihood of what you will get in the Packs you purchase.",
+      "Picture": "ea-sports-fc-6.jpg"
+    },
+    {
+      "id": 14,
+      "Company": "",
+      "Date": "20-Sep-2023",
+      "Title": "EA SPORTS FC 24 | Pitch Notes - PlayStyles Deep Dive",
+      "Text": "Use this as a PlayStyles guide as you jump into EA SPORTS FC 24.",
+      "Picture": "ea-sports-fc-8.png"
+    },
+    {
+      "id": 15,
+      "Company": "",
+      "Date": "20-Sep-2023",
+      "Title": "EA SPORTS FC 24 | Pitch Notes - Nintendo Switch Deep Dive",
+      "Text": "EA SPORTS FC™ 24 on Switch is getting a significant upgrade with the Frostbite Engine and will have feature parity with PS4 and Xbox One.",
+      "Picture": "ea-sports-fc-9.png"
+    },
+    {
+      "id": 16,
+      "Company": "",
+      "Date": "18-Sep-2023",
+      "Title": "EA SPORTS FC™ 24 Ratings - Hidden Gems in Manager Career",
+      "Text": "Meet the players every Manager's been looking for. Here are the players with the largest room for growth in EA SPORTS FC 24.",
+      "Picture": "ea-sports-fc-10.jpg"
+    },
+    {
+      "id": 17,
+      "Company": "",
+      "Date": "18-Sep-2023",
+      "Title": "EA SPORTS FC™ 24 Ratings - Highest Potential in Manager Career",
+      "Text": "These players are headed straight to the top. Here are the players with the highest potential in EA SPORTS FC 24.",
+      "Picture": "ea-sports-fc-11.jpg"
+    },
+    {
+      "id": 18,
+      "Company": "",
+      "Date": "17-Sep-2023",
+      "Title": "EA SPORTS FC™ 24 Ratings - Fastest Players",
+      "Text": "Gone in the blink of an eye. Here are the fastest players in EA SPORTS FC 24.",
+      "Picture": "ea-sports-fc-12.jpg"
+    }
+  ],
+  "Apex-Legends": [
+    {
+      "id": 19,
+      "Company": "Apex Legends",
+      "Date": "16-Jan-2024",
+      "Title": "Year 4 Pro League: Everything You Need to Know",
+      "Text": "Good news - the ALGS Pro league is back and kicks off January 20-21, 2024! Click for competitors, schedules, groups, talent, and more!",
+      "Picture": "apex-legends-1.jpg"
+    },
+    {
+      "id": 20,
+      "Company": "Apex Legends",
+      "Date": "08-Jan-2024",
+      "Title": "Apex Legends™: Ignite Mid-Season Patch Notes",
+      "Text": "Get ready for the next patch ahead of tomorrow’s launch with our full Patch Notes.",
+      "Picture": "apex-legends-2.jpg"
+    },
+    {
+      "id": 21,
+      "Company": "Apex Legends",
+      "Date": "04-Jan-2024",
+      "Title": "Apex Legends™ & FINAL FANTASY™ VII REBIRTH Event",
+      "Text": "Unleash your Limit Break with a new Takeover featuring the Buster Sword R2R5, Materia Hop-Ups, Final Fantasy™-inspired cosmetics & more!",
+      "Picture": "apex-legends-3.png"
+    },
+    {
+      "id": 22,
+      "Company": "Apex Legends",
+      "Date": "30-Nov-2023",
+      "Title": "Year 4: Partnership Program",
+      "Text": "Learn more about the ALGS Partnership Program and our 12 Partner Teams",
+      "Picture": "apex-legends-4.png"
+    },
+    {
+      "id": 23,
+      "Company": "Apex Legends",
+      "Date": "30-Nov-2023",
+      "Title": "Take on the swarm or become it in the Uprising Event",
+      "Text": "The fate of the Outlands rests in the hands of the Legends with the final chapter of Kill Code and an all-out 30v30 limited-time mode.",
+      "Picture": "apex-legends-5.png"
+    },
+    {
+      "id": 24,
+      "Company": "Apex Legends",
+      "Date": "22-Nov-2023",
+      "Title": "Apex Legends™ Holiday Gift Guide 2023",
+      "Text": "Looking for legendary loot for the holidays? We’ve got you.",
+      "Picture": "apex-legends-6.jpg"
+    }
+  ],
+  "The-Sims4": [
+    {
+      "id": 25,
+      "Company": "The Sims 4",
+      "Date": "16-Jan-2024",
+      "Title": "Update 1/16/2024",
+      "Text": "Did someone call for some fixes?",
+      "Picture": "sims4-1.jpg"
+    },
+    {
+      "id": 26,
+      "Company": "The Sims 4",
+      "Date": "16-Jan-2024",
+      "Title": "The Sims 4 Castle Estate and Goth Galore Kits Are Here",
+      "Text": "Bring all the dramatics to your next story!",
+      "Picture": "sims4-2.png"
+    },
+    {
+      "id": 27,
+      "Company": "The Sims 4",
+      "Date": "11-Jan-2024",
+      "Title": "The Sims 4 - Sensationally You",
+      "Text": "2 Highly Anticipated Kits, 1 Beautiful SDX Drop, 1 Sparkling Stuff Pack, 1 Celebratory Kit, and 1 Co-created Style Kit",
+      "Picture": "sims4-3.png"
+    },
+    {
+      "id": 28,
+      "Company": "The Sims 4",
+      "Date": "18-Dec-2023",
+      "Title": "Have an Outrageous Rental Story? ",
+      "Text": "Australian-Filipino creators Angelo and Alexandra Marasigan share some of your wildest experiences",
+      "Picture": "sims4-4.png"
+    },
+    {
+      "id": 29,
+      "Company": "The Sims 4",
+      "Date": "14-Dec-2023",
+      "Title": "Update 12/14/2023",
+      "Text": "Fast-Track Fixes for four For Rent faults!",
+      "Picture": "sims4-5.jpg"
+    },
+    {
+      "id": 30,
+      "Company": "The Sims 4",
+      "Date": "01-Dec-2023",
+      "Title": "Laundry List - December 1st, 2023",
+      "Text": "Laundry List",
+      "Picture": "sims4-6.png"
+    }
+  ],
+  "Star-Wars": [
+    {
+      "id": 31,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "17-Jan-2024",
+      "Title": "Kit Reveal - Comeuppance",
+      "Text": "Check out the abilities of Comeuppance in this Kit Reveal!",
+      "Picture": "star-wars-1.png"
+    },
+    {
+      "id": 32,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "05-Dec-2023",
+      "Title": "Kit Reveal - Kelleran Beq",
+      "Text": "Check out the abilities of Kelleran Beq in this Kit Reveal!",
+      "Picture": "star-wars-2.png"
+    },
+    {
+      "id": 33,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "14-Nov-2023",
+      "Title": "Kit Reveal - IG-12 and Grogu",
+      "Text": "Check out the abilities of IG-12 and Grogu in this Kit Reveal!",
+      "Picture": "star-wars-3.png"
+    },
+    {
+      "id": 34,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "17-Oct-2023",
+      "Title": "Kit Reveal - Paz Vizsla",
+      "Text": "Check out the abilities of Paz Vizsla in this Kit Reveal!",
+      "Picture": "star-wars-4.png"
+    },
+    {
+      "id": 35,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "30-Oct-2020",
+      "Title": "Kit Reveal - Marauder",
+      "Text": "Check out the abilities of Marauder in this Kit Reveal!",
+      "Picture": "star-wars-5.png"
+    },
+    {
+      "id": 36,
+      "Company": "Star Wars™ Galaxy of Heroes",
+      "Date": "27-Sep-2023",
+      "Title": "October Calendar Preview",
+      "Text": "Check out the upcoming events!",
+      "Picture": "star-wars-6.jpg"
+    }
+  ],
+  "F1": [
+    {
+      "id": 37,
+      "Company": "F1® 23",
+      "Date": "12-Dec-2023",
+      "Title": "EA SPORTS™ F1® - MAX CELEBRATION",
+      "Text": "A sensational year for you to relive",
+      "Picture": "f1-1.png"
+    },
+    {
+      "id": 38,
+      "Company": "F1® 23",
+      "Date": "07-Dec-2023",
+      "Title": "F1® 23 DRIVER RATINGS UPDATE (END OF SEASON)",
+      "Text": "The final F1® 23’s Driver Ratings update is here, taking into account Las Vegas and the curtain-closer in Abu Dhabi",
+      "Picture": "f1-2.png"
+    },
+    {
+      "id": 39,
+      "Company": "F1® 23",
+      "Date": "16-Oct-2023",
+      "Title": "F1® 23 PATCH NOTES (v1.15)",
+      "Text": "Two big changes arrive with this update in the Sports Update and F2™ 23",
+      "Picture": "f1-3.jpg"
+    },
+    {
+      "id": 40,
+      "Company": "F1® 23",
+      "Date": "16-Oct-2023",
+      "Title": "F2™ 2023 AND SPORTS UPDATE HAS ARRIVED",
+      "Text": "Relive this year’s Formula 2™ season right now in F1® 23",
+      "Picture": "f1-4.jpg"
+    },
+    {
+      "id": 41,
+      "Company": "F1® 23",
+      "Date": "19-Sep-2023",
+      "Title": "F1® 23 DRIVER RATINGS UPDATE (SEPTEMBER)",
+      "Text": "The Dutch and Italian Grands Prix are the latest to be included in this F1® 23’s Driver Ratings update",
+      "Picture": "f1-5.png"
+    },
+    {
+      "id": 42,
+      "Company": "F1® 23",
+      "Date": "29-Aug-2023",
+      "Title": "F1® 23 PATCH NOTES (v1.10)",
+      "Text": "Some big additions and a fan-favourite Australian arrive with this F1® 23 patch",
+      "Picture": "f1-6.jpg"
+    }
+  ],
+  "Battlefield": [
+    {
+      "id": 43,
+      "Company": "Battlefield 2042",
+      "Date": "12-Jan-2024",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.2.1",
+      "Text": "Small Hotfix Update for Battlefield 2042!",
+      "Picture": "battlefield-1.jpg"
+    },
+    {
+      "id": 44,
+      "Company": "Battlefield 2042",
+      "Date": "01-Dec-2023",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.2.0",
+      "Text": "Take a look at the latest Battlefield 2042 Update Notes featuring Weapon Balancing, Air Vehicle Improvements and more.",
+      "Picture": "battlefield-2.jpg"
+    },
+    {
+      "id": 45,
+      "Company": "Battlefield 2042",
+      "Date": "30-Nov-2023",
+      "Title": "Dev Notes - State of Vehicle Gameplay",
+      "Text": "Season 6, Vehicle Gameplay",
+      "Picture": "battlefield-3.jpg"
+    },
+    {
+      "id": 46,
+      "Company": "Battlefield 2042",
+      "Date": "27-Oct-2023",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.1.0",
+      "Text": "Battlefield 2042 Update #6.1.0 introduces further Quality of Life Improvements alongside our Limited Time Event, Dark Protocol.",
+      "Picture": "battlefield-4.jpg"
+    },
+    {
+      "id": 47,
+      "Company": "Battlefield 2042",
+      "Date": "26-Oct-2023",
+      "Title": "Battlefield Briefing – Dark Protocol",
+      "Text": "Dark Protocol Event, limited-time Killswitch game mode",
+      "Picture": "battlefield-5.jpg"
+    },
+    {
+      "id": 48,
+      "Company": "Battlefield 2042",
+      "Date": "06-Oct-2023",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.0.0",
+      "Text": "What’s new in Battlefield 2042’s Season 6: Dark Creations",
+      "Picture": "battlefield-6.jpg"
+    }
+  ],
+  "Need-for-Speed": [
+    {
+      "id": 49,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "24-Jun-2021",
+      "Title": "Reignite the pursuit with EA Play",
+      "Text": "Need for Speed™ Hot Pursuit Remastered is now on The Play List.",
+      "Picture": "need-for-speed-1.jpg"
+    },
+    {
+      "id": 50,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "25-Feb-2021",
+      "Title": "NFS™ Hot Pursuit Remastered Update Delivers New Wrap Editor on February 25",
+      "Text": "Plus, Gen5 and Gen4+ consoles get improved resolution and performance.",
+      "Picture": "need-for-speed-2.jpg"
+    },
+    {
+      "id": 52,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "18-Nov-2020",
+      "Title": "Under the Hood: Race and Chase Together",
+      "Text": "How social competition is at the heart of Need for Speed™ Hot Pursuit Remastered.",
+      "Picture": "need-for-speed-3.jpg"
+    },
+    {
+      "id": 52,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "06-Nov-2020",
+      "Title": "Need for Speed™ Hot Pursuit Remastered is Available Now",
+      "Text": "Reignite the pursuit on PS4, Xbox One, and PC today, and on Nintendo Switch next week!",
+      "Picture": "need-for-speed-4.jpg"
+    },
+    {
+      "id": 53,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "30-Oct-2020",
+      "Title": "Under the Hood: Gameplay Updates",
+      "Text": "Get up to speed with all gameplay updates coming to Need for Speed Hot Pursuit Remastered.",
+      "Picture": "need-for-speed-5.jpg"
+    },
+    {
+      "id": 54,
+      "Company": "Need for Speed: Hot Pursuit Remastered",
+      "Date": "23-Oct-2020",
+      "Title": "Under the Hood: Welcome Back to Seacrest County",
+      "Text": "Check out the visual enhancements and race through a stunning world in Need for Speed Hot Pursuit Remastered.",
+      "Picture": "need-for-speed-6.jpg"
+    }
+  ]
 }

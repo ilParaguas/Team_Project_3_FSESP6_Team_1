@@ -8,13 +8,13 @@ export function useUpdateNews(language) {
       );
       if (r.status === 200) {
         const json = await r.json();
-        console.log(json);
         setNewsJson(json);
       } else {
+        console.log("aqui")
         throw new Error(r.status);
       }
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
   };
   useEffect(() => {

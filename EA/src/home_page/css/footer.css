@@ -9,12 +9,7 @@ a:visited {
     color: currentColor;
 }
 
-@font-face {
-    font-family: 'ElectronicArtsText';
-    src: url(/assets/fonts/text/ElectronicArtsText-Regular.woff2) format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'ElectronicArtsDisplay';
     src: url(/EA/src/fonts/ElectronicArtsDisplay-Bold.woff2) format('woff');
@@ -22,8 +17,10 @@ a:visited {
     font-style: normal;
 }
 
+
 #footer {
-    font-family: 'ElectronicArtsText';
+    font-family: ElectronicArtsText;
+    font-weight: 400;
     font-size: 18px;
     background-color: rgb(234, 234, 234);
     color: rgb(22, 22, 22);
