@@ -1,6 +1,6 @@
 export default function ZonaPurple() {
   return (
-    <div id="zonaPurple" className="zona-purple">
+ <div id="zonaPurple" className="zona-purple">
       <img
         id="imgZonaPurple"
         src="./src/home_page/media/Play-Sections/purple.crop7x2.1920w.jpg"
