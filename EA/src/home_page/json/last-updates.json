@@ -1,16 +1,16 @@
 {
     "es-es":{
-        "url":"./json/last-updates-es-es.json",
+        "url":"src/home_page/json/last-updates-es-es.json",
         "title": "Últimas actualizaciones",
         "readMore": "Leer más"
     },
     "en-us":{
-        "url":"./json/last-updates-en-us.json",
+        "url":"src/home_page/json/last-updates-en-us.json",
         "title": "Last Updates",
         "readMore": "Read More"
     },
     "en-gb":{
-        "url":"./json/last-updates-en-gb.json",
+        "url":"src/home_page/json/last-updates-en-gb.json",
         "title": "Last Updates",
         "readMore": "Read More"
     }
