@@ -14,7 +14,7 @@ export function ServsAndLegalTerms() {
                         return <div key={link}>{link}</div>
                     })}</div>
                     <div>
-                        <ButtonSelector items={data["servs-and-legal-terms"].prices} />
+                        {/* <ButtonSelector items={data["servs-and-legal-terms"].prices} /> */}
                         <ButtonSelector items={data["servs-and-legal-terms"].langs} />
                     </div>
                 </div>
