@@ -1,5 +1,12 @@
+import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
+import { useContext } from "react";
+
 export default function ZonaRoja() {
+  const data = useContext(PlaySectionsContext);
+
   return (
+    <>
+    {data &&
     <div className="zona-roja">
       <img
         id="imgZonaRoja"
@@ -19,14 +26,14 @@ export default function ZonaRoja() {
           className="playLogo"
         />
         <p id="parrafoPlay" className="parrafoPlay">
-          No te limites a jugar. Saca más partido a tus juegos. Desbloquea
-          recompensas exclusivas, contenido para los miembros y una biblioteca
-          de los mejores títulos.
+          {data.parrafoPlay}
         </p>
         <button id="botonUneteYa" className="botonUneteYa">
-          Únete ya
+          {data.botonUneteYa}
         </button>
       </div>
     </div>
+}
+</>
   );
 }
