@@ -9,10 +9,9 @@ export function Tab({ news, isFirst, isLast }) {
       document.getElementById(`radio-${news}`).checked = true;
       document.getElementById(news+"-link").scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
     }
-    
-  },[selectedTab])
+  },[selectedTab]);
+
   const handleLinkClick = (event) => {
-    //event.target.scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
     setSelectedTab(news);
   };
   

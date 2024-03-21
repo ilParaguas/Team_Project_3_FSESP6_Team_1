@@ -3,34 +3,12 @@ import { useEffect } from "react";
 export function SlideArrow({ direction }) {
   useEffect(() => {
     const slideBar = document.getElementById("tabs-slide");
-    // console.log(slideBar)
-    // console.log(slideBar.scrollWidth)
-    // console.log(slideBar.clientWidth)
-    // if (slideBar.scrollWidth > slideBar.clientWidth) {
-    //   document.getElementById("arrow-right").style.display = "block";
-    // }
     setTimeout(() => {
       slideBar.scrollBy(2, 0);
       slideBar.scrollBy(-2, 0);
     }, 100);
   }, []);
-  const handleClick = (event) => {
-    const slideBar = document.getElementById("tabs-slide");
-    if (event.currentTarget.id == "arrow-right") {
-      slideBar.scrollBy({
-        top: 0,
-        left: slideBar.clientWidth * 0.7,
-        behavior: "smooth",
-      });
-      console.log("der");
-    } else {
-      slideBar.scrollBy({
-        top: 0,
-        left: -slideBar.clientWidth * 0.7,
-        behavior: "smooth",
-      });
-    }
-  };
+  
   return (
     <button onClick={handleClick} id={"arrow-" + direction}>
       <div>
@@ -54,3 +32,19 @@ export function SlideArrow({ direction }) {
     </button>
   );
 }
+const handleClick = (event) => {
+  const slideBar = document.getElementById("tabs-slide");
+  if (event.currentTarget.id == "arrow-right") {
+    slideBar.scrollBy({
+      top: 0,
+      left: slideBar.clientWidth * 0.7,
+      behavior: "smooth",
+    });
+  } else {
+    slideBar.scrollBy({
+      top: 0,
+      left: -slideBar.clientWidth * 0.7,
+      behavior: "smooth",
+    });
+  }
+};
