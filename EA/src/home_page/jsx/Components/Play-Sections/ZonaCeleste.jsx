@@ -1,5 +1,12 @@
+import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
+import { useContext } from "react";
+
 export default function ZonaCeleste() {
+  const data = useContext(PlaySectionsContext);
+
   return (
+    <>
+    {data &&
     <div id="zona-celeste" className="zona-celeste">
       <img
         id="imgZonaCeleste"
@@ -8,12 +15,14 @@ export default function ZonaCeleste() {
       />
       <div id="zona-celeste-contenido" className="zona-celeste-contenido">
         <p id="parrafoCeleste" className="parrafoCeleste">
-          Herramientas parentales y de juego: el control en tus manos
+         {data.parrafoCeleste}
         </p>
         <button id="botonInfoCeleste" className="botonInfoCeleste">
-          Mas Información
+          {data.botonInfoCeleste}
         </button>
       </div>
     </div>
+}
+    </>
   );
 }

@@ -1,10 +1,12 @@
-// import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
-// import { usePlaySections } from "../../Hooks/usePlaySections";
+import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
+import { useContext} from "react";
 
 export default function ZonaPurple() {
-  //const data = usePlaySections(PlaySectionsContext);
+  const data = useContext(PlaySectionsContext);
 
   return (
+    <>
+    {data &&
     <div id="zonaPurple" className="zona-purple">
       <img
         id="imgZonaPurple"
@@ -20,18 +22,18 @@ export default function ZonaPurple() {
         />
        <div id="parrafoFormula1" className="parrafoFormula1">
       <p id="ParrafoAcercate" className="ParrafoAcercate">
-       ACÉRCATE A LA PARRILLA
+       {data.ParrafoAcercate}
           </p>
           <p id="textoAcercate" className="textoAcercate">
-            Prepárate para encender tu pasión por las carreras y acercarte a la
-            parrilla como nunca antes con EA SPORTS™ F1® 24, el videojuego
-            oficial del 2024 FIA Formula One World Championship™.
+           {data.textoAcercate}
           </p>
         </div>
         <button id="botonMasInfo" className="botonMasInfo">
-          RESERVAR AHORA
+         {data.botonMasInfo}
         </button>
        </div>
     </div>
+}
+</>
   )
 }
