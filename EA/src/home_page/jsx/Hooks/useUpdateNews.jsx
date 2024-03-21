@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+export function useUpdateNews(language) {
 export function useUpdateNews(url) {
   const [newsJson, setNewsJson] = useState(null);
   const getNews = async () => {

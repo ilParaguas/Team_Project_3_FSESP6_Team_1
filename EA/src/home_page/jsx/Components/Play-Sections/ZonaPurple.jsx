@@ -1,6 +1,11 @@
+// import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
+// import { usePlaySections } from "../../Hooks/usePlaySections";
+
 export default function ZonaPurple() {
+  //const data = usePlaySections(PlaySectionsContext);
+
   return (
- <div id="zonaPurple" className="zona-purple">
+    <div id="zonaPurple" className="zona-purple">
       <img
         id="imgZonaPurple"
         src="./src/home_page/media/Play-Sections/purple.crop7x2.1920w.jpg"
@@ -13,9 +18,9 @@ export default function ZonaPurple() {
           alt="formula1"
           className="imagenFormula1"
         />
-        <div id="parrafoFormula1" className="parrafoFormula1">
-          <p id="ParrafoAcercate" className="ParrafoAcercate">
-            ACÉRCATE A LA PARRILLA
+       <div id="parrafoFormula1" className="parrafoFormula1">
+      <p id="ParrafoAcercate" className="ParrafoAcercate">
+       ACÉRCATE A LA PARRILLA
           </p>
           <p id="textoAcercate" className="textoAcercate">
             Prepárate para encender tu pasión por las carreras y acercarte a la
@@ -26,7 +31,7 @@ export default function ZonaPurple() {
         <button id="botonMasInfo" className="botonMasInfo">
           RESERVAR AHORA
         </button>
-      </div>
+       </div>
     </div>
-  );
+  )
 }
