@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { JsonContext } from "/src/home_page/jsx/Contexts/FooterJson.jsx";
-import ButtonSelector from "./ButtonSelector";
+import ButtonSelectorLanguages from "./ButtonSelectorLanguages";
 
 export function ServsAndLegalTerms() {
     const data = useContext(JsonContext);
@@ -14,8 +14,8 @@ export function ServsAndLegalTerms() {
                         return <div key={link}>{link}</div>
                     })}</div>
                     <div>
-                        {/* <ButtonSelector items={data["servs-and-legal-terms"].prices} /> */}
-                        <ButtonSelector items={data["servs-and-legal-terms"].langs} />
+                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
+                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
                     </div>
                 </div>
                 <div>
