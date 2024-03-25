@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef } from "react";
 import { TabContext } from "../../Contexts/TabContext";
 
 export function Tab({ news, isFirst, isLast }) {
@@ -11,7 +11,7 @@ export function Tab({ news, isFirst, isLast }) {
     }
   },[selectedTab]);
 
-  const handleLinkClick = (event) => {
+  const handleLinkClick = () => {
     setSelectedTab(news);
   };
   

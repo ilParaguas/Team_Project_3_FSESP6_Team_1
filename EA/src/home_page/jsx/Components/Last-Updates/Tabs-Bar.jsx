@@ -8,11 +8,11 @@ export function TabsBar() {
   const tabSlideRef = useRef();
 
   useEffect(() => {
-    window.addEventListener("resize", (event) => {
+    window.addEventListener("resize", () => {
       handleResize(tabSlideRef.current);
     });
     return () => {
-      window.removeEventListener("resize", (event) => {
+      window.removeEventListener("resize", () => {
         handleResize(tabSlideRef.current);
       });
     };

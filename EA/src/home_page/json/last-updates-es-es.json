@@ -2,48 +2,69 @@
   "Noticias-De-EA": [
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "18-ene-2024",
-      "Title": "Desbloqueamos oportunidades: Un vistazo a la vida en EA",
-      "Text": "Kirk Chavarie, encargado de la selección de personal en Electronic Arts, comparte su conocimiento sobre la cultura, los valores y las oportunidades de desarrollo profesional de la empresa.",
+      "Date": "20-mar-2024",
+      "Title": "Un vistazo a la extraordinaria trayectoria de liderazgo de Kate Gorman",
+      "Text": "Conoce los logros de Kate Gorman como vicepresidenta y directora general de Los Sims, descubriendo sus hitos profesionales y la innovación en el entretenimiento interactivo.",
       "Picture": "ea-news-1.png"
     },
     {
-      "Company": "Frostbite",
-      "Date": "18-dic-2023",
-      "Title": "Presentamos un nuevo aspecto y una nueva visión para el motor Frostbite de …",
-      "Text": "El rediseño de la marca Frostbite de Electronic Arts en 2024 supone el inicio de una nueva etapa más colaborativa para este motor de juego vanguardista.",
+      "Company": "Electronic Arts Inc.",
+      "Date": "13-mar-2024",
+      "Title": "Celebramos el liderazgo femenino en los videojuegos con Charity Joy",
+      "Text": "Explora el camino de Charity Joy de productora a directora general de EA, su visión sobre la diversidad en los videojuegos y sus ideas sobre el futuro de la industria.",
       "Picture": "ea-news-2.png"
     },
     {
-      "Company": "Maxis",
-      "Date": "14-dic-2023",
-      "Title": "Conoce a fondo Los Sims 4 Se Alquila Pack de Expansión",
-      "Text": "El equipo de diseño de Maxis nos muestra los nuevos complejos de alquiler residencial para llevar la narrativa Sim a viviendas multiunidades.",
-      "Picture": "ea-news-3.jpg"
+      "Company": "Electronic Arts Inc.",
+      "Date": "12-mar-2024",
+      "Title": "Presentaciones de EA sobre gráficos, jugabilidad y tecnología generativa en…",
+      "Text": "No te pierdas estas charlas de la GDC 2024 con profesionales de los departamentos de ingeniería, ciencias y arte técnico de Electronic Arts.",
+      "Picture": "ea-news-3.png"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "13-dic-2023",
-      "Title": "Celebración de un año histórico para EA SPORTS ",
-      "Text": "Ha sido un año increíble para EA SPORTS y, ahora que nos acercamos al Año Nuevo, queremos recordar algunos de los mayores logros conseguidos por nuestros juegos, comunidades y equipos.",
-      "Picture": "ea-news-4.png"
+      "Date": "11-mar-2024",
+      "Title": "EA SPORTS Madden presenta Field the Future para dejar un impacto positivo",
+      "Text": "Explora el programa Field the Future que presenta EA SPORTS Madden para apoyar a las mujeres en el deporte. No solo queremos marcar touchdowns en los juegos, también queremos dejar un impacto social.",
+      "Picture": "ea-news-4.jpg"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "13-dic-2023",
-      "Title": "Electronic Arts en varias listas de \"Mejores lugares para trabajar\"",
-      "Text": "Electronic Arts ha sido reconocida por sus numerosos logros de excelencia en el lugar de trabajo.",
-      "Picture": "ea-news-5.png"
+      "Date": "08-mar-2024",
+      "Title": "Liderando la carga: El camino a la excelencia en videojuegos de Rebecka Cou…",
+      "Text": "Descubre el camino y la visión de Rebecka Coutaz, vicepresidenta y directora general de DICE, que resalta el papel de las mujeres a la hora de dar forma al futuro de los videojuegos.",
+      "Picture": "ea-news-2.png"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "01-dic-2023",
-      "Title": "Electronic Arts sigue haciendo avanzar el juego inclusivo",
-      "Text": "EA libera el código de la herramienta de fotosensibilidad IRIS y añade cuatro patentes más a su compromiso de patentes de accesibilidad.",
-      "Picture": "ea-news-6.png"
+      "Date": "09-feb-2024",
+      "Title": "EA SPORTS FC™ - Vida en el equipo",
+      "Text": "Nuestros desarrolladores de EA SPORTS FC te cuentan cómo es trabajar en el equipo.",
+      "Picture": "ea-news-6.jpeg"
     }
   ],
   "EA-SPORTS-FC": [
+    {
+      "Company": "",
+      "Date": "21-mar-2024",
+      "Title": "EA SPORTS FC™ 24 - Oferta de 2024 MLS Season Pass para FC Founders",
+      "Text": "EA SPORTS FC™ y Apple se han unido y te dan 1 mes de prueba gratuita* del 2024 MLS Season Pass.",
+      "Picture": "ea-sports-fc-10.jpg"
+    },
+    {
+      "Company": "",
+      "Date": "12-mar-2024",
+      "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Actualización de primavera",
+      "Text": "La actualización de primavera añade 86 nuevos rostros y renueva la experiencia de juego gracias a los ajustes en los estilos de juego y en la dificultad Leyenda de la IA de la CPU.",
+      "Picture": "ea-sports-fc-11.jpg"
+    },
+    {
+      "Company": "",
+      "Date": "02-feb-2024",
+      "Title": "Actualización del DCP de ligas del TOTY 86+ - Sitio oficial de EA SPORTS",
+      "Text": "",
+      "Picture": "ea-sports-fc-10.jpg"
+    },
     {
       "Company": "",
       "Date": "05-dic-2023",
@@ -106,158 +127,137 @@
       "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Análisis detallado de Nintendo Sw…",
       "Text": "EA SPORTS FC™ 24 en Switch incorporará mejoras considerables gracias al motor Frostbite y contará con las mismas características que PS4 y Xbox One.",
       "Picture": "ea-sports-fc-9.png"
-    },
-    {
-      "Company": "",
-      "Date": "18-sep-2023",
-      "Title": "Valoraciones de EA SPORTS FC™ 24: Joyas ocultas en Carrera de mánager",
-      "Text": "Futbolistas que cualquier mánager tiene en el punto de mira. Aquí están: futbolistas que se convertirán en grandes promesas en EA SPORTS FC™ 24.",
-      "Picture": "ea-sports-fc-10.jpg"
-    },
-    {
-      "Company": "",
-      "Date": "18-sep-2023",
-      "Title": "Valoraciones de EA SPORTS FC™ 24: Potencial más alto en Carrera de mánager",
-      "Text": "Futbolistas que llegarán a la cima del deporte rey. Aquí están: futbolistas con el potencial más alto en EA SPORTS FC™ 24.",
-      "Picture": "ea-sports-fc-11.jpg"
-    },
-    {
-      "Company": "",
-      "Date": "17-sep-2023",
-      "Title": "Valoraciones de EA SPORTS FC™ 24: Futbolistas más veloces",
-      "Text": "Atraviesan todo el campo en un abrir y cerrar de ojos. Aquí están: futbolistas más veloces en EA SPORTS FC™ 24.",
-      "Picture": "ea-sports-fc-12.jpg"
     }
   ],
   "Star-Wars": [
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "17-ene-2024",
-      "Title": "Revelación de kit - Comeuppance",
-      "Text": "¡Echa un vistazo a las habilidades de la nave Comeuppance en esta revelación de kit!",
+      "Date": "13-mar-2024",
+      "Title": "Revelación de kit - Reina Amidala",
+      "Text": "¡Echa un vistazo a las habilidades de la reina Amidala en esta revelación de kit!",
       "Picture": "star-wars-1.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "05-dic-2023",
-      "Title": "Revelación de kit - Kelleran Beq",
-      "Text": "¡Echa un vistazo a las habilidades de Kelleran Beq en esta revelación de kit!",
+      "Date": "05-mar-2023",
+      "Title": "Revelación de kit - Capitán Tarpals",
+      "Text": "¡Echa un vistazo a las habilidades del Capitán Tarpals en esta revelación de kit!",
       "Picture": "star-wars-2.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "14-nov-2023",
-      "Title": "Revelación de kit - IG-12 y Grogu",
-      "Text": "¡Echa un vistazo a las habilidades de IG-12 y Grogu en esta revelación de kit!",
-      "Picture": "star-wars-3.png"
+      "Date": "27-feb-2024",
+      "Title": "Vista previa del calendario de marzo",
+      "Text": "¡Echa un vistazo a los próximos eventos!",
+      "Picture": "star-wars-3.jpg"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "17-oct-2023",
-      "Title": "Revelación de kit - Paz Vizsla",
-      "Text": "¡Echa un vistazo a las habilidades de Paz Vizsla en esta revelación de kit!",
+      "Date": "22-feb-2024",
+      "Title": "Revelación de kit - Jefe Nass",
+      "Text": "¡Echa un vistazo a las habilidades del Jefe Nass en esta revelación de kit!",
       "Picture": "star-wars-4.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "03-oct-2023",
-      "Title": "Revelación de kit - Merodeador",
-      "Text": "¡Echa un vistazo a las habilidades de la nave Merodeador en esta revelación de kit!",
-      "Picture": "star-wars-5.png"
+      "Date": "20-feb-2024",
+      "Title": "Lo que nos espera: febrero de 2024",
+      "Text": "¡Os damos la bienvenida a Lo que nos espera: febrero de 2024, donde comenzamos nuestro viaje al arco de Star Wars: La amenaza fantasma™!",
+      "Picture": "star-wars-5.jpg"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "27-sep-2023",
-      "Title": "Vista previa del calendario de octubre",
-      "Text": "¡Echa un vistazo a los próximos eventos!",
-      "Picture": "star-wars-6.jpg"
+      "Date": "08-feb-2024",
+      "Title": "Revelación de kit - PAM",
+      "Text": "¡Echa un vistazo a las habilidades de la PAM en esta revelación de kit!",
+      "Picture": "star-wars-6.png"
     }
   ],
   "Apex-Legends": [
     {
       "Company": "Apex Legends",
-      "Date": "16-ene-2024",
-      "Title": "Liga profesional del 4.º año: todo lo que necesitas saber",
-      "Text": "¡Vuelve la Liga profesional de la ALGS desde el 20-21 de enero de 2024! ¡Descubre quién juega, calendarios, grupos, talentos y mucho más!",
-      "Picture": "apex-legends-1.jpg"
+      "Date": "21-mar-2024",
+      "Title": "Domina la clandestinidad en el evento Sociedad oculta",
+      "Text": "Protege tu terreno en Asedio, consigue reputación y empuña el nuevo Katar de cobalto en el evento Sociedad oculta.",
+      "Picture": "apex-legends-1.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "08-ene-2024",
-      "Title": "Notas del parche de mitad de temporada de Apex Legends™: Ignición",
-      "Text": "Mañana se publica el siguiente parche. Prepárate con nuestras notas del parche completas.",
+      "Date": "17-mar-2024",
+      "Title": "Eliminatorias de la División 1 de la ALGS: anuncio de recinto + fechas",
+      "Text": "¡Nuestro primer evento LAN del año se celebrará del 2 al 5 de mayo en el Galen Center de Los Ángeles! Descubre aquí la información inicial.",
       "Picture": "apex-legends-2.jpg"
     },
     {
       "Company": "Apex Legends",
-      "Date": "04-ene-2024",
-      "Title": "Evento de Apex Legends™ y FINAL FANTASY™ VII REBIRTH",
-      "Text": "Supera tu límite con una nueva Invasión que incluye la Espada mortal R2R5, mejoras de materia, cosméticos inspirados en Final Fantasy™ y más",
+      "Date": "04-mar-2024",
+      "Title": "Comienza La caza en el evento de colección Bestia interior",
+      "Text": "Conviértete en una leyenda cazadora o en presa en La caza y honra a Odín completando retos.",
       "Picture": "apex-legends-3.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "30-nov-2023",
-      "Title": "Programa de asociación del 4.º año",
-      "Text": "Obtén más información sobre el programa de asociación de la ALGS y nuestros 12 equipos asociados.",
+      "Date": "12-feb-2024",
+      "Title": "Notas del parche de Apex Legends™: Revelación",
+      "Text": "Prepárate para la llegada de Revelación con las especificaciones de la fabricación 2.0, mejoras de leyenda, cambios del equilibrio y más.",
       "Picture": "apex-legends-4.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "30-nov-2023",
-      "Title": "Enfréntate a la horda o forma parte de ella en el evento Alzamiento",
-      "Text": "El destino de las Tierras Salvajes está en manos de las leyendas con el final de Código letal y un nuevo modo por tiempo limitado 30c30.",
+      "Date": "08-feb-2024",
+      "Title": "Celebra 5 años de Apex Legends con el evento de colección del aniversario",
+      "Text": "¡Celebra el 5.º aniversario, juega y obtén elementos cosméticos con un nuevo MTL, un registro de recompensas creado por la comunidad y más!",
       "Picture": "apex-legends-5.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "22-nov-2023",
-      "Title": "Guía de regalos festivos de Apex Legends™ 2023",
-      "Text": "¿Buscas un botín legendario para las fiestas? Aquí estamos para ayudarte.",
-      "Picture": "apex-legends-6.jpg"
+      "Date": "06-feb-2024",
+      "Title": "Recompensas de Apex Legends™: Revelación",
+      "Text": "Todo lo que necesitas saber sobre las próximas recompensas de Revelación en Apex Legends™.",
+      "Picture": "apex-legends-6.png"
     }
   ],
   "Los-Sims4": [
     {
       "Company": "Los Sims 4",
-      "Date": "16-ene-2024",
-      "Title": "Actualización: 16/01/2024",
-      "Text": "¿Alguien ha pedido unas correcciones de errores?",
+      "Date": "06-mar-2024",
+      "Title": "Actualización: 06/03/2024",
+      "Text": "Actualizaciones cruciales para los principales problemas de la comunidad",
       "Picture": "sims4-1.jpg"
     },
     {
       "Company": "Los Sims 4",
-      "Date": "16-ene-2024",
-      "Title": "Los kits Castillo con Clase y Gusto Gótico de Los Sims 4 ya están aquí",
-      "Text": "¡Conferid espectacularidad y dramatismo a vuestra próxima historia!",
-      "Picture": "sims4-2.png"
+      "Date": "28-feb-2024",
+      "Title": "Actualización: 28/02/2024",
+      "Text": "Dos correciones",
+      "Picture": "sims4-1.jpg"
     },
     {
       "Company": "Los Sims 4",
-      "Date": "11-ene-2024",
-      "Title": "Sensacionalmente tú",
-      "Text": "2 kits muy esperados, 1 entrega exprés de Los Sims radiante, 1 pack de accesorios brillante, 1 kit festivo, 1 kit de estilo con colaboración",
+      "Date": "28-feb-2024",
+      "Title": "La colección de joyas de Los Sims en la vida real con Plumbobs",
+      "Text": "Compra la colección de joyas de Plumbob de Los Sims 4 Creaciones Cristalinas Pack de Accesorios.",
       "Picture": "sims4-3.png"
     },
     {
       "Company": "Los Sims 4",
-      "Date": "18-dic-2023",
-      "Title": "¿Tenéis una historia de alquiler estrafalaria? ",
-      "Text": "Las estrellas creadoras filipino-australianas Angelo y Alexandra Marasigan comparten algunas de vuestras experiencias más salvajes",
-      "Picture": "sims4-4.png"
+      "Date": "27-feb-2024",
+      "Title": "Actualización: 02/27/2024",
+      "Text": "Una actualización brillante",
+      "Picture": "sims4-1.jpg"
     },
     {
       "Company": "Los Sims 4",
-      "Date": "14-dic-2023",
-      "Title": "Actualización: 14/12/2023",
-      "Text": "¡Soluciones exprés para errores de Se Alquila!",
-      "Picture": "sims4-5.jpg"
+      "Date": "22-feb-2024",
+      "Title": "Joyas de ArethaBee en Los Sims 4 Creaciones Cristalinas",
+      "Text": "Tú haces Los Sims con ArethaBee.",
+      "Picture": "sims4-5.png"
     },
     {
       "Company": "Los Sims 4",
-      "Date": "01-dic-2023",
-      "Title": "Problemas que se están investigando: 1 de diciembre de 2023",
-      "Text": "Problemas que se están investigando.",
+      "Date": "20-feb-2024",
+      "Title": "Crea tus joyas de cristales con Los Sims 4 Creaciones Cristalinas Pack de A…",
+      "Text": "Diseña joyas deslumbrantes y sé la figura central del proceso de confección y creación",
       "Picture": "sims4-6.png"
     }
   ],
@@ -308,6 +308,34 @@
   "Battlefield": [
     {
       "Company": "Battlefield 2042",
+      "Date": "15-mar-2024",
+      "Title": "ACTUALIZACIÓN N.º 7.0.0 DE BATTLEFIELD 2042",
+      "Text": "Aquí tenéis un vistazo general a la temporada 7: Punto de inflexión",
+      "Picture": "battlefield-3.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "14-mar-2024",
+      "Title": "NOTAS DEL DESARROLLO - REFUGIO",
+      "Text": "Un nuevo vistazo entre bastidores al proceso de creación del mapa para la temporada 7.",
+      "Picture": "battlefield-4.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "23-feb-2024",
+      "Title": "ACTUALIZACIÓN N.º 6.4.0 DE BATTLEFIELD 2042",
+      "Text": "Aquí podéis ver una lista de mejoras de jugabilidad que pretenden corregir diversos problemas relacionados con Battlefield 2042.",
+      "Picture": "battlefield-5.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "26-ene-2024",
+      "Title": "ACTUALIZACIÓN N.º 6.3.0 DE BATTLEFIELD 2042",
+      "Text": "¡La actualización 6.3.0 incluye el nuevo modificador de espectador de patrulla y nuevos cambios de equilibrio en Battlefield 2042!",
+      "Picture": "battlefield-6.png"
+    },
+    {
+      "Company": "Battlefield 2042",
       "Date": "12-ene-2024",
       "Title": "ACTUALIZACIÓN N.º 6.2.1 DE BATTLEFIELD 2042",
       "Text": "¡Una pequeña actualización con un parche rápido para Battlefield 2042!",
@@ -319,34 +347,6 @@
       "Title": "ACTUALIZACIÓN N.º 6.2.0 DE BATTLEFIELD 2042",
       "Text": "Echa un vistazo a las notas de la última actualización de Battlefield 2042, que incluye equilibrado de armas, mejoras de los vehículos aéreos y más.",
       "Picture": "battlefield-2.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "30-nov-2023",
-      "Title": "Notas del desarrollo - Estado de la jugabilidad con vehículos",
-      "Text": "Temporada 6, Jugabilidad con vehículos",
-      "Picture": "battlefield-3.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "27-oct-2023",
-      "Title": "ACTUALIZACIÓN N.º 6.1.0 DE BATTLEFIELD 2042",
-      "Text": "La actualización n.º 6.1.0 de Battlefield 2042 presenta nuevas mejoras de calidad de vida junto a nuestro evento por tiempo limitado, Protocolo oscuro.",
-      "Picture": "battlefield-4.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "26-oct-2023",
-      "Title": "Información de Battlefield - Protocolo oscuro",
-      "Text": "Evento (Protocolo oscuro) y modo de juego por tiempo limitado (Cortocircuito).",
-      "Picture": "battlefield-5.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "06-oct-2023",
-      "Title": "ACTUALIZACIÓN N.º 6.0.0 DE BATTLEFIELD 2042",
-      "Text": "¿Qué novedades hay en la temporada 6: Creaciones oscuras de Battlefield 2042?",
-      "Picture": "battlefield-6.jpg"
     }
   ]
 }
