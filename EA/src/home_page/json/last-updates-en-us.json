@@ -2,48 +2,69 @@
   "EA-News": [
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "18-Jan-2024",
-      "Title": "Unlocking Opportunities: A Look into Life at EA",
-      "Text": "Electronic Arts Recruiter Kirk Chavarie shares his knowledge about the company’s culture, values, and career development opportunities",
+      "Date": "20-Mar-2024",
+      "Title": "Inside Kate Gorman's Remarkable Leadership Journey",
+      "Text": "Delve into Kate Gorman's tenure as VP and GM of The Sims, exploring career milestones and innovation in interactive entertainment.",
       "Picture": "ea-news-1.png"
     },
     {
       "Company": "Frostbite",
-      "Date": "18-Dec-2023",
-      "Title": "Announcing a new look and vision for EA's Frostbite engine",
-      "Text": "Electronic Arts’ 2024 Frostbite rebrand signals a new, more collaborative era for its cutting-edge game engine.",
+      "Date": "13-Mar-2024",
+      "Title": "Celebrating Female Leadership in Gaming With Charity Joy",
+      "Text": "Explore Charity Joy's journey from producer to GM at EA, her vision for diversity in gaming, and insights into the future of the industry",
       "Picture": "ea-news-2.png"
     },
     {
       "Company": "Maxis",
-      "Date": "14-Dec-2023",
-      "Title": "Behind The Sims 4 ‘For Rent’ Expansion Pack",
-      "Text": "The designers at Maxis reveal how the all-new Residential Rentals bring Sims-style storytelling to multi-unit living.",
-      "Picture": "ea-news-3.jpg"
+      "Date": "12-Mar-2024",
+      "Title": "EA presents on graphics, gameplay, and generative tech at GDC 2024",
+      "Text": "Don’t miss these GDC 2024 talks from Electronic Arts engineers, scientists, and technical artists.",
+      "Picture": "ea-news-3.png"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "13-Dec-2023",
-      "Title": "Celebrating a Milestone Year for EA SPORTS ",
-      "Text": "It’s been a huge year for EA SPORTS, and we’re reflecting on some of our biggest achievements and efforts across our games, communities, and teams as we head into the New Year.",
-      "Picture": "ea-news-4.png"
+      "Date": "11-Mar-2024",
+      "Title": "EA SPORTS Madden presents Field the Future Unleashes Positive Impact",
+      "Text": "Explore EA SPORTS Madden presents Field the Future Program supporting women in the sport. Beyond gaming, we score touchdowns for social impact.",
+      "Picture": "ea-news-4.jpg"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "13-Dec-2023",
-      "Title": "Electronic Arts Named to Several ‘Best Places to Work’ Lists",
-      "Text": "Electronic Arts has been recognized for several achievements in workplace excellence.",
-      "Picture": "ea-news-5.png"
+      "Date": "08-Mar-2024",
+      "Title": "Leading the Charge: Rebecka Coutaz's Path to Gaming Excellence",
+      "Text": "Discover the journey and vision of Rebecka Coutaz, VP General Manager at DICE, highlighting the role of women in shaping gaming's future.",
+      "Picture": "ea-news-2.png"
     },
     {
       "Company": "Electronic Arts Inc.",
-      "Date": "01-Dec-2023",
-      "Title": "Electronic Arts Continues to Move Inclusive Gaming Forward",
-      "Text": "EA open sources photosensitivity tool IRIS and adds four additional patents to its accessibility patent pledge.",
-      "Picture": "ea-news-6.png"
+      "Date": "09-Feb-2024",
+      "Title": "EA SPORTS FC™ - Life in the team",
+      "Text": "Our EA SPORTS FC developers tell you how working in the team is",
+      "Picture": "ea-news-6.jpeg"
     }
   ],
   "EA-SPORTS-FC": [
+    {
+      "Company": "",
+      "Date": "21-Mar-2024",
+      "Title": "EA SPORTS FC™ 24  - FC Founder 2024 MLS Season Pass Offer",
+      "Text": "EA SPORTS FC™ and Apple have teamed up and are giving you a 1 month free* trial of the 2024 MLS Season Pass.",
+      "Picture": "ea-sports-fc-10.jpg"
+    },
+    {
+      "Company": "",
+      "Date": "12-Mar-2024",
+      "Title": "EA SPORTS FC™ 24 | Pitch Notes - Spring Update",
+      "Text": "The Spring Update adds 86 new star heads, and refreshes the gameplay experience through PlayStyle tuning and Legendary CPU AI difficulty adjustments.",
+      "Picture": "ea-sports-fc-11.jpg"
+    },
+    {
+      "Company": "",
+      "Date": "02-Feb-2024",
+      "Title": "Update on TOTY 86+ Leagues SBC - EA SPORTS Official Site",
+      "Text": "",
+      "Picture": "ea-sports-fc-10.jpg"
+    },
     {
       "Company": "",
       "Date": "05-Dec-2023",
@@ -106,159 +127,138 @@
       "Title": "EA SPORTS FC 24 | Pitch Notes - Nintendo Switch Deep Dive",
       "Text": "EA SPORTS FC™ 24 on Switch is getting a significant upgrade with the Frostbite Engine and will have feature parity with PS4 and Xbox One.",
       "Picture": "ea-sports-fc-9.png"
-    },
-    {
-      "Company": "",
-      "Date": "18-Sep-2023",
-      "Title": "EA SPORTS FC™ 24 Ratings - Hidden Gems in Manager Career",
-      "Text": "Meet the players every Manager's been looking for. Here are the players with the largest room for growth in EA SPORTS FC 24.",
-      "Picture": "ea-sports-fc-10.jpg"
-    },
-    {
-      "Company": "",
-      "Date": "18-Sep-2023",
-      "Title": "EA SPORTS FC™ 24 Ratings - Highest Potential in Manager Career",
-      "Text": "These players are headed straight to the top. Here are the players with the highest potential in EA SPORTS FC 24.",
-      "Picture": "ea-sports-fc-11.jpg"
-    },
-    {
-      "Company": "",
-      "Date": "17-Sep-2023",
-      "Title": "EA SPORTS FC™ 24 Ratings - Fastest Players",
-      "Text": "Gone in the blink of an eye. Here are the fastest players in EA SPORTS FC 24.",
-      "Picture": "ea-sports-fc-12.jpg"
     }
   ],
   "Apex-Legends": [
     {
       "Company": "Apex Legends",
-      "Date": "16-Jan-2024",
-      "Title": "Year 4 Pro League: Everything You Need to Know",
-      "Text": "Good news - the ALGS Pro league is back and kicks off January 20-21, 2024! Click for competitors, schedules, groups, talent, and more!",
-      "Picture": "apex-legends-1.jpg"
+      "Date": "21-Mar-2024",
+      "Title": "Rule the underground in the Shadow Society Event",
+      "Text": "Protect your turf in Lockdown, earn Reputation, and wield the all new “Cobalt Katar” in the Shadow Society Event.",
+      "Picture": "apex-legends-1.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "08-Jan-2024",
-      "Title": "Apex Legends™: Ignite Mid-Season Patch Notes",
-      "Text": "Get ready for the next patch ahead of tomorrow’s launch with our full Patch Notes.",
+      "Date": "17-Mar-2024",
+      "Title": "ALGS Split 1 Playoffs: Dates + Venue Announce",
+      "Text": "Our first LAN event of the year is set to take place on May 2-5 at the Galen Center in LA! Read more for initial details.",
       "Picture": "apex-legends-2.jpg"
     },
     {
       "Company": "Apex Legends",
-      "Date": "04-Jan-2024",
-      "Title": "Apex Legends™ & FINAL FANTASY™ VII REBIRTH Event",
-      "Text": "Unleash your Limit Break with a new Takeover featuring the Buster Sword R2R5, Materia Hop-Ups, Final Fantasy™-inspired cosmetics & more!",
+      "Date": "04-Mar-2024",
+      "Title": "The Hunt is on in the Inner Beast Collection Event",
+      "Text": "Become the Hunter or the Prey in The Hunt and honor the Allfather by completing challenges.",
       "Picture": "apex-legends-3.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "30-Nov-2023",
-      "Title": "Year 4: Partnership Program",
-      "Text": "Learn more about the ALGS Partnership Program and our 12 Partner Teams",
+      "Date": "12-Feb-2024",
+      "Title": "Apex Legends™: Breakout Patch Notes",
+      "Text": "Brace for Breakout’s launch with full specs on Crafting 2.0, Legend Upgrades, balance changes, and more.",
       "Picture": "apex-legends-4.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "30-Nov-2023",
-      "Title": "Take on the swarm or become it in the Uprising Event",
-      "Text": "The fate of the Outlands rests in the hands of the Legends with the final chapter of Kill Code and an all-out 30v30 limited-time mode.",
+      "Date": "08-Feb-2024",
+      "Title": "Celebrate 5 Years of Apex Legends With the Anniversary Collection Event",
+      "Text": "Celebrate our 5th Anniversary and play to earn cosmetics with a new LTM, community-created reward track, and more!",
       "Picture": "apex-legends-5.png"
     },
     {
       "Company": "Apex Legends",
-      "Date": "22-Nov-2023",
-      "Title": "Apex Legends™ Holiday Gift Guide 2023",
-      "Text": "Looking for legendary loot for the holidays? We’ve got you.",
-      "Picture": "apex-legends-6.jpg"
+      "Date": "06-Feb-2024",
+      "Title": "Apex Legends™ rewards: Revelation",
+      "Text": "Everything you need to know about coming Revelation rewards in Apex Legends™.",
+      "Picture": "apex-legends-6.png"
     }
   ],
   "The-Sims4": [
     {
       "Company": "The Sims 4",
-      "Date": "16-Jan-2024",
-      "Title": "Update 1/16/2024",
-      "Text": "Did someone call for some fixes?",
+      "Date": "06-Mar-2024",
+      "Title": "Update 3/6/2024",
+      "Text": "Critical Updates for Top Community Issues",
       "Picture": "sims4-1.jpg"
     },
     {
       "Company": "The Sims 4",
-      "Date": "16-Jan-2024",
-      "Title": "The Sims 4 Castle Estate and Goth Galore Kits Are Here",
-      "Text": "Bring all the dramatics to your next story!",
-      "Picture": "sims4-2.png"
+      "Date": "28-Feb-2024",
+      "Title": "Update 2/28/2024",
+      "Text": "E-Patch February 28, 2024",
+      "Picture": "sims4-1.jpg"
     },
     {
       "Company": "The Sims 4",
-      "Date": "11-Jan-2024",
-      "Title": "The Sims 4 - Sensationally You",
-      "Text": "2 Highly Anticipated Kits, 1 Beautiful SDX Drop, 1 Sparkling Stuff Pack, 1 Celebratory Kit, and 1 Co-created Style Kit",
+      "Date": "28-Feb-2024",
+      "Title": "The Sims IRL Jewelry Collection Features Plumbobs",
+      "Text": "Shop the Plumbob Jewelry Collection from The Sims 4 Crystal Creations Stuff Pack",
       "Picture": "sims4-3.png"
     },
     {
       "Company": "The Sims 4",
-      "Date": "18-Dec-2023",
-      "Title": "Have an Outrageous Rental Story? ",
-      "Text": "Australian-Filipino creators Angelo and Alexandra Marasigan share some of your wildest experiences",
-      "Picture": "sims4-4.png"
+      "Date": "27-Feb-2024",
+      "Title": "Update 2/27/2024",
+      "Text": "A most sparkling update",
+      "Picture": "sims4-1.jpg"
     },
     {
       "Company": "The Sims 4",
-      "Date": "14-Dec-2023",
-      "Title": "Update 12/14/2023",
-      "Text": "Fast-Track Fixes for four For Rent faults!",
-      "Picture": "sims4-5.jpg"
+      "Date": "22-Feb-2024",
+      "Title": "ArethaBee Creates Eye-Catching Jewelry for The Sims 4 Crystal Creations",
+      "Text": "You Make The Sims Featuring ArethaBee",
+      "Picture": "sims4-5.png"
     },
     {
       "Company": "The Sims 4",
-      "Date": "01-Dec-2023",
-      "Title": "Laundry List - December 1st, 2023",
-      "Text": "Laundry List",
+      "Date": "20-Feb-2024",
+      "Title": "Craft Your Crystal Jewelry with The Sims 4 Crystal Creations Stuff Pack",
+      "Text": "Design dazzling jewelry that puts you at the center of crafting and creation",
       "Picture": "sims4-6.png"
     }
   ],
   "Star-Wars": [
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "17-Jan-2024",
-      "Title": "Kit Reveal - Comeuppance",
-      "Text": "Check out the abilities of Comeuppance in this Kit Reveal!",
+      "Date": "13-Mar-2024",
+      "Title": "Kit Reveal - Queen Amidala",
+      "Text": "Check out the abilities of Queen Amidala in this Kit Reveal!",
       "Picture": "star-wars-1.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "05-Dec-2023",
-      "Title": "Kit Reveal - Kelleran Beq",
-      "Text": "Check out the abilities of Kelleran Beq in this Kit Reveal!",
+      "Date": "05-Mar-2024",
+      "Title": "Kit Reveal - Captain Tarpals",
+      "Text": "Check out the abilities of  Captain Tarpals in this Kit Reveal!",
       "Picture": "star-wars-2.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "14-Nov-2023",
-      "Title": "Kit Reveal - IG-12 and Grogu",
-      "Text": "Check out the abilities of IG-12 and Grogu in this Kit Reveal!",
-      "Picture": "star-wars-3.png"
+      "Date": "27-Feb-2024",
+      "Title": "March Calendar Preview",
+      "Text": "Check out the upcoming events!",
+      "Picture": "star-wars-3.jpg"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "17-Oct-2023",
-      "Title": "Kit Reveal - Paz Vizsla",
-      "Text": "Check out the abilities of Paz Vizsla in this Kit Reveal!",
+      "Date": "22-Feb-2024",
+      "Title": "Kit Reveal - Boss Nass",
+      "Text": "Check out the abilities of  Boss Nass in this Kit Reveal!",
       "Picture": "star-wars-4.png"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "30-Oct-2020",
-      "Title": "Kit Reveal - Marauder",
-      "Text": "Check out the abilities of Marauder in this Kit Reveal!",
-      "Picture": "star-wars-5.png"
+      "Date": "20-Feb-2024",
+      "Title": "The Road Ahead, February 2024",
+      "Text": "Welcome to the February 2024 Road Ahead where we start our journey into the Star Wars: The Phantom Menace™ arc!",
+      "Picture": "star-wars-5.jpg"
     },
     {
       "Company": "Star Wars™ Galaxy of Heroes",
-      "Date": "27-Sep-2023",
-      "Title": "October Calendar Preview",
-      "Text": "Check out the upcoming events!",
-      "Picture": "star-wars-6.jpg"
+      "Date": "08-Feb-2024",
+      "Title": "Kit Reveal - STAP",
+      "Text": "Check out the abilities of  STAP in this Kit Reveal!",
+      "Picture": "star-wars-6.png"
     }
   ],
   "F1": [
@@ -308,6 +308,34 @@
   "Battlefield": [
     {
       "Company": "Battlefield 2042",
+      "Date": "15-Mar-2024",
+      "Title": "BATTLEFIELD 2042 UPDATE #7.0.0",
+      "Text": "Get the full overview for Season 7: Turning Point",
+      "Picture": "battlefield-3.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "14-Mar-2024",
+      "Title": "DEV NOTES - HAVEN",
+      "Text": "A fresh behind-the-scenes look into our map making process for Season 7.",
+      "Picture": "battlefield-4.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "23-Feb-2024",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.4.0",
+      "Text": "Here you will find a list of gameplay improvements that address various issues related to Battlefield 2042",
+      "Picture": "battlefield-5.jpg"
+    },
+    {
+      "Company": "Battlefield 2042",
+      "Date": "26-Jan-2024",
+      "Title": "BATTLEFIELD 2042 UPDATE #6.3.0",
+      "Text": "Update 6.3.0 includes a new Squad Spectator Modifier and further balance changes to Battlefield 2042!",
+      "Picture": "battlefield-6.png"
+    },
+    {
+      "Company": "Battlefield 2042",
       "Date": "12-Jan-2024",
       "Title": "BATTLEFIELD 2042 UPDATE #6.2.1",
       "Text": "Small Hotfix Update for Battlefield 2042!",
@@ -319,34 +347,6 @@
       "Title": "BATTLEFIELD 2042 UPDATE #6.2.0",
       "Text": "Take a look at the latest Battlefield 2042 Update Notes featuring Weapon Balancing, Air Vehicle Improvements and more.",
       "Picture": "battlefield-2.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "30-Nov-2023",
-      "Title": "Dev Notes - State of Vehicle Gameplay",
-      "Text": "Season 6, Vehicle Gameplay",
-      "Picture": "battlefield-3.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "27-Oct-2023",
-      "Title": "BATTLEFIELD 2042 UPDATE #6.1.0",
-      "Text": "Battlefield 2042 Update #6.1.0 introduces further Quality of Life Improvements alongside our Limited Time Event, Dark Protocol.",
-      "Picture": "battlefield-4.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "26-Oct-2023",
-      "Title": "Battlefield Briefing – Dark Protocol",
-      "Text": "Dark Protocol Event, limited-time Killswitch game mode",
-      "Picture": "battlefield-5.jpg"
-    },
-    {
-      "Company": "Battlefield 2042",
-      "Date": "06-Oct-2023",
-      "Title": "BATTLEFIELD 2042 UPDATE #6.0.0",
-      "Text": "What’s new in Battlefield 2042’s Season 6: Dark Creations",
-      "Picture": "battlefield-6.jpg"
     }
   ],
   "Need-for-Speed": [

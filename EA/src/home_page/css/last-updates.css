@@ -167,7 +167,7 @@ li:has(> .tab-radio:checked) {
     border-radius: 3px;
     text-decoration: none;
     color: #d2141400;
-    z-index: 1;
+    /* z-index: 1; */
     text-align: center;
 }
 #read-more-link:hover {

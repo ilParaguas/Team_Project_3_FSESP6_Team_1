@@ -37,12 +37,7 @@ export function LastUpdates() {
   );
 }
 const setTab = (newTab, json, prevTab, setSelectedTab, navigate) => {
-  if (
-    newTab &&
-    json &&
-    Object.keys(json).includes(newTab) &&
-    prevTab != newTab
-  ) {
+  if (newTab && json && Object.keys(json).includes(newTab) && prevTab != newTab) {
     setSelectedTab(newTab);
   } else if (json && !prevTab) {
     if (newTab && !Object.keys(json).includes(newTab)) {
