@@ -21,10 +21,14 @@
 #tabs-bar {
     margin: 0;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 #arrow-left {
     box-shadow: 13px 0px 10px 3px #f3f3f3;
     display: none;
+    left: 0;
+    top: 0;
 }
 #arrow-right {
     box-shadow: -13px 0px 10px 3px #f3f3f3;
@@ -46,7 +50,7 @@
 }
 
 #tabs-slide{
-    display: block;
+    
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -58,7 +62,6 @@
     display: flex;
     list-style: none;
     color: #161616;
-    margin: 0 11vw; 
     font-size: 1.13rem;
     padding: 0 1.5rem 0 1.5rem;
     white-space: nowrap;
@@ -164,7 +167,7 @@ li:has(> .tab-radio:checked) {
     border-radius: 3px;
     text-decoration: none;
     color: #d2141400;
-    z-index: 1;
+    /* z-index: 1; */
     text-align: center;
 }
 #read-more-link:hover {
@@ -178,9 +181,7 @@ li:has(> .tab-radio:checked) {
 }
 
 @media(max-width: 1455px) {
-    #updates-tabs{
-        margin: 0 6.5vw; 
-    }
+    
     #cards-updates{
         margin: 0 8.3vw; 
         max-width: none;
@@ -202,7 +203,6 @@ li:has(> .tab-radio:checked) {
     }
     #updates-tabs {
         font-size: 1rem;
-        margin: 0 6vw; 
     }
     .hr {
         margin-bottom: 3rem;
@@ -233,9 +233,7 @@ li:has(> .tab-radio:checked) {
     }
 }
 @media(max-width: 770px) {
-    #updates-tabs{
-        margin: 0 2.5vw; 
-    }
+
     #updates-tabs span {
         padding: 0.8rem 1rem;
     }
@@ -259,9 +257,7 @@ li:has(> .tab-radio:checked) {
     }
 }
 @media(max-width: 640px) {
-    #updates-tabs{
-        margin: 0 1.5vw; 
-    }
+    
     #read-more {
         align-self: stretch;
         margin: 4rem 7.5vw;
