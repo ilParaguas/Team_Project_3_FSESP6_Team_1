@@ -14,33 +14,21 @@ export default function ButtonSelectorLanguages({ items }) {
     const buttonRef = useRef()
     const selectorRef = useRef()
 
-    // useEffect( () => {
-    //     window.addEventListener("click", event => {
-    //         if (!buttonRef.current.contains(event.target) && !selectorRef.current.contains(event.target)) {
-    //             setOpen(false)
-    //         }
-    //         console.log(event.target);
-    //     })                                          //
-    //     return () => {
-    //         window.removeEventListener("click", event => {
-    //             if (!buttonRef.current.contains(event.target) && !selectorRef.current.contains(event.target)) {
-    //                 setOpen(false)
-    //             }
-    //             console.log(event.target);
-    //         })  
-    //     }
-    // } ,[])
-
     useEffect( () => {
-        if(open){
-            selectorRef.current.addEventListener("focusout", () => {
-                console.log(document.activeElement);
+        let ref = buttonRef.current
+        window.addEventListener("click", event => {
+            if (!buttonRef.current?.contains(event.target) && !selectorRef.current?.contains(event.target)) {
                 setOpen(false)
-            })
-            selectorRef.current.focus()
-            console.log(document.activeElement);
+            }
+        }) 
+        return () => {
+            window.removeEventListener("click", event => {
+                if (!ref.contains(event.target) && !ref.contains(event.target)) {
+                    setOpen(false)
+                }
+            })                                  //
         }
-    } ,[open])
+    } ,[])
 
     const columns = []                          // Columnas cuando width > 1400px
     let indexColumn = -1
@@ -56,8 +44,7 @@ export default function ButtonSelectorLanguages({ items }) {
     return (
         <>
         {labelItem && <div>
-            <button ref={buttonRef} onClick={(e) => {
-                e.preventDefault()
+            <button ref={buttonRef} onClick={() => {
                 setOpen(open => !open)
             }}>
                 <div>{items.title}</div>
@@ -66,12 +53,12 @@ export default function ButtonSelectorLanguages({ items }) {
                         <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" />
                         <span>{labelItem.country}</span>
                     </div>
-                    {/* <img src="./src/home_page/media/img/footer/flecha-abajo.png" /> */}
+                    <img src="./src/home_page/media/img/footer/flecha-abajo.png" />
                 </div>
             </button>
 
             {open && (
-            <div tabIndex="0" ref={selectorRef} autoFocus>
+            <div tabIndex="0" ref={selectorRef}>
                 {items.content.map(item => (
                     <LanguageSelector key={item.ISO} item={item} lang={lang}/>
                 ))}
