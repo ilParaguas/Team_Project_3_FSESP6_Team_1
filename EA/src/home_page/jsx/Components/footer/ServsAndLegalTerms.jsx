@@ -15,7 +15,7 @@ export function ServsAndLegalTerms() {
                     })}</div>
                     <div>
                         <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
-                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
+                        {/* <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} /> */}
                     </div>
                 </div>
                 <div>
