@@ -11,6 +11,47 @@ body {
     align-items: center;
   }
   
+  /*BUTTON*/
+
+  .play-s-buttons {
+    position: relative;
+    margin: 1rem;
+    font-size: 1.13rem;
+    display: inline-block;
+    justify-self: center;
+}
+ .play-s-buttons-link {
+    display: block;
+    position: relative;
+    height: 3rem;
+    width: 12rem;
+    border: 2px solid #fcf9f9;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #d2141400;
+    text-align: center;
+}
+.play-s-buttons-link:hover {
+    transform: scale(1.1);
+}
+.play-s-buttons-text {
+    font-family: ElectronicArtsDisplay;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 1.1rem;
+    text-align: center;
+}
+.fondo-blanco-text{
+  color: black;
+  z-index: 1;
+  cursor: pointer;
+}
+.fondo-blanco-link {
+  background-color: whitesmoke;
+  
+}
+
   /*ZONA PURPLE*/
 
   .imgZonaPurple {
@@ -22,7 +63,6 @@ body {
     margin-left: 50%;
     display: grid;
     position: absolute;
-
   }
   .imagenFormula1 {
     justify-self: center;
@@ -47,67 +87,24 @@ body {
     text-align: center;
     color: white;
   }
-  .botonMasInfo {
-    font-family: ElectronicArtsText;
-    place-self: center;
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    border-color: white;
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
-    font-size: 16px;
-    transition: padding 0.2s ease;
-   text-wrap: nowrap;
-    border-width: 2.5px;
-    border-radius: 3px;
-    border-style: solid;
-  }
-  .botonMasInfo:hover {
-    transform: scale(1.1);
-  }
-  
-  /*ZONA GRIS*/
-  
+
   .imgZonaGris {
     width: 100%;
-    height: 6vw;
+    height: 7.5vw;
   }
   .zona-gris-contenido {
-    display: flex;
     position: absolute;
+    display: flex;
     margin-left: 20%;
-    max-width: 90%;
   }
   .parrafoGris {
+    margin-top: 1rem;
     font-family: ElectronicArtsText;
-    align-self: center;
     max-width: 45%;
-    padding-right: 20rem;
-    font-size: 26px;
+    margin-right: 20rem;
+    font-size: 24px;
     font-weight: bold;
-    color: rgb(219, 218, 218);
-  }
-  .botonJugar {
-    font-family: ElectronicArtsText;
-    text-wrap: nowrap;
-    margin-right: 5rem;
-    place-self: center;
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    border-color: white;
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
-    font-size: 16px;
-    transition: padding 0.2s ease;
-   text-wrap: nowrap;
-    border-width: 2.5px;
-    border-radius: 3px;
-    border-style: solid;
-  }
-  .botonMasInfo:hover {
-    transform: scale(1.1);
+    color: #ffffff;
   }
 
  /*ZONA ROJA*/
@@ -142,24 +139,7 @@ body {
     font-family: ElectronicArtsText;
     color: rgb(219, 218, 218);
   }
-  .botonUneteYa {
-     font-family: ElectronicArtsText;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    border-color: white;
-    color: white;
-    padding: 13px 30px;
-    font-size: 16px;
-    transition: padding 0.2s ease;
   
-    border-width: 3px;
-    border-radius: 4px;
-    border-style: solid;
-  }
-  .botonUneteYa:hover {
-    transform: scale(1.1);
-  }
   
   /*ZONA CELESTE*/
   
@@ -173,6 +153,7 @@ body {
     margin-left: 20%;
   }
   .parrafoCeleste {
+    margin-top: 1rem;
     font-family: ElectronicArtsText;
     max-width: 45%;
     margin-right: 20rem;
@@ -180,28 +161,6 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     color: #161616;
-  }
-  .botonInfoCeleste {
-    font-family: ElectronicArtsText;
-    text-wrap: nowrap;
-    margin-right: 5rem;
-    margin-left: 1rem;
-    align-self: center;
-    width: 12rem;
-    height: fit-content;
-    background-color: transparent;
-    color: #2e2e2e;
-    padding: 13px 15px;
-    font-size: 16px;
-    transition: padding 0.2s ease;
-  
-    border-color: #161616;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 3px;
-  }
-  .botonInfoCeleste:hover {
-    transform: scale(1.1);
   }
   
   /* MEDIA */
@@ -228,6 +187,9 @@ body {
     
 
     /*zona Gris*/
+    .imgZonaGris{
+      height: 7vw;
+    }
     .parrafoGris {
       font-size: 22px;
       margin-right: 20%;
@@ -267,8 +229,16 @@ body {
       max-width: 90%;
     }
   }
-  
+  @media (max-width: 1300px) {
+
+  .imgZonaGris{
+    height: 7.5vw;
+  }
+}
   @media (max-width: 1185px) {
+    .imgZonaGris{
+      height: 8vw;
+    }
     /*zona Azul*/
   
     .ParrafoAcercate {
@@ -298,6 +268,12 @@ body {
   
     #parrafoCeleste {
       font-size: 19px;
+    }
+  }
+
+  @media (max-width: 1168px) {
+    .imgZonaGris{
+      height: 9vw;
     }
   }
   @media (max-width: 1024px) {
