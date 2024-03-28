@@ -53,7 +53,7 @@ export default function ButtonSelectorLanguages({ items }) {
                         <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" />
                         <span>{labelItem.country}</span>
                     </div>
-                    <img src="./src/home_page/media/img/footer/flecha-abajo.png" />
+                    <img className="footer-icon" src="./src/home_page/media/img/footer/flecha-abajo.png" />
                 </div>
             </button>
 
@@ -73,13 +73,13 @@ function LanguageSelector({ item, lang }) {
     return (
         <a href={`/${item.lang}`}>
             <div>
-                <div>
+                <div >
                     <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} />
                 </div>
                 <div>{item.country}</div>
             </div>
-            <div>
-                {item.lang === lang && <img src="./src/home_page/media/img/footer/check.png" />}
+            <div className="footer-icon">
+                {item.lang === lang && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
             </div>
          </a>
     )

@@ -261,3 +261,43 @@ a:visited {
         width: 100%;
     }
 }
+
+/*                      Servs & Legal                   */
+
+#ea-violet {   /* div ea-logo */             
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1456px) {
+
+    #ea-violet {
+        width: 49px;
+        height: 49px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 1024px) {
+
+    #ea-violet {
+        width: 47px;
+        height: 47px;
+    }
+}
+@media (max-width: 768px) {
+
+    #ea-violet {
+        margin-bottom: 9px;
+    }
+}
+
+.button {
+    max-width: 190px;
+}
+
+.footer-icon {
+    width: 16px;
+    height: 16px;
+    width: fit-content;
+}
