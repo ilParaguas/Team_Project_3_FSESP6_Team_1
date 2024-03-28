@@ -167,15 +167,15 @@ li:has(> .tab-radio:checked) {
     border-radius: 3px;
     text-decoration: none;
     color: #d2141400;
-    /* z-index: 1; */
     text-align: center;
 }
 #read-more-link:hover {
     transform: scale(1.1);
 }
 #read-more-text {
-    width: 100%;
     position: absolute;
+    width: 100%;
+    
     top: 1.1rem;
     text-align: center;
 }
