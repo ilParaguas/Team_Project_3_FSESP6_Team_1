@@ -1,6 +1,6 @@
 import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
 import { useContext } from "react";
-import { PlaySecButtons } from "./Play-S-Button";
+import { PlayButtons } from "./Play-S-Button";
 
 export default function ZonaPurple() {
   const data = useContext(PlaySectionsContext);
@@ -28,7 +28,7 @@ export default function ZonaPurple() {
               <p id="textoAcercate" className="textoAcercate">
                 {data.textoAcercate}
               </p>
-            <PlaySecButtons 
+            <PlayButtons
            texto={data.botonMasInfo}/>
             </div>
             

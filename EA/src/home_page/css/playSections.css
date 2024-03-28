@@ -15,46 +15,73 @@ body {
     margin-top: 100px;
   }
   
-  /*BUTTON*/
+  /*BUTTON HEADER*/
 
-  .play-s-buttons {
-    position: relative;
-    margin: 1rem;
-    font-size: 1.13rem;
-    display: inline-block;
-    justify-self: center;
-}
- .play-s-buttons-link {
-    display: block;
-    position: relative;
-    height: 3rem;
-    width: 12rem;
-    border: 2px solid #fcf9f9;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #d2141400;
-    text-align: center;
-}
-.play-s-buttons-link:hover {
-    transform: scale(1.1);
-}
-.play-s-buttons-text {
-    font-family: ElectronicArtsDisplay;
-    color: white;
-    width: 100%;
-    position: absolute;
-    top: 1.1rem;
-    text-align: center;
-}
-.fondo-blanco-text{
-  color: black;
-  z-index: 1;
+  .playbuttonH-container {
+   margin-top: 1rem;
+  }
+  .playbuttonH {
+    padding: 1rem 2rem ;
+    background-color: white;
+    border-radius: 3px;
+    border:none; 
+    cursor: pointer;
+    transition: box-shadow 0.1s; 
+    font-size: 16px;
+    text-wrap: nowrap;
+  }
+  .playbuttonH:hover {
+   box-shadow: 0 0 0 3px  white;
+  }
+
+/*BUTTONS FOOTER*/
+
+.playButtonF-container {
+  display: inline-flex;
+ }
+.playButtonF {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem ;
+  background-color: transparent;
+  border-radius: 3px;
+  border: solid black;
+  border-width: 2px ; 
+  font-size: 16px;
+  text-wrap: nowrap;
   cursor: pointer;
 }
-.fondo-blanco-link {
-  background-color: whitesmoke;
-  
+.playButtonF:hover span {
+  transform: scale(0.909); 
 }
+.playButtonF:hover {
+  transform: scale(1.1);
+}
+ 
+/*Boton blanco zona roja*/
+
+.playButtonFWhite {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem ;
+  background-color: transparent;
+  border-radius: 3px;
+  border: solid rgb(248, 248, 248);
+  color:aliceblue;
+  border-width: 2px ; 
+  font-size: 16px;
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+.playButtonFWhite:hover span {
+  transform: scale(0.909); 
+}
+.playButtonFWhite:hover {
+  transform: scale(1.1);
+}
+----------------------------
 
   /*ZONA PURPLE*/
 
@@ -92,6 +119,8 @@ body {
     color: white;
   }
 
+/* ZONA GRIS*/
+
   .imgZonaGris {
     width: 100%;
     height: 7.5vw;
@@ -100,9 +129,9 @@ body {
     position: absolute;
     display: flex;
     margin-left: 20%;
+    margin-right: 10%;
   }
   .parrafoGris {
-    margin-top: 1rem;
     font-family: ElectronicArtsText;
     max-width: 45%;
     margin-right: 20rem;
@@ -155,16 +184,15 @@ body {
     position: absolute;
     display: flex;
     margin-left: 20%;
+    margin-right: 10%;
   }
   .parrafoCeleste {
-    margin-top: 1rem;
     font-family: ElectronicArtsText;
-    max-width: 45%;
-    margin-right: 20rem;
+    width: 55%;
     font-size: 24px;
-    font-family: Helvetica, sans-serif;
     font-weight: bold;
     color: #161616;
+    margin-right: 15rem;
   }
   
   /* MEDIA */
