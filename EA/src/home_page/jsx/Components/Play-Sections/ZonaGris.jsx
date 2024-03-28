@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
-import { PlaySecButtons } from "./Play-S-Button";
+import { PlayButtons} from "./Play-S-Button";
 
 export default function ZonaGris() {
   const data = useContext(PlaySectionsContext);
@@ -18,7 +18,7 @@ export default function ZonaGris() {
             <p id="parrafoGris" className="parrafoGris">
               {data.parrafoGris}
             </p>
-            <PlaySecButtons
+            <PlayButtons
             texto={data.botonJugar}/>
             </div>
          </div>

@@ -1,6 +1,6 @@
 import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
 import { useContext } from "react";
-import { PlaySecButtons } from "./Play-S-Button";
+
 
 export default function ZonaRoja() {
   const data = useContext(PlaySectionsContext);
@@ -29,9 +29,10 @@ export default function ZonaRoja() {
             <p id="parrafoPlay" className="parrafoPlay">
               {data.parrafoPlay}
             </p>
-            <div>
-            <PlaySecButtons
-            texto={data.botonUneteYa}/>
+            <div className="playButtonF-container">
+              <button className="playButtonFWhite" href="#">
+                <span>{data.botonUneteYa}</span>
+              </button>
             </div>
           </div>
         </div>
