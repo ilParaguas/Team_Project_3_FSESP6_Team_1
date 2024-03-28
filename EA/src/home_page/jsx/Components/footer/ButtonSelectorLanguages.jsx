@@ -44,7 +44,7 @@ export default function ButtonSelectorLanguages({ items }) {
     return (
         <>
         {labelItem && <div>
-            <button ref={buttonRef} onClick={() => {
+            <button className="footer-button" ref={buttonRef} onClick={() => {
                 setOpen(open => !open)
             }}>
                 <div>{items.title}</div>

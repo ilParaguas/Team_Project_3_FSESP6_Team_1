@@ -264,6 +264,18 @@ a:visited {
 
 /*                      Servs & Legal                   */
 
+#servs-and-legal {
+    background-color: #f3f3f3;
+    padding: 26px 118px 48px;
+}
+#servs-and-legal-section {       /*   Seccion inicio   */
+    max-width: 1120px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
 #ea-violet {   /* div ea-logo */             
     width: 64px;
     height: 64px;
@@ -292,8 +304,45 @@ a:visited {
     }
 }
 
-.button {
-    max-width: 190px;
+#ea-servs-and-legal {   /*   Contenido de ea servs-legal   */
+    margin-left: 32px;
+
+    flex-grow: 1;
+}
+
+#ea-servs-and-legal > div {     /*   CSS de los dos divs principales   */
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#servs-links {      /*   Links de los servicios   */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.servs-link {
+    margin: 16px 52px 16px 0px;
+    line-height: 112%;
+}
+#servs-links :last-child {
+    margin-right: 0px;
+}
+
+#footer-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.footer-button {
+    width: auto;
+}
+
+#legal-terms {
+    font-size: 16px;
 }
 
 .footer-icon {
