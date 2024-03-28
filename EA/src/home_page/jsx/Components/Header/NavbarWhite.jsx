@@ -1,10 +1,10 @@
+import IconButton from "./IconButton";
 import Dropdown from "./Dropdown";
 import dots from "/src/home_page/media/img/svg/dropdowndots.svg";
 import anvorgesa from "/src/home_page/media/img/svg/anvorgesa.svg";
 import eaimage from "/src/home_page/media/img/svg/ealogo.svg";
-import IconButton from "./IconButton";
 
-export default function NavbarWhite() {
+export default function NavbarWhite({ openSidebar, openSidebarMedia }) {
   const juegos = [
     "EXPLORAR JUEGOS",
     "Últimos juegos",
@@ -50,13 +50,19 @@ export default function NavbarWhite() {
 
   return (
     <div id="f_nav_white">
-      <IconButton id={"f_sidebar_icon"} src={dots} srcClass={"f_svg_drop"} />
       <IconButton
-        id={"f_icon_anvorgesa"}
-        src={anvorgesa}
-        srcClass={"f_svg_drop"}
+        customClick={openSidebar}
+        id="f_sidebar_icon"
+        src={dots}
+        srcClass="f_svg_drop"
       />
-      <IconButton id={"f_eaimage"} src={eaimage} srcClass={""} />
+      <IconButton
+        customClick={openSidebarMedia}
+        id="f_icon_anvorgesa"
+        src={anvorgesa}
+        srcClass="f_svg_drop"
+      />
+      <IconButton id={"f_eaimage"} src={eaimage} aHref={""} />
 
       <Dropdown header={"Juegos"} itemList={juegos} />
       <Dropdown header={"Más experiencias"} itemList={exp} />

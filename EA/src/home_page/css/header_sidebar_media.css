@@ -126,13 +126,13 @@
   transition-timing-function: cubic-bezier(0.5, 0.25, 0.015, 1);
 }
 
-.f_open_big{
+.f_open_big {
   height: 108px;
   opacity: 1;
   visibility: visible;
 }
 
-.f_open{
+.f_open {
   height: 380px;
   opacity: 1;
   visibility: visible;
@@ -145,4 +145,8 @@
 .f_rotatechevron2 {
   transform: rotate(-45deg);
   margin-left: -12px;
+}
+
+.f_sidebar_media_content_header p {
+  margin: 16px 0px;
 }

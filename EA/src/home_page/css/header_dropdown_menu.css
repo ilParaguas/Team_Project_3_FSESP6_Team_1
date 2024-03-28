@@ -25,8 +25,8 @@
   transform: scaleY(0);
   top: 100px;
   transform-origin: top;
-  transition-delay: .1s;
-  transition-duration: .3s;
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
   transition-property: transform, visibility;
   transition-timing-function: cubic-bezier(0.5, 0.25, 0.015, 1);
 }
@@ -38,7 +38,7 @@
   margin: 8px 0 8px 0;
 }
 
-.f_dropdown:hover,
+.f_dropdown:hover .f_dropbtn,
 .f_dropcontent a:hover {
   cursor: pointer;
   color: #ff6347;
@@ -82,9 +82,11 @@
 
 .f_dropdown:hover span:nth-child(1) {
   transform: rotate(45deg);
+  border-top: 0.1em solid tomato;
 }
 
 .f_dropdown:hover span:nth-child(2) {
   transform: rotate(-45deg);
   margin-left: -12px;
+  border-top: 0.1em solid tomato;
 }
