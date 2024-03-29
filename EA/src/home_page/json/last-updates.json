@@ -6,12 +6,12 @@
     },
     "en-us":{
         "url":"src/home_page/json/last-updates-en-us.json",
-        "title": "Last Updates",
+        "title": "Latest Updates",
         "readMore": "Read More"
     },
     "en-gb":{
         "url":"src/home_page/json/last-updates-en-gb.json",
-        "title": "Last Updates",
+        "title": "Latest Updates",
         "readMore": "Read More"
     }
 }
