@@ -1,0 +1,17 @@
+{
+    "es-es":{
+        "title": "Juegos Destacados",
+        "buttonText": "Últimos Juegos",
+        "linkText": "Sitio oficial"
+    },
+    "en-us":{
+        "title": "Featured Games",
+        "buttonText": "Latest Games",
+        "linkText": "Official Site"
+    },
+    "en-gb":{
+        "title": "Featured Games",
+        "buttonText": "Latest Games",
+        "linkText": "Official Site"
+    }
+}

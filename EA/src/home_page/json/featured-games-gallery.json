@@ -1,0 +1,33 @@
+[
+    {
+        "game": "UFC",
+        "urlImg":"ufc-5-fondo.jpg",
+        "urlLogo": "ufc-5-logo.svg"
+    },
+    {
+        "game": "FIFA",
+        "urlImg":"fc24-fondo.jpeg",
+        "urlLogo": "fc24-logo.png"
+    },
+    {
+        "game": "F1",
+        "urlImg":"f123-fondo.jpg",
+        "urlLogo": "f123-logo.png"
+    },
+    {
+        "game": "Need For Speed",
+        "urlImg":"nfs-fondo.png",
+        "urlLogo": "nfs-unbound-logo.png"
+    },
+    {
+        "game": "The Sims 4",
+        "urlImg":"the-sims-4-fondo.jpg",
+        "urlLogo": ""
+    },
+    {
+        "game": "Apex Legends",
+        "urlImg":"apex-legends-fondo.jpg",
+        "urlLogo": "apex-legends-mono-logo.svg"
+    }
+    
+]
