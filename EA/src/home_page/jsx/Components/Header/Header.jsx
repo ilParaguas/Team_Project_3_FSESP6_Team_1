@@ -1,8 +1,10 @@
 import Sidebar from "./Sidebar";
 import Sidebar_media from "./Sidebar_media";
 import Cover from "./Cover";
-import NavbarWhite from "./NavbarWhite";
 import NavbarBlack from "./NavbarBlack";
+import NavUsername from "./NavUsername";
+import NavbarWhite from "./NavbarWhite";
+import NavHelp from "./NavHelp";
 import { useEffect } from "react";
 
 export default function Header() {
@@ -30,8 +32,10 @@ export default function Header() {
     sidebar.style.top = "0px";
     sidebar_media.style.width = "0px";
     sidebar_media.style.top = "0px";
+    nav_username.style.height = "0px";
+    nav_help.style.height = "0px";
     cover.style.opacity = 0;
-    cover.style.display = "none";
+    cover.style.visibility = "hidden";
 
     if (navBlack.style.top == "0px" && window.scrollY != 0) {
       editBlackNavbar("-40px", "0px");
@@ -40,11 +44,9 @@ export default function Header() {
     document.body.style.overflow = "auto";
   }
 
-  function openSidebar() {
-    sidebar.style.width = "20rem";
-    sidebar.style.top = "40px";
+  function openCover() {
     cover.style.opacity = 0.85;
-    cover.style.display = "block";
+    cover.style.visibility = "visible";
 
     if (navBlack.style.top == "-40px") {
       editBlackNavbar("0px", "40px");
@@ -53,16 +55,38 @@ export default function Header() {
     document.body.style.overflow = "hidden";
   }
 
+  function openSidebar() {
+    sidebar.style.width = "20rem";
+    sidebar.style.top = "40px";
+    openCover();
+  }
+
   function openSidebarMedia() {
     sidebar_media.style.width = "86.5%";
     sidebar_media.style.top = "40px";
-    cover.style.opacity = 0.85;
-    cover.style.display = "block";
+    openCover();
+  }
 
-    if (navBlack.style.top == "-40px") {
-      editBlackNavbar("0px", "40px");
+  function handleUsername() {
+    if (nav_username.style.height !== "400px") {
+      nav_username.style.height = "400px";
+      document.body.style.overflow = "hidden";
+      nav_help.style.height = "0px";
+    } else {
+      nav_username.style.height = "0px";
+      document.body.style.overflow = "auto";
     }
-    document.body.style.overflow = "hidden";
+  }
+
+  function handleHelp() {
+    if (nav_help.style.height !== "400px") {
+      nav_help.style.height = "400px";
+      document.body.style.overflow = "hidden";
+      nav_username.style.height = "0px";
+    } else {
+      nav_help.style.height = "0px";
+      document.body.style.overflow = "auto";
+    }
   }
 
   return (
@@ -71,7 +95,9 @@ export default function Header() {
       <Sidebar_media close={close} />
       <Cover close={close} />
       <div id="f_nav">
-        <NavbarBlack />
+        <NavbarBlack handleUsername={handleUsername} handleHelp={handleHelp} />
+        <NavUsername />
+        <NavHelp />
         <NavbarWhite
           openSidebar={openSidebar}
           openSidebarMedia={openSidebarMedia}

@@ -3,6 +3,7 @@ export default function IconButton({
   id,
   aHref,
   aClass,
+  aText,
   src,
   srcClass,
   srcId,
@@ -10,6 +11,7 @@ export default function IconButton({
   return (
     <a id={id} href={aHref} className={aClass} onClick={customClick}>
       <img src={src} className={srcClass} id={srcId} />
+      {aText}
     </a>
   );
 }

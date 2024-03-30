@@ -1,23 +1,26 @@
+import IconButton from "./IconButton";
+
 import usericon from "/src/home_page/media/img/svg/usericon.svg";
 import question from "/src/home_page/media/img/svg/questionmark.svg";
 import ealogo from "/src/home_page/media/img/svg/ealogonav.svg";
-import IconButton from "./IconButton";
 
-export default function NavbarBlack() {
+export default function NavbarBlack({ handleUsername, handleHelp }) {
   return (
     <div id="f_nav_black">
-      <ul className="f_nav_ul">
+      <div className="f_nav_ul">
         <IconButton
           id={"f_username_icon"}
           aClass={"f_nav_li"}
           src={usericon}
           srcClass={"f_nav_svg"}
+          customClick={handleUsername}
         />
         <IconButton
           id={"f_help_icon"}
           aClass={"f_nav_li"}
           src={question}
           srcClass={"f_nav_svg"}
+          customClick={handleHelp}
         />
         <IconButton
           id={"f_eaicon"}
@@ -26,7 +29,7 @@ export default function NavbarBlack() {
           srcClass={"f_nav_svg"}
           srcId={"f_ealogo"}
         />
-      </ul>
+      </div>
     </div>
   );
 }
