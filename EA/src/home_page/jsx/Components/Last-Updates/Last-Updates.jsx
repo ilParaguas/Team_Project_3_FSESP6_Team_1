@@ -11,13 +11,12 @@ import { useLastUpdatesTexts } from "../../Hooks/useLastUpdatesTexts";
 
 export function LastUpdates() {
   const [selectedTab, setSelectedTab] = useState("");
-
   const lang = useContext(LanguageContext);
   const { texts, getTexts } = useLastUpdatesTexts(lang);
   const { news, getNews } = useUpdateNews(texts?.url);
   const splitUrl = window.location.href.split("#");
   const navigate = useNavigate();
-  console.log("render")
+
   useEffect(() => {
     getTexts();
   }, [lang]);
