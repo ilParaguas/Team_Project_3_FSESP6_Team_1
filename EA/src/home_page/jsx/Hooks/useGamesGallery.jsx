@@ -1,14 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-export function useUpdateNews(url) {
-  const [news, setNews] = useState(null);
-  const getNews = async () => {
+export function useGamesGallery(url) {
+  const [gallery, setGallery] = useState([]);
+  const getGallery = async () => {
     try {
       if (url) {
         const r = await fetch(url);
         if (r.status === 200) {
           const json = await r.json();
-          setNews(json);
+          setGallery(json);
         } else {
           throw new Error(r.status);
         }
@@ -17,5 +17,5 @@ export function useUpdateNews(url) {
       console.error(error);
     }
   };
-  return {news,getNews};
+  return {gallery,getGallery};
 }
