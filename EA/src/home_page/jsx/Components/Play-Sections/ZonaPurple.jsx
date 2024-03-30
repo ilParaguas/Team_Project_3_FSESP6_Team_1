@@ -4,7 +4,6 @@ import { PlayButtons } from "./Play-S-Button";
 
 export default function ZonaPurple() {
   const data = useContext(PlaySectionsContext);
-
   return (
     <>
       {data && (
@@ -29,9 +28,11 @@ export default function ZonaPurple() {
                 {data.textoAcercate}
               </p>
             <PlayButtons
-           texto={data.botonMasInfo}/>
+           texto= {data.botonMasInfo}
+           playButtonContainer= {'playButtonH-container'}
+           playButton= {"playButtonH"}
+           />
             </div>
-            
           </div>
         </div>
       )}

@@ -1,10 +1,8 @@
-
-export  function PlayButtons({ texto })  {
+export function PlayButtons({ texto, playButton})  {
   return (
-    <div className='playbuttonH-container'>
-      <button className="playbuttonH" href="#">
-        <a>{texto}</a></button>
-    </div>
+      <button className={playButton} href="#">
+        <span>{texto}</span>
+        </button>
   );
 }
 

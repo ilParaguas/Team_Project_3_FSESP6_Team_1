@@ -8,7 +8,6 @@ import { LanguageContext } from "../../Contexts/LanguageContext";
 export function PlaySectionsHeader(){
   const language = useContext(LanguageContext)
   const json = usePlaySections(language)
-
     return(
         <div>
            <PlaySectionsContext.Provider value={json}>

@@ -2,25 +2,21 @@ body {
     margin: 0;
     width: 100%;
   }
+  
   .zona-purple,
   .zona-gris,
   .zona-roja,
   .zona-celeste {
     width: 100%;
-    display: flex;
+    display: grid;
     align-items: center;
   }
-
   .zona-purple {
     margin-top: 100px;
   }
   
   /*BUTTON HEADER*/
-
-  .playbuttonH-container {
-   margin-top: 1rem;
-  }
-  .playbuttonH {
+  .playButtonH {
     padding: 1rem 2rem ;
     background-color: white;
     border-radius: 3px;
@@ -30,15 +26,11 @@ body {
     font-size: 16px;
     text-wrap: nowrap;
   }
-  .playbuttonH:hover {
+  .playButtonH:hover {
    box-shadow: 0 0 0 3px  white;
   }
 
 /*BUTTONS FOOTER*/
-
-.playButtonF-container {
-  display: inline-flex;
- }
 .playButtonF {
   display: inline-flex;
   justify-content: center;
@@ -81,42 +73,42 @@ body {
 .playButtonFWhite:hover {
   transform: scale(1.1);
 }
-----------------------------
+------------------------------------
 
   /*ZONA PURPLE*/
-
   .imgZonaPurple {
     width: 100%;
     height: auto;
-  }
+   }
+
   .formula1-contenido {
-    font-family: ElectronicArtsText;
-    margin-left: 50%;
-    display: grid;
-    position: absolute;
-  }
-  .imagenFormula1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     justify-self: center;
-    max-width: 35vw;
+    font-family: ElectronicArtsText;
+    position: absolute;
+    margin-left: 45%;
+    width: 45%;
   }
   .ParrafoAcercate{
     font-family: ElectronicArtsText;
     font-weight: bold;
     line-height: 3rem;
     font-size: 45px;
-  }
-  .textoAcercate{
-    line-height: 1.5rem;
-    max-width: 35vw;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: ElectronicArtsText;
+    text-wrap: nowrap;
   }
   .parrafoFormula1 {
     margin-top: 10px;
     margin-bottom: 15px;
-    text-align: center;
     color: white;
+  }
+  .textoAcercate{
+    line-height: 1.5rem;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: ElectronicArtsText;
+    width: 95%;
   }
 
 /* ZONA GRIS*/
@@ -128,16 +120,14 @@ body {
   .zona-gris-contenido {
     position: absolute;
     display: flex;
-    margin-left: 20%;
-    margin-right: 10%;
+    justify-content: center;
+    width: 80%;
   }
   .parrafoGris {
     font-family: ElectronicArtsText;
-    max-width: 45%;
-    margin-right: 20rem;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+     color: aliceblue;
   }
 
  /*ZONA ROJA*/
@@ -173,7 +163,6 @@ body {
     color: rgb(219, 218, 218);
   }
   
-  
   /*ZONA CELESTE*/
   
   .imgZonaCeleste {
@@ -194,40 +183,36 @@ body {
     color: #161616;
     margin-right: 15rem;
   }
-  
+
   /* MEDIA */
   
   @media (max-width: 1456px) {
     /*zona Azul*/
-  
     .imgZonaPurple {
       width: 100%;
-      height: 35vw;
+      height: auto;
+     }
+
+    .imagenFormula1 {
+      width: 35vw;
     }
-    .team-of-the-year {
-      margin-left: 10%;
-      max-width: 40%;
+    .formula1-contenido{
+     justify-items: center;
+     max-width: 50%;
     }
     .ParrafoAcercate{
-      text-wrap: nowrap;
-      font-size: 38px;
+      text-wrap: wrap;
+      font-size: 44px;
     }
     .textoAcercate{
-      max-width: 40vw;
-      font-size: 16px;
+      font-size: 18px;
     }
     
-
     /*zona Gris*/
-    .imgZonaGris{
-      height: 7vw;
-    }
+   
     .parrafoGris {
-      font-size: 22px;
+      font-size: 24px;
       margin-right: 20%;
-      padding-right: 5rem;
-      max-width: 70%;
-      padding-right: 5rem;
     }
     .zona-gris-contenido {
       margin-left: 10%;
@@ -235,21 +220,21 @@ body {
 
     /*zona roja*/
   
-    .PlayLogo {
-      margin-left: 5rem;
-    }
     .imgZonaRoja {
       height: 35vw;
     }
     .imgZonaRojaGradient {
       height: 35vw;
     }
-    .play-container {
+    .play-container{
       margin-left: 10%;
-      max-width: 38%;
+      max-width: 45%;
+    }
+    .parrafoPlay {
+     font-size: 18px; 
     }
     .playLogo {
-      width: 15vw;
+      width: 20vw;
     }
   
     /*zona celeste*/
@@ -257,32 +242,42 @@ body {
       margin-left: 10%;
     }
     .parrafoCeleste {
+      padding-right: 5rem;
       font-size: 22px;
-      max-width: 90%;
     }
   }
-  @media (max-width: 1300px) {
 
-  .imgZonaGris{
-    height: 7.5vw;
+  @media (max-width: 1200px) {
+    .imgZonaPurple {
+      width: 100%;
+      height: 38vw;
+     }
+
+    .imagenFormula1 {
+      width: 40vw;
+      margin-bottom: 0;
+    }
+  .formula1-contenido{
+    justify-items: center;
+    max-width: 50%;
+   }
   }
-}
+  /* ------> voy por aqui <------ */
+
   @media (max-width: 1185px) {
     .imgZonaGris{
       height: 8vw;
     }
-    /*zona Azul*/
+    /*zona Purple*/
   
     .ParrafoAcercate {
-      font-size: 34px;
+      text-wrap: wrap;
+      font-size: 40px;
     }
-    #team-of-the-year {
-      margin-left: 10%;
-      max-width: 40%;
-    }
-    #imagenTOTY {
-      content: url("sources EA/team-of-the-year2x1.1023w.png");
-      max-width: 35vw;
+    
+    .imagenFormula1 {
+      content: url("/src/home_page/media/Play-Sections/f124-2x1.1023w.png");
+      max-width: 40vw;
     }
   
     /*zona roja*/

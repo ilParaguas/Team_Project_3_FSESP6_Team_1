@@ -4,7 +4,6 @@ import { PlayButtons} from "./Play-S-Button";
 
 export default function ZonaGris() {
   const data = useContext(PlaySectionsContext);
-
   return (
     <>
       {data && (
@@ -19,10 +18,12 @@ export default function ZonaGris() {
               {data.parrafoGris}
             </p>
             <PlayButtons
-            texto={data.botonJugar}/>
+             texto={data.botonJugar}
+             playButtonContainer= {'playButtonH-container'}
+             playButton= {"playButtonH"}
+             />
             </div>
          </div>
-        
       )}
     </>
   );
