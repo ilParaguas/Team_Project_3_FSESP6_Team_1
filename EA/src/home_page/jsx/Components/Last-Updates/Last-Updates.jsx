@@ -11,33 +11,50 @@ import { useLastUpdatesTexts } from "../../Hooks/useLastUpdatesTexts";
 
 export function LastUpdates() {
   const [selectedTab, setSelectedTab] = useState("");
-  const texts = useLastUpdatesTexts(useContext(LanguageContext))
-  const newsJson = useUpdateNews(texts&&texts.url);
+
+  const lang = useContext(LanguageContext);
+  const { texts, getTexts } = useLastUpdatesTexts(lang);
+  const { news, getNews } = useUpdateNews(texts?.url);
   const splitUrl = window.location.href.split("#");
   const navigate = useNavigate();
-
+  console.log("render")
+  useEffect(() => {
+    getTexts();
+  }, [lang]);
+  useEffect(() => {
+    getNews();
+  }, [texts]);
   useEffect(
-    () => setTab(splitUrl[1], newsJson, selectedTab, setSelectedTab, navigate),
+    () => setTab(splitUrl[1], news, selectedTab, setSelectedTab, navigate),
     [splitUrl]
   );
   return (
     <section id="last-updates">
-      <h2 id="updates-title">{texts && texts.title}</h2>
-      <NewsContext.Provider value={newsJson}>
-        <TabContext.Provider value={{selectedTab,setSelectedTab}}>
-          <TabsBar />
-          <div className="hr"></div>
-          <div id="news">
-            <CardsUpdates />
-            <ReadMore text={texts && texts.readMore}/>
-          </div>
-        </TabContext.Provider>
-      </NewsContext.Provider>
+      {texts && (
+        <>
+          <h2 id="updates-title">{texts.title}</h2>
+          <NewsContext.Provider value={news}>
+            <TabContext.Provider value={{ selectedTab, setSelectedTab }}>
+              <TabsBar />
+              <div className="hr"></div>
+              <div id="news">
+                <CardsUpdates />
+                <ReadMore text={texts.readMore} />
+              </div>
+            </TabContext.Provider>
+          </NewsContext.Provider>
+        </>
+      )}
     </section>
   );
 }
 const setTab = (newTab, json, prevTab, setSelectedTab, navigate) => {
-  if (newTab && json && Object.keys(json).includes(newTab) && prevTab != newTab) {
+  if (
+    newTab &&
+    json &&
+    Object.keys(json).includes(newTab) &&
+    prevTab != newTab
+  ) {
     setSelectedTab(newTab);
   } else if (json && !prevTab) {
     if (newTab && !Object.keys(json).includes(newTab)) {

@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 export function useGamesGallery(url) {
-  const [galleryJson, setGalleryJson] = useState(null);
+  const [gallery, setGallery] = useState([]);
   const getGallery = async () => {
     try {
       if (url) {
         const r = await fetch(url);
         if (r.status === 200) {
           const json = await r.json();
-          setGalleryJson(json);
+          setGallery(json);
         } else {
           throw new Error(r.status);
         }
@@ -17,8 +17,5 @@ export function useGamesGallery(url) {
       console.error(error);
     }
   };
-  useEffect(() => {
-    getGallery();
-  }, [url]);
-  return galleryJson;
+  return {gallery,getGallery};
 }

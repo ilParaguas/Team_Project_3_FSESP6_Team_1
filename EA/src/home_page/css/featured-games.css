@@ -6,54 +6,65 @@
     font-size: 25px;
     padding-top: 2rem;
     background-color: #f3f3f3;
+    
+}
+#games-title {
+    margin-top: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: ElectronicArtsDisplay;
 }
 
-#games {
+#gameGallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    max-width: 1100px;
+    gap: 1.7rem;
 }
 
-.divZona {
+.gameLink {
+    display: flex;
     background: black;
     position: relative;
     max-width: 345px;
 }
 
-.divZona:hover {
+.gameLink:hover {
     background: linear-gradient(90deg, rgba(10, 4, 102, 1) 0%, rgba(247, 0, 9, 1) 100%);
 }
 
-.divZona:hover .imgClass {
+.gameLink:hover .gameImage {
     opacity: .2;
     transition: 300ms;
 }
 
-.divZona:hover .logoClass {
+.gameLink:hover .gameLogo{
     transform: translateY(-100%);
 }
 
-.divZona:hover .spanClass {
+.gameLink:hover .gameLinkSpan {
     display: inline;
 }
 
-.imgClass {
+.gameImage {
     width: 100%;
-    height: 100%;
     background-color: black;
     opacity: .7;
 }
-
-.logoClass {
+.floatingLogo{
     position: absolute;
-    width: 45%;
-    top: 45%;
-    left: 32%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameLogo {
+    position: relative;
     transition: all 0.3s;
 }
 
-.spanClass {
+.gameLinkSpan {
+    font-size: 18px;
     color: white;
     position: absolute;
     top: 0;
@@ -63,33 +74,41 @@
     padding-top: 50%;
     display: none;
 }
+
 @media(max-width: 1455px) {
-    
-    #games{
-        margin: 0 8.3vw; 
+
+    #gameGallery {
+        margin: 0 8.3vw;
         max-width: none;
     }
-    .divZona{
+
+    .gameLink {
         max-width: none;
     }
 }
 
 @media(max-width: 1025px) {
-    #games {
+    #games-title {
+        font-size: 2rem;
+    }
+    #gameGallery {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        margin: 0 9.3vw; 
+        margin: 0 9.3vw;
     }
 }
 
 @media (max-width: 770px) {
-    @media(max-width: 1025px) {
-        #games {
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(6, 1fr);
-            align-self: stretch;
-            margin: 0 7.5vw;
-        }
+
+    #gameGallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        align-self: stretch;
+        margin: 0 7.5vw;
+    }
+
+    .gameLinkSpan {
+        font-size: 16px;
     }
 
 }
