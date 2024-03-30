@@ -2,7 +2,6 @@ body {
     margin: 0;
     width: 100%;
   }
-  
   .zona-purple,
   .zona-gris,
   .zona-roja,
@@ -66,6 +65,7 @@ body {
   font-size: 16px;
   text-wrap: nowrap;
   cursor: pointer;
+  width: 10rem;
 }
 .playButtonFWhite:hover span {
   transform: scale(0.909); 
@@ -73,7 +73,6 @@ body {
 .playButtonFWhite:hover {
   transform: scale(1.1);
 }
-------------------------------------
 
   /*ZONA PURPLE*/
   .imgZonaPurple {
@@ -89,7 +88,7 @@ body {
     font-family: ElectronicArtsText;
     position: absolute;
     margin-left: 45%;
-    width: 45%;
+    width: 40%;
   }
   .ParrafoAcercate{
     font-family: ElectronicArtsText;
@@ -106,9 +105,11 @@ body {
   .textoAcercate{
     line-height: 1.5rem;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-family: ElectronicArtsText;
     width: 95%;
+
   }
 
 /* ZONA GRIS*/
@@ -121,13 +122,15 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
   }
   .parrafoGris {
+    width: 45%;
     font-family: ElectronicArtsText;
     font-size: 24px;
     font-weight: bold;
      color: aliceblue;
+     margin-right: 16rem;
   }
 
  /*ZONA ROJA*/
@@ -157,6 +160,7 @@ body {
   }
   .parrafoPlay {
     margin-top: 20px;
+    margin-bottom: 10px;
     padding-bottom: 12px;
     font-size: 16px;
     font-family: ElectronicArtsText;
