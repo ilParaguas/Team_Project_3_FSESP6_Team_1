@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export function useUpdateNews(url) {
-  const [newsJson, setNewsJson] = useState(null);
+  const [news, setNews] = useState(null);
   const getNews = async () => {
     try {
       if (url) {
         const r = await fetch(url);
         if (r.status === 200) {
           const json = await r.json();
-          setNewsJson(json);
+          setNews(json);
         } else {
           throw new Error(r.status);
         }
@@ -17,8 +17,5 @@ export function useUpdateNews(url) {
       console.error(error);
     }
   };
-  useEffect(() => {
-    getNews();
-  }, [url]);
-  return newsJson;
+  return {news,getNews};
 }

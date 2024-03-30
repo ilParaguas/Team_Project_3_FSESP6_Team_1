@@ -1,13 +1,17 @@
 import { GameCard } from "./Game-Card";
 import { useGamesGallery } from "../../Hooks/useGamesGallery";
+import { useEffect } from "react";
 const url = "src/home_page/json/featured-games-gallery.json";
-export function GameGallery({ texts }) {
-  const gallery = useGamesGallery(url);
+export function GameGallery({ linkText }) {
+  const {gallery,getGallery} = useGamesGallery(url);
+  useEffect(()=>{
+    getGallery();
+  },[]);
   return (
-    <div id="games">
+    <div id="gameGallery">
       {gallery &&
         gallery.map((card, index) => (
-          <GameCard key={index} text={texts?.linkText} content={card} />
+          <GameCard key={index} text={linkText} content={card} />
         ))}
     </div>
   );

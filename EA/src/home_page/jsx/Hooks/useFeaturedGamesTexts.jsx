@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 export function useFeaturedGamesTexts(language) {
-  const [texts, setTexts] = useState(null);
+  const [texts, setTexts] = useState({});
   const getTexts = async () => {
     try {
       const r = await fetch(`src/home_page/json/featured-games.json`);
@@ -14,8 +14,5 @@ export function useFeaturedGamesTexts(language) {
       console.error(error);
     }
   };
-  useEffect(() => {
-    getTexts();
-  }, [language]);
-  return texts;
+  return {texts,getTexts};
 }

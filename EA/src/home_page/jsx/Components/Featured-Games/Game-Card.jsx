@@ -1,20 +1,23 @@
 export function GameCard({ text, content }) {
   return (
-    <a className="divZona" href="#">
+    <a className="gameLink" href="#">
       <img
-        className="imgClass"
+        className="gameImage"
         src={"./src/home_page/media/img/featured-games/" + content.urlImg}
         alt={content.game}
       />
 
       {content.urlLogo && (
-        <img
-          className="logoClass"
-          src={"./src/home_page/media/img/featured-games/" + content.urlLogo}
-          alt={content.game + " Logo"}
-        />
+        <div className="floatingLogo">
+          <img
+            style={{width:content.width}}
+            className="gameLogo"
+            src={"./src/home_page/media/img/featured-games/" + content.urlLogo}
+            alt={content.game + " Logo"}
+          />
+        </div>
       )}
-      <span className="spanClass">{text}</span>
+      <span className="gameLinkSpan">{text}</span>
     </a>
   );
 }
