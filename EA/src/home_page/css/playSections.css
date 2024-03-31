@@ -83,7 +83,7 @@ body {
   width: 100%;
   height: auto;
 }
-.imagenFormula1{
+.imagenFormula1 {
   width: 30vw;
 }
 .formula1-contenido {
@@ -684,35 +684,68 @@ body {
     height: 70vw;
   }
 }
-@media (max-width: 300px){
-  .imgZonaCeleste{
+@media (max-width: 300px) {
+  .imgZonaCeleste {
     height: 75vw;
   }
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 100%;
   }
-  .ParrafoAcercate{
+  .ParrafoAcercate {
     font-size: 30px;
   }
-  .textoAcercate{
+  .textoAcercate {
     font-size: 12px;
   }
-  .imgZonaGris{
+  .imgZonaGris {
     height: 100%;
   }
-  .imgZonaCeleste{
+  .imgZonaCeleste {
     height: 100vw;
   }
 }
-@media (max-width: 250px){
-  .imgZonaPurple{
+@media (max-width: 250px) {
+  .imgZonaPurple {
     height: 250vw;
   }
-  .ParrafoAcercate{
+  .ParrafoAcercate {
     font-size: 24px;
     line-height: 2rem;
   }
-  .parrafoGris{
+  .parrafoGris {
     font-size: 18px;
+  }
+}
+@media (max-width: 200px) {
+  .imgZonaPurple {
+    height: 290vw;
+  }
+  .textoAcercate {
+    line-height: 1.1rem;
+  }
+  .imgZonaGris {
+    height: 150vw;
+  }
+  .imgZonaCeleste {
+    height: 150vw;
+  }
+  .imgZonaRoja {
+    height: 210vw;
+  }
+  .imgZonaRojaGradient {
+    height: 210vw;
+  }
+  .parrafoPlay {
+    font-size: 12px;
+    line-height: 1.3rem;
+  }
+  .playButtonH {
+    font-size: 12px;
+  }
+  .playButtonF {
+    font-size: 12px;
+  }
+  .playButtonFWhite {
+    font-size: 12px;
   }
 }
