@@ -1,6 +1,6 @@
 import { PlaySectionsContext } from "../../Contexts/PlaySectionsContext";
 import { useContext } from "react";
-import { PlayButtons} from "./Play-S-Button";
+import { PlayButtons } from "./Play-S-Button";
 
 export default function ZonaCeleste() {
   const data = useContext(PlaySectionsContext);
@@ -18,10 +18,10 @@ export default function ZonaCeleste() {
               {data.parrafoCeleste}
             </p>
             <PlayButtons
-             texto={data.botonInfoCeleste}
-             playButtonContainer= {'playButtonF-container'}
-             playButton={"playButtonF"}
-             />
+              texto={data.botonInfoCeleste}
+              playButtonContainer={"playButtonF-container"}
+              playButton={"playButtonF"}
+            />
           </div>
         </div>
       )}

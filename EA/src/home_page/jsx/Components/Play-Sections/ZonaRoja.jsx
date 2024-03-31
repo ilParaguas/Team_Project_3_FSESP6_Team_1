@@ -29,14 +29,13 @@ export default function ZonaRoja() {
               {data.parrafoPlay}
             </p>
             <PlayButtons
-           texto= {data.botonUneteYa}
-           playButtonContainer= {'playButtonH-container'}
-           playButton= {"playButtonFWhite"}
-           />
+              texto={data.botonUneteYa}
+              playButtonContainer={"playButtonH-container"}
+              playButton={"playButtonFWhite"}
+            />
           </div>
         </div>
       )}
     </>
   );
 }
-

@@ -27,11 +27,11 @@ export default function ZonaPurple() {
               <p id="textoAcercate" className="textoAcercate">
                 {data.textoAcercate}
               </p>
-            <PlayButtons
-           texto= {data.botonMasInfo}
-           playButtonContainer= {'playButtonH-container'}
-           playButton= {"playButtonH"}
-           />
+              <PlayButtons
+                texto={data.botonMasInfo}
+                playButtonContainer={"playButtonH-container"}
+                playButton={"playButtonH"}
+              />
             </div>
           </div>
         </div>
