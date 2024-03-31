@@ -166,3 +166,7 @@
   transform: translate3d(-50%, -40%, 0);
   height: 22%;
 }
+
+.f_sidebar_text:hover {
+  color: tomato;
+}

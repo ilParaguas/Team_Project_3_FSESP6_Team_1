@@ -12,6 +12,7 @@ export default function Sidebar_media({ close }) {
             aClass="f_sidebar_media_text"
             srcClass="f_sidebar_media_himage"
             src={ealogo}
+            aHref={""}
           />
           <img
             className="f_sidebar_media_x"

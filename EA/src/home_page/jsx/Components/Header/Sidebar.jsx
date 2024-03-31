@@ -26,13 +26,11 @@ export default function Sidebar({ close }) {
     <div className="f_sidebar" id="f_sidebar">
       <div className="f_sidebar_wrapper">
         <div className="f_sidebar_top">
-          <a className="f_sidebar_text"> Todos los juegos</a>
-          <img
-            className="f_nav_x"
-            id="f_closebtn"
-            src={x}
-            onClick={close}
-          />
+          <a className="f_sidebar_text" href="">
+            {" "}
+            Todos los juegos
+          </a>
+          <img className="f_nav_x" id="f_closebtn" src={x} onClick={close} />
         </div>
 
         <div className="f_sidebar_content">
