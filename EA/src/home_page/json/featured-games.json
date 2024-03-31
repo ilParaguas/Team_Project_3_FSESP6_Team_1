@@ -1,17 +1,50 @@
 {
-    "es-es":{
-        "title": "Juegos Destacados",
-        "buttonText": "Últimos Juegos",
-        "linkText": "Sitio oficial"
+  "es-es": {
+    "title": "Juegos Destacados",
+    "latestGames":{
+        "linkText": "Últimos Juegos",
+        "link":"https://www.ea.com/es-es/games"
     },
-    "en-us":{
-        "title": "Featured Games",
-        "buttonText": "Latest Games",
-        "linkText": "Official Site"
+    "linkText": "Sitio oficial",
+    "gameLinks": [
+      "https://www.ea.com/es-es/games/ufc/ufc-5",
+      "https://www.ea.com/es-es/games/ea-sports-fc/fc-24",
+      "https://www.ea.com/es-es/games/f1/f1-23",
+      "https://www.ea.com/es-es/games/need-for-speed/need-for-speed-unbound",
+      "https://www.ea.com/es/games/the-sims/the-sims-4",
+      "https://www.ea.com/es-es/games/apex-legends"
+    ]
+  },
+  "en-us": {
+    "title": "Featured Games",
+    "latestGames":{
+        "linkText": "Latest Games",
+        "link":"https://www.ea.com/games"
     },
-    "en-gb":{
-        "title": "Featured Games",
+    "linkText": "Official Site",
+    "gameLinks": [
+        "https://www.ea.com/games/ufc/ufc-5",
+        "https://www.ea.com/games/ea-sports-fc/fc-24",
+        "https://www.ea.com/games/f1/f1-23",
+        "https://www.ea.com/games/need-for-speed/need-for-speed-unbound",
+        "https://www.ea.com/games/the-sims/the-sims-4",
+        "https://www.ea.com/games/apex-legends"
+      ]
+  },
+  "en-gb": {
+    "title": "Featured Games",
+    "latestGames":{
         "buttonText": "Latest Games",
-        "linkText": "Official Site"
-    }
+        "link":"https://www.ea.com/games"
+    },
+    "linkText": "Official Site",
+    "gameLinks": [
+      "https://www.ea.com/games/ufc/ufc-5",
+      "https://www.ea.com/games/ea-sports-fc/fc-24",
+      "https://www.ea.com/games/f1/f1-23",
+      "https://www.ea.com/games/need-for-speed/need-for-speed-unbound",
+      "https://www.ea.com/games/the-sims/the-sims-4",
+      "https://www.ea.com/games/apex-legends"
+    ]
+  }
 }
