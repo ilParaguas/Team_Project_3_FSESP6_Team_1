@@ -1,6 +1,8 @@
-export function GameCard({ text, content }) {
+import { Link } from "react-router-dom"
+
+export function GameCard({ text, content, link }) {
   return (
-    <a className="gameLink" href="#">
+    <Link className="gameLink" to={link}>
       <img
         className="gameImage"
         src={"./src/home_page/media/img/featured-games/" + content.urlImg}
@@ -18,6 +20,6 @@ export function GameCard({ text, content }) {
         </div>
       )}
       <span className="gameLinkSpan">{text}</span>
-    </a>
+    </Link>
   );
 }
