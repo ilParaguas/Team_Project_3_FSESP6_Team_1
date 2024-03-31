@@ -10,7 +10,7 @@ export default function ZonaCeleste() {
         <div id="zona-celeste" className="zona-celeste">
           <img
             id="imgZonaCeleste"
-            src="./src/home_page/media/Play-Sections/celeste.1920w.jpg"
+            src="/src/home_page/media/Play-Sections/celeste.1920w.jpg"
             className="imgZonaCeleste"
           />
           <div id="zona-celeste-contenido" className="zona-celeste-contenido">

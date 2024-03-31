@@ -50,7 +50,7 @@ body {
   transform: scale(0.975);
 }
 .playButtonF:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /*Boton blanco zona roja*/
@@ -74,7 +74,7 @@ body {
   transform: scale(0.975);
 }
 .playButtonFWhite:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /*ZONA PURPLE*/
@@ -83,7 +83,6 @@ body {
   width: 100%;
   height: auto;
 }
-
 .imagenFormula1{
   width: 30vw;
 }
@@ -95,7 +94,8 @@ body {
   font-family: ElectronicArtsText;
   position: absolute;
   margin-left: 45%;
-  width: 40%;
+  width: 35%;
+  text-wrap: wrap;
 }
 .ParrafoAcercate {
   font-family: ElectronicArtsText;
@@ -135,7 +135,7 @@ body {
   font-size: 26px;
   font-weight: bold;
   color: aliceblue;
-  margin-right: 18rem;
+  margin-right: 20%;
 }
 
 /*ZONA ROJA*/
@@ -155,7 +155,7 @@ body {
 .play-container {
   display: flex;
   position: absolute;
-  margin-left: 15%;
+  margin-left: 20%;
   display: grid;
   max-width: 30vw;
   z-index: 3;
@@ -190,7 +190,7 @@ body {
   font-size: 26px;
   font-weight: bold;
   color: #161616;
-  margin-right: 25rem;
+  margin-right: 20%;
 }
 
 /* MEDIA */
@@ -264,7 +264,7 @@ body {
 
   /*zona celeste*/
   .parrafoCeleste {
-    padding-right: 5rem;
+    padding-right: 10%;
     font-size: 22px;
     width: 35%;
   }
@@ -291,10 +291,6 @@ body {
     line-height: 1.4rem;
     margin-top: 0;
     font-size: 18px;
-  }
-  /*zona celeste*/
-  .parrafoCeleste {
-    margin-right: 15rem;
   }
 }
 
@@ -559,81 +555,82 @@ body {
 }
 
 @media (max-width: 580px) {
-.imgZonaGris{
-content: url("/src/home_page/media/Play-Sections/gris.jpg.adapt.320w.jpg");
-height: 35vw;
-}
-.playLogo{
-  width: 43vw;
-}
-.parrafoCeleste{
-  font-size: 22px;
-  width: 85%;
-}
-.imgZonaCeleste{
-  height: 33vw;
+  .imgZonaGris {
+    content: url("/src/home_page/media/Play-Sections/gris.jpg.adapt.320w.jpg");
+    height: 35vw;
+  }
+  .playLogo {
+    width: 43vw;
+  }
+  .parrafoCeleste {
+    font-size: 22px;
+    width: 85%;
+  }
+  .imgZonaCeleste {
+    height: 33vw;
   }
 }
 
 @media (max-width: 565px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 128vw;
   }
-  .imagenFormula1{
+  .imagenFormula1 {
     width: 85vw;
   }
-  .ParrafoAcercate{
+  .ParrafoAcercate {
     font-size: 34px;
   }
-  .textoAcercate{
+  .textoAcercate {
     line-height: 1.5rem;
+    margin-bottom: 0;
   }
-  .imgZonaGris{
-  height: 37vw;
+  .imgZonaGris {
+    height: 37vw;
   }
-  .parrafoGris{
-   margin-bottom: 0;
+  .parrafoGris {
+    margin-bottom: 0;
   }
 }
 @media (max-width: 510px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 140vw;
   }
-  .imgZonaCeleste{
+  .imgZonaCeleste {
     height: 38vw;
-  } 
+  }
 }
 
 @media (max-width: 480px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 145vw;
   }
-  .imgZonaGris{
+  .imgZonaGris {
     height: 40vw;
   }
-  .play-container{
+  .play-container {
     margin-top: -3%;
   }
-  .playLogo{
+  .playLogo {
     width: 50vw;
   }
 }
 @media (max-width: 440px) {
-  .imgZonaGris{
+  .imgZonaGris {
     height: 50vw;
   }
 }
 @media (max-width: 426px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 158vw;
   }
-  .playLogo{
+  .playLogo {
     width: 55vw;
   }
-  .imgZonaCeleste{
+  .imgZonaCeleste {
     height: 45vw;
   }
-  .imgZonaGris{
+  .imgZonaGris {
     height: 55vw;
   }
 }
@@ -647,43 +644,75 @@ height: 35vw;
   .playButtonFWhite {
     width: 85vw;
   }
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 165vw;
   }
 }
 @media (max-width: 380px) {
-  .playLogo{
+  .playLogo {
     width: 65vw;
   }
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 165vw;
   }
-  .imgZonaCeleste{
+  .imgZonaCeleste {
     height: 55vw;
   }
 }
 @media (max-width: 340px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 175vw;
   }
-  .imagenFormula1{
+  .imagenFormula1 {
     width: 80vw;
   }
-  .imgZonaGris{
+  .imgZonaGris {
     height: 65vw;
   }
-  .playLogo{
+  .playLogo {
     width: 70vw;
   }
 }
 @media (max-width: 320px) {
-  .imgZonaPurple{
+  .imgZonaPurple {
     height: 190vw;
   }
-  .playLogo{
+  .playLogo {
     width: 75vw;
   }
-  .imgZonaGris{
+  .imgZonaGris {
     height: 70vw;
+  }
+}
+@media (max-width: 300px){
+  .imgZonaCeleste{
+    height: 75vw;
+  }
+  .imgZonaPurple{
+    height: 100%;
+  }
+  .ParrafoAcercate{
+    font-size: 30px;
+  }
+  .textoAcercate{
+    font-size: 12px;
+  }
+  .imgZonaGris{
+    height: 100%;
+  }
+  .imgZonaCeleste{
+    height: 100vw;
+  }
+}
+@media (max-width: 250px){
+  .imgZonaPurple{
+    height: 250vw;
+  }
+  .ParrafoAcercate{
+    font-size: 24px;
+    line-height: 2rem;
+  }
+  .parrafoGris{
+    font-size: 18px;
   }
 }
