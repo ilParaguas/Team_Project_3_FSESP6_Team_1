@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 export function Card({ content }) {
   const linkRef = useRef();
@@ -11,7 +12,7 @@ export function Card({ content }) {
     return () => clearTimeout(id);
   }, [content]);
   return (
-    <a ref={linkRef} href="#" className="card-updates updates-hovered">
+    <Link ref={linkRef} to={content.link}  className="card-updates updates-hovered">
       <img
         className="card-img"
         src={"./src/home_page/media/img/last-updates/" + content.Picture}
@@ -30,6 +31,6 @@ export function Card({ content }) {
         <h3 className="card-title">{content.Title}</h3>
         <p className="card-text">{content.Text}</p>
       </div>
-    </a>
+    </Link>
   );
 }

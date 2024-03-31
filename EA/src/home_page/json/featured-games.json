@@ -34,7 +34,7 @@
   "en-gb": {
     "title": "Featured Games",
     "latestGames":{
-        "buttonText": "Latest Games",
+        "linkText": "Latest Games",
         "link":"https://www.ea.com/games"
     },
     "linkText": "Official Site",
