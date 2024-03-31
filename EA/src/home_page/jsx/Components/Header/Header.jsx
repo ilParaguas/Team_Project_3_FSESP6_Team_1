@@ -39,8 +39,8 @@ export default function Header() {
     sidebar.style.top = "0px";
     sidebar_media.style.width = "0px";
     sidebar_media.style.top = "0px";
-    nav_username.style.height = "0px";
-    nav_help.style.height = "0px";
+    closeUsername();
+    closeHelp();
     cover.style.opacity = 0;
     cover.style.visibility = "hidden";
 
@@ -86,6 +86,7 @@ export default function Header() {
   // Funcion que abre o cierra el desplegable de registro
   function handleUsername() {
     if (nav_username.style.height !== "400px") {
+      closeHelp();
       nav_username.style.height = "400px";
       document.body.style.overflow = "hidden";
       nav_help.style.height = "0px";
@@ -109,6 +110,7 @@ export default function Header() {
   // Funcion que abre o cierra el desplegable de ayuda
   function handleHelp() {
     if (nav_help.style.height !== "400px") {
+      closeUsername();
       nav_help.style.height = "400px";
       document.body.style.overflow = "hidden";
       nav_username.style.height = "0px";
