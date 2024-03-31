@@ -1,8 +1,9 @@
-export function PlayButtons({ texto, playButton})  {
+export function PlayButtons({ texto, playButton }) {
   return (
-      <button className={playButton} href="#">
-        <span>{texto}</span>
-        </button>
+    <div>
+    <button className={playButton} href="#">
+      <span>{texto}</span>
+    </button>
+    </div>
   );
 }
-
