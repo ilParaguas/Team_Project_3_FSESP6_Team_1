@@ -7,42 +7,48 @@
         "Date": "20-mar-2024",
         "Title": "Un vistazo a la extraordinaria trayectoria de liderazgo de Kate Gorman",
         "Text": "Conoce los logros de Kate Gorman como vicepresidenta y directora general de Los Sims, descubriendo sus hitos profesionales y la innovación en el entretenimiento interactivo.",
-        "Picture": "ea-news-1.png"
+        "Picture": "ea-news-1.png",
+        "link": "https://www.ea.com/es-es/news/leading-the-sims-franchise-kate-gorman"
       },
       {
         "Company": "Electronic Arts Inc.",
         "Date": "13-mar-2024",
         "Title": "Celebramos el liderazgo femenino en los videojuegos con Charity Joy",
         "Text": "Explora el camino de Charity Joy de productora a directora general de EA, su visión sobre la diversidad en los videojuegos y sus ideas sobre el futuro de la industria.",
-        "Picture": "ea-news-2.png"
+        "Picture": "ea-news-2.png",
+        "link": "https://www.ea.com/es-es/news/from-producer-to-general-manager-charity-joy"
       },
       {
         "Company": "Electronic Arts Inc.",
         "Date": "12-mar-2024",
         "Title": "Presentaciones de EA sobre gráficos, jugabilidad y tecnología generativa en…",
         "Text": "No te pierdas estas charlas de la GDC 2024 con profesionales de los departamentos de ingeniería, ciencias y arte técnico de Electronic Arts.",
-        "Picture": "ea-news-3.png"
+        "Picture": "ea-news-3.png",
+        "link": "https://www.ea.com/es-es/news/ea-technology-gdc-2024"
       },
       {
         "Company": "Electronic Arts Inc.",
         "Date": "11-mar-2024",
         "Title": "EA SPORTS Madden presenta Field the Future para dejar un impacto positivo",
         "Text": "Explora el programa Field the Future que presenta EA SPORTS Madden para apoyar a las mujeres en el deporte. No solo queremos marcar touchdowns en los juegos, también queremos dejar un impacto social.",
-        "Picture": "ea-news-4.jpg"
+        "Picture": "ea-news-4.jpg",
+        "link": "https://www.ea.com/es-es/news/empowering-women-in-american-football"
       },
       {
         "Company": "Electronic Arts Inc.",
         "Date": "08-mar-2024",
         "Title": "Liderando la carga: El camino a la excelencia en videojuegos de Rebecka Cou…",
         "Text": "Descubre el camino y la visión de Rebecka Coutaz, vicepresidenta y directora general de DICE, que resalta el papel de las mujeres a la hora de dar forma al futuro de los videojuegos.",
-        "Picture": "ea-news-2.png"
+        "Picture": "ea-news-2.png",
+        "link": "https://www.ea.com/es-es/news/meet-rebecka-coutaz-general-manager-at-dice"
       },
       {
         "Company": "Electronic Arts Inc.",
         "Date": "09-feb-2024",
         "Title": "EA SPORTS FC™ - Vida en el equipo",
         "Text": "Nuestros desarrolladores de EA SPORTS FC te cuentan cómo es trabajar en el equipo.",
-        "Picture": "ea-news-6.jpeg"
+        "Picture": "ea-news-6.jpeg",
+        "link": "https://www.ea.com/es-es/news/ea-sports-fc-life-on-the-team"
       }
     ]
   },
@@ -54,84 +60,96 @@
         "Date": "21-mar-2024",
         "Title": "EA SPORTS FC™ 24 - Oferta de 2024 MLS Season Pass para FC Founders",
         "Text": "EA SPORTS FC™ y Apple se han unido y te dan 1 mes de prueba gratuita* del 2024 MLS Season Pass.",
-        "Picture": "ea-sports-fc-10.jpg"
+        "Picture": "ea-sports-fc-10.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc24-mls-founders-offer-faq"
       },
       {
         "Company": "",
         "Date": "12-mar-2024",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Actualización de primavera",
         "Text": "La actualización de primavera añade 86 nuevos rostros y renueva la experiencia de juego gracias a los ajustes en los estilos de juego y en la dificultad Leyenda de la IA de la CPU.",
-        "Picture": "ea-sports-fc-11.jpg"
+        "Picture": "ea-sports-fc-11.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-spring-update"
       },
       {
         "Company": "",
         "Date": "02-feb-2024",
         "Title": "Actualización del DCP de ligas del TOTY 86+ - Sitio oficial de EA SPORTS",
         "Text": "",
-        "Picture": "ea-sports-fc-10.jpg"
+        "Picture": "ea-sports-fc-10.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/update-on-toty-86-plus-leagues-sbc"
       },
       {
         "Company": "",
         "Date": "05-dic-2023",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Actualización festiva",
         "Text": "Ya tenemos la actualización festiva (6.ª actualización) y estamos deseando de contaros todos los cambios y novedades para EA SPORTS FC™ 24.",
-        "Picture": "ea-sports-fc-1.jpg"
+        "Picture": "ea-sports-fc-1.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-holiday-update"
       },
       {
         "Company": "",
         "Date": "23-nov-2023",
         "Title": "EA SPORTS FC™ 24 - UEFA EURO 2024",
         "Text": "EA SPORTS FC 24 da la bienvenida a la UEFA EURO 2024™ al Club: juega ahora y consigue un jugador de la UEFA EURO 2024 en Ultimate Team™.",
-        "Picture": "ea-sports-fc-2.jpg"
+        "Picture": "ea-sports-fc-2.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/euro-2024"
       },
       {
         "Company": "",
         "Date": "03-nov-2023",
         "Title": "Ultimate Team™ 24 - Elecciones de especialista",
         "Text": "Presentamos las elecciones de especialista en Ultimate Team™ 24",
-        "Picture": "ea-sports-fc-3.jpg"
+        "Picture": "ea-sports-fc-3.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/pundit-picks"
       },
       {
         "Company": "",
         "Date": "26-oct-2023",
         "Title": "24 días de EA SPORTS FC™ 24 - Sitio oficial de EA SPORTS",
         "Text": "Te damos la bienvenida al club: echa un vistazo a los últimos logros de la comunidad en los primeros 24 días de FC 24",
-        "Picture": "ea-sports-fc-4.jpg"
+        "Picture": "ea-sports-fc-4.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/24-days-of-ea-sports-fc-24"
       },
       {
         "Company": "",
         "Date": "26-oct-2023",
         "Title": "EA SPORTS FC 24 - Oferta de adidas para FC Founders - Sitio oficial de EA S…",
         "Text": "EA SPORTS FC 24 y adidas se han unido para ofrecer a quienes sean FC Founders un 25 % de descuento en ciertos artículos de www.adidas.com/ea_sports",
-        "Picture": "ea-sports-fc-5.jpg"
+        "Picture": "ea-sports-fc-5.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc24-adidas-founders-offer-faq"
       },
       {
         "Company": "",
         "Date": "22-sep-2023",
         "Title": "EA SPORTS FC™ 24 | Novedades para PC",
         "Text": "Descubre las novedades para PC que llegan a EA SPORTS FC™ 24 gracias a los comentarios de la comunidad.",
-        "Picture": "ea-sports-fc-6.jpg"
+        "Picture": "ea-sports-fc-6.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-pc-update"
       },
       {
         "Company": "",
         "Date": "22-sep-2023",
         "Title": "EA SPORTS FC™ 24 - Probabilidades de los sobres",
         "Text": "Consulta las probabilidades de los sobres de EA SPORTS FC™ 24, par saber las probabilidades de lo que obtendrás en los sobres que compres.",
-        "Picture": "ea-sports-fc-7.jpg"
+        "Picture": "ea-sports-fc-7.jpg",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-pack-probabilities"
       },
       {
         "Company": "",
         "Date": "20-sep-2023",
         "Title": "EA SPORTS FC 24 | Notas a pie de campo - Análisis detallado de Estilos de j…",
         "Text": "Úsalo como guía de los Estilos de juego cuando juegues a EA SPORTS FC 24.",
-        "Picture": "ea-sports-fc-8.png"
+        "Picture": "ea-sports-fc-8.png",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-playstyles-deepdive"
       },
       {
         "Company": "",
         "Date": "20-sep-2023",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Análisis detallado de Nintendo Sw…",
         "Text": "EA SPORTS FC™ 24 en Switch incorporará mejoras considerables gracias al motor Frostbite y contará con las mismas características que PS4 y Xbox One.",
-        "Picture": "ea-sports-fc-9.png"
+        "Picture": "ea-sports-fc-9.png",
+        "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-switch-deepdive"
       }
     ]
   },
@@ -143,42 +161,48 @@
         "Date": "13-mar-2024",
         "Title": "Revelación de kit - Reina Amidala",
         "Text": "¡Echa un vistazo a las habilidades de la reina Amidala en esta revelación de kit!",
-        "Picture": "star-wars-1.png"
+        "Picture": "star-wars-1.png",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-queen-amidala"
       },
       {
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "05-mar-2023",
         "Title": "Revelación de kit - Capitán Tarpals",
         "Text": "¡Echa un vistazo a las habilidades del Capitán Tarpals en esta revelación de kit!",
-        "Picture": "star-wars-2.png"
+        "Picture": "star-wars-2.png",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-captain-tarpals"
       },
       {
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "27-feb-2024",
         "Title": "Vista previa del calendario de marzo",
         "Text": "¡Echa un vistazo a los próximos eventos!",
-        "Picture": "star-wars-3.jpg"
+        "Picture": "star-wars-3.jpg",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/march-calendar-2024"
       },
       {
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "22-feb-2024",
         "Title": "Revelación de kit - Jefe Nass",
         "Text": "¡Echa un vistazo a las habilidades del Jefe Nass en esta revelación de kit!",
-        "Picture": "star-wars-4.png"
+        "Picture": "star-wars-4.png",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-boss-nass"
       },
       {
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "20-feb-2024",
         "Title": "Lo que nos espera: febrero de 2024",
         "Text": "¡Os damos la bienvenida a Lo que nos espera: febrero de 2024, donde comenzamos nuestro viaje al arco de Star Wars: La amenaza fantasma™!",
-        "Picture": "star-wars-5.jpg"
+        "Picture": "star-wars-5.jpg",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/the-road-ahead-february-2024"
       },
       {
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "08-feb-2024",
         "Title": "Revelación de kit - PAM",
         "Text": "¡Echa un vistazo a las habilidades de la PAM en esta revelación de kit!",
-        "Picture": "star-wars-6.png"
+        "Picture": "star-wars-6.png",
+        "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-stap"
       }
     ]
   },
@@ -190,42 +214,48 @@
         "Date": "21-mar-2024",
         "Title": "Domina la clandestinidad en el evento Sociedad oculta",
         "Text": "Protege tu terreno en Asedio, consigue reputación y empuña el nuevo Katar de cobalto en el evento Sociedad oculta.",
-        "Picture": "apex-legends-1.png"
+        "Picture": "apex-legends-1.png",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/shadow-society-event"
       },
       {
         "Company": "Apex Legends",
         "Date": "17-mar-2024",
         "Title": "Eliminatorias de la División 1 de la ALGS: anuncio de recinto + fechas",
         "Text": "¡Nuestro primer evento LAN del año se celebrará del 2 al 5 de mayo en el Galen Center de Los Ángeles! Descubre aquí la información inicial.",
-        "Picture": "apex-legends-2.jpg"
+        "Picture": "apex-legends-2.jpg",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/year4-split1-playoffs"
       },
       {
         "Company": "Apex Legends",
         "Date": "04-mar-2024",
         "Title": "Comienza La caza en el evento de colección Bestia interior",
         "Text": "Conviértete en una leyenda cazadora o en presa en La caza y honra a Odín completando retos.",
-        "Picture": "apex-legends-3.png"
+        "Picture": "apex-legends-3.png",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/inner-beast-event"
       },
       {
         "Company": "Apex Legends",
         "Date": "12-feb-2024",
         "Title": "Notas del parche de Apex Legends™: Revelación",
         "Text": "Prepárate para la llegada de Revelación con las especificaciones de la fabricación 2.0, mejoras de leyenda, cambios del equilibrio y más.",
-        "Picture": "apex-legends-4.png"
+        "Picture": "apex-legends-4.png",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/breakout-patch-notes"
       },
       {
         "Company": "Apex Legends",
         "Date": "08-feb-2024",
         "Title": "Celebra 5 años de Apex Legends con el evento de colección del aniversario",
         "Text": "¡Celebra el 5.º aniversario, juega y obtén elementos cosméticos con un nuevo MTL, un registro de recompensas creado por la comunidad y más!",
-        "Picture": "apex-legends-5.png"
+        "Picture": "apex-legends-5.png",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/fifth-anniversary-collection-event"
       },
       {
         "Company": "Apex Legends",
         "Date": "06-feb-2024",
         "Title": "Recompensas de Apex Legends™: Revelación",
         "Text": "Todo lo que necesitas saber sobre las próximas recompensas de Revelación en Apex Legends™.",
-        "Picture": "apex-legends-6.png"
+        "Picture": "apex-legends-6.png",
+        "link": "https://www.ea.com/es-es/games/apex-legends/news/breakout-rewards"
       }
     ]
   },
@@ -237,42 +267,48 @@
         "Date": "06-mar-2024",
         "Title": "Actualización: 06/03/2024",
         "Text": "Actualizaciones cruciales para los principales problemas de la comunidad",
-        "Picture": "sims4-1.jpg"
+        "Picture": "sims4-1.jpg",
+        "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-3-6-2024"
       },
       {
         "Company": "Los Sims 4",
         "Date": "28-feb-2024",
         "Title": "Actualización: 28/02/2024",
         "Text": "Dos correciones",
-        "Picture": "sims4-1.jpg"
+        "Picture": "sims4-1.jpg",
+        "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-2-28-2024"
       },
       {
         "Company": "Los Sims 4",
         "Date": "28-feb-2024",
         "Title": "La colección de joyas de Los Sims en la vida real con Plumbobs",
         "Text": "Compra la colección de joyas de Plumbob de Los Sims 4 Creaciones Cristalinas Pack de Accesorios.",
-        "Picture": "sims4-3.png"
+        "Picture": "sims4-3.png",
+        "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/plumbob-collection-merch-shop"
       },
       {
         "Company": "Los Sims 4",
         "Date": "27-feb-2024",
         "Title": "Actualización: 02/27/2024",
         "Text": "Una actualización brillante",
-        "Picture": "sims4-1.jpg"
+        "Picture": "sims4-1.jpg",
+        "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-2-27-2024"
       },
       {
         "Company": "Los Sims 4",
         "Date": "22-feb-2024",
         "Title": "Joyas de ArethaBee en Los Sims 4 Creaciones Cristalinas",
         "Text": "Tú haces Los Sims con ArethaBee.",
-        "Picture": "sims4-5.png"
+        "Picture": "sims4-5.png",
+        "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/ymts-with-arethabee"
       },
       {
         "Company": "Los Sims 4",
         "Date": "20-feb-2024",
         "Title": "Crea tus joyas de cristales con Los Sims 4 Creaciones Cristalinas Pack de A…",
         "Text": "Diseña joyas deslumbrantes y sé la figura central del proceso de confección y creación",
-        "Picture": "sims4-6.png"
+        "Picture": "sims4-6.png",
+        "link": "https://www.ea.com/es/games/the-sims/the-sims-4/news/crystal-creations-stuff-pack"
       }
     ]
   },
@@ -284,42 +320,48 @@
         "Date": "12-dic-2023",
         "Title": "EA SPORTS™ F1® - CELEBRACIÓN DE MAX",
         "Text": "Revive un año sensacional",
-        "Picture": "f1-1.png"
+        "Picture": "f1-1.png",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-max-celebration"
       },
       {
         "Company": "F1® 23",
         "Date": "07-dic-2023",
         "Title": "ACTUALIZACIÓN DE LAS VALORACIONES DE PILOTOS DE F1® 23 (FINAL DE TEMPORADA)",
         "Text": "Ya está aquí la última actualización de las valoraciones de pilotos de F1® 23, teniendo en cuenta Las Vegas y el cierre en Abu Dabi.",
-        "Picture": "f1-2.png"
+        "Picture": "f1-2.png",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-driver-ratings-end-of-season"
       },
       {
         "Company": "F1® 23",
         "Date": "16-oct-2023",
         "Title": "NOTAS DEL PARCHE DE F1® 23 (v1.15)",
         "Text": "En esta actualización llegan dos cambios importantes en la actualización deportiva y en F2™ 23.",
-        "Picture": "f1-3.jpg"
+        "Picture": "f1-3.jpg",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-patch-notes-v115"
       },
       {
         "Company": "F1® 23",
         "Date": "16-oct-2023",
         "Title": "HA LLEGADO F2™ 2023 Y LA ACTUALIZACIÓN DEPORTIVA",
         "Text": "Revive la temporada de Formula 2™ de este año ahora mismo en F1® 23.",
-        "Picture": "f1-4.jpg"
+        "Picture": "f1-4.jpg",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-sports-update"
       },
       {
         "Company": "F1® 23",
         "Date": "19-sep-2023",
         "Title": "ACTUALIZACIÓN DE LAS VALORACIONES DE PILOTOS DE F1® 23 (SEPTIEMBRE)",
         "Text": "Los Grand Prix de Países Bajos e Italia son los últimos incluidos en la actualización de las valoraciones de pilotos de F1® 23.",
-        "Picture": "f1-5.png"
+        "Picture": "f1-5.png",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-driver-ratings-september"
       },
       {
         "Company": "F1® 23",
         "Date": "29-ago-2023",
         "Title": "NOTAS DEL PARCHE DE F1® 23 (v1.10)",
         "Text": "Con este parche de F1® 23 llegan grandes añadidos y un australiano favorito de la afición.",
-        "Picture": "f1-6.jpg"
+        "Picture": "f1-6.jpg",
+        "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-patch-notes-v110"
       }
     ]
   },
@@ -331,42 +373,48 @@
         "Date": "15-mar-2024",
         "Title": "ACTUALIZACIÓN N.º 7.0.0 DE BATTLEFIELD 2042",
         "Text": "Aquí tenéis un vistazo general a la temporada 7: Punto de inflexión",
-        "Picture": "battlefield-3.jpg"
+        "Picture": "battlefield-3.jpg",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-7-0-0"
       },
       {
         "Company": "Battlefield 2042",
         "Date": "14-mar-2024",
         "Title": "NOTAS DEL DESARROLLO - REFUGIO",
         "Text": "Un nuevo vistazo entre bastidores al proceso de creación del mapa para la temporada 7.",
-        "Picture": "battlefield-4.jpg"
+        "Picture": "battlefield-4.jpg",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/dev-notes-haven"
       },
       {
         "Company": "Battlefield 2042",
         "Date": "23-feb-2024",
         "Title": "ACTUALIZACIÓN N.º 6.4.0 DE BATTLEFIELD 2042",
         "Text": "Aquí podéis ver una lista de mejoras de jugabilidad que pretenden corregir diversos problemas relacionados con Battlefield 2042.",
-        "Picture": "battlefield-5.jpg"
+        "Picture": "battlefield-5.jpg",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-4-0"
       },
       {
         "Company": "Battlefield 2042",
         "Date": "26-ene-2024",
         "Title": "ACTUALIZACIÓN N.º 6.3.0 DE BATTLEFIELD 2042",
         "Text": "¡La actualización 6.3.0 incluye el nuevo modificador de espectador de patrulla y nuevos cambios de equilibrio en Battlefield 2042!",
-        "Picture": "battlefield-6.png"
+        "Picture": "battlefield-6.png",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-3-0"
       },
       {
         "Company": "Battlefield 2042",
         "Date": "12-ene-2024",
         "Title": "ACTUALIZACIÓN N.º 6.2.1 DE BATTLEFIELD 2042",
         "Text": "¡Una pequeña actualización con un parche rápido para Battlefield 2042!",
-        "Picture": "battlefield-1.jpg"
+        "Picture": "battlefield-1.jpg",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-2-1"
       },
       {
         "Company": "Battlefield 2042",
         "Date": "01-dic-2023",
         "Title": "ACTUALIZACIÓN N.º 6.2.0 DE BATTLEFIELD 2042",
         "Text": "Echa un vistazo a las notas de la última actualización de Battlefield 2042, que incluye equilibrado de armas, mejoras de los vehículos aéreos y más.",
-        "Picture": "battlefield-2.jpg"
+        "Picture": "battlefield-2.jpg",
+        "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-2"
       }
     ]
   }
