@@ -1,9 +1,9 @@
 import { useState } from "react";
-export function useLastUpdatesTexts(language) {
+export function useFeaturedGamesTexts(language) {
   const [texts, setTexts] = useState({});
   const getTexts = async () => {
     try {
-      const r = await fetch(`src/home_page/json/last-updates.json`);
+      const r = await fetch(`src/home_page/json/featured-games.json`);
       if (r.status === 200) {
         const json = await r.json();
         setTexts(json[language]);
@@ -14,6 +14,5 @@ export function useLastUpdatesTexts(language) {
       console.error(error);
     }
   };
-  
   return {texts,getTexts};
 }

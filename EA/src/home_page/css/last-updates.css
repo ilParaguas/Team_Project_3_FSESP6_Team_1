@@ -153,13 +153,13 @@ li:has(> .tab-radio:checked) {
     line-height: 1.7rem;
     font-size: 1.13rem;
 }
-#read-more {
+.read-more {
     position: relative;
     margin: 3.2rem;
     font-size: 1.13rem;
     display: inline-block;
 }
-#read-more-link {
+.read-more-link {
     display: block;
     position: relative;
     padding: 1rem 2.6rem;
@@ -167,15 +167,15 @@ li:has(> .tab-radio:checked) {
     border-radius: 3px;
     text-decoration: none;
     color: #d2141400;
-    /* z-index: 1; */
     text-align: center;
 }
-#read-more-link:hover {
+.read-more-link:hover {
     transform: scale(1.1);
 }
-#read-more-text {
-    width: 100%;
+.read-more-text {
     position: absolute;
+    width: 100%;
+    
     top: 1.1rem;
     text-align: center;
 }
@@ -189,10 +189,10 @@ li:has(> .tab-radio:checked) {
     .card-updates {
         max-width: none;
     }
-    #read-more-link {
+    .read-more-link {
         padding: 0.7rem 1.8rem;
     }
-    #read-more-text {
+    .read-more-text {
         top: 0.8rem;
     }
 }
@@ -222,13 +222,13 @@ li:has(> .tab-radio:checked) {
     .card-text {
         font-size: 1rem;
     }
-    #read-more {
+    .read-more {
         font-size: 1rem;
     }
-    #read-more-link {
+    .read-more-link {
         padding: 0.9rem 2.1rem;
     }
-    #read-more-text {
+    .read-more-text {
         top: 1rem;
     }
 }
@@ -257,12 +257,11 @@ li:has(> .tab-radio:checked) {
     }
 }
 @media(max-width: 640px) {
-    
-    #read-more {
+    .read-more {
         align-self: stretch;
         margin: 4rem 7.5vw;
     }
-    #read-more-link:hover {
+    .read-more-link:hover {
         transform: scaleX(1.01) scaleY(1.1);
     }
 }
