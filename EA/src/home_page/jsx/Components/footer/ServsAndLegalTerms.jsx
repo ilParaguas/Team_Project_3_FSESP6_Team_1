@@ -14,9 +14,9 @@ export function ServsAndLegalTerms() {
             <div><a href="" title={data["servs-and-legal-terms"]["ea-icon"]}><img id="ea-violet" src="./src/home_page/media/img/footer/ea-violet.png" alt="ea-logo" /></a></div>
             <div id="ea-servs-and-legal">
                 <div>
-                    <div id="servs-links">{data["servs-and-legal-terms"].servs.map(link => {
-                        return <div className="servs-link" key={link}>{link}</div>
-                    })}</div>
+                    <div id="servs-links">{data["servs-and-legal-terms"].servs.map(link => ( 
+                        <div className="servs-link" key={link}><a href="">{link}</a></div>
+                    ))}</div>
                     <div id="footer-buttons">
                         <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
                         <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} />
@@ -26,12 +26,12 @@ export function ServsAndLegalTerms() {
                 <div>
                     <div id="legal-terms">
                         {data["servs-and-legal-terms"]["legal-terms"].map( item => (
-                            <a href="" key={item}>{item}</a>
+                            <div className="legal-terms-link" key={item}><a href="" >{item}</a></div>
                         )
                         )}
-                        <div>{data["servs-and-legal-terms"].copyright}</div>
+                        <div id="footer-copyright">{data["servs-and-legal-terms"].copyright}</div>
                     </div>
-                    <div><img src={`./src/home_page/media/img/footer/truste/privacy-policy-${lang}.svg`} /></div>
+                    <a href="" id="truste"><img src={`./src/home_page/media/img/footer/truste/privacy-policy-${lang}.svg`} /></a>
                 </div>
             </div>
         </section>}

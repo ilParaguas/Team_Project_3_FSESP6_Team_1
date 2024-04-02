@@ -8,7 +8,7 @@ export default function ButtonSelectorLanguages({ items }) {
     
     if (!labelItem) {
         setLabelItem(items.content.find(item => item.lang === lang))
-    }                                               //
+    } 
     
     const [open, setOpen] = useState(false)     // Close selector when click out
     const buttonRef = useRef()
@@ -26,7 +26,7 @@ export default function ButtonSelectorLanguages({ items }) {
                 if (!ref.contains(event.target) && !ref.contains(event.target)) {
                     setOpen(false)
                 }
-            })                                  //
+            })
         }
     } ,[])
 
@@ -43,17 +43,15 @@ export default function ButtonSelectorLanguages({ items }) {
 
     return (
         <>
-        {labelItem && <div>
+        {labelItem && <div className="footer-button-selector">
             <button className="footer-button" ref={buttonRef} onClick={() => {
                 setOpen(open => !open)
             }}>
-                <div>{items.title}</div>
-                <div>
-                    <div>
-                        <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" />
-                        <span>{labelItem.country}</span>
-                    </div>
-                    <img className="footer-icon" src="./src/home_page/media/img/footer/flecha-abajo.png" />
+                <div className="footer-button-label">{items.title}</div>
+                <div className="footer-button-content">
+                    <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" />
+                    <span>{labelItem.country}</span>
+                    <img className="footer-button-icon" src="./src/home_page/media/img/footer/flecha-abajo.png" />
                 </div>
             </button>
 
