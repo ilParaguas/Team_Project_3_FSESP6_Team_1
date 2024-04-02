@@ -25,6 +25,7 @@
   flex: 0 0 53px;
   justify-content: space-between;
   width: 100%;
+  color: black;
 }
 
 .f_sidebar_media_text {
@@ -55,6 +56,7 @@
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+  border-bottom: solid 1px;
 }
 
 .f_sidebar_media_body_wrapper {
@@ -74,7 +76,12 @@
 .f_sidebar_media_content_header:hover,
 .f_sidebar_media_content_body p:hover,
 .f_sidebar_media_content_body a:hover {
-  color: #ff4747;
+  color: tomato;
+  border-color: black;
+}
+
+.f_tomato {
+  color: tomato;
 }
 
 .f_sidebar_media_content_header {
@@ -89,11 +96,9 @@
 .f_sidebar_media_content_link {
   margin: 0 24px;
   overflow: hidden;
-  transition: all 380ms ease-in-out;
   margin-left: 34px;
   cursor: pointer;
-  padding-bottom: 14px;
-  border-bottom: solid 1px;
+  transition: all 390ms ease-in-out;
 }
 
 .f_sidebar_media_content_link_wrapper {
@@ -101,7 +106,13 @@
   margin: 0 23px;
   overflow: hidden;
   cursor: pointer;
+  height: 0px;
   transition: all 390ms ease-in-out;
+}
+
+.f_sidebar_media_content_link_wrapper:after {
+  content: "";
+  border-bottom: solid 1px;
 }
 
 .f_sidebar_media_content_link_end {
@@ -109,6 +120,10 @@
   padding-bottom: 7px;
   padding-top: 7px;
   cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  transition: all 390ms ease-in-out;
 }
 
 .f_sidebar_media_a {
@@ -126,27 +141,25 @@
   transition-timing-function: cubic-bezier(0.5, 0.25, 0.015, 1);
 }
 
-.f_open_big {
-  height: 108px;
-  opacity: 1;
-  visibility: visible;
-}
-
 .f_open {
-  height: 380px;
+  height: fit-content;
   opacity: 1;
   visibility: visible;
 }
 
 .f_rotatechevron1 {
-  transform: rotate(45deg);
+  transform: rotate(200deg);
 }
 
 .f_rotatechevron2 {
-  transform: rotate(-45deg);
+  transform: rotate(-200deg);
   margin-left: -12px;
 }
 
 .f_sidebar_media_content_header p {
+  margin: 16px 0px;
+}
+
+.f_sidebar_media_content_link p {
   margin: 16px 0px;
 }
