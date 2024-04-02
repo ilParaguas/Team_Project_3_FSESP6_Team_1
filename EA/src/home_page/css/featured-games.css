@@ -1,0 +1,166 @@
+#featured-games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "ElectronicArtsDisplay";
+    font-size: 25px;
+    padding-top: 2rem;
+    background-color: #f3f3f3;
+    
+}
+#games-title {
+    margin-top: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: ElectronicArtsDisplay;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#gameGallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.7rem;
+}
+
+.gameLink {
+    display: flex;
+    background: black;
+    position: relative;
+    max-width: 345px;
+}
+
+.gameLink:hover {
+    background: linear-gradient(90deg, rgba(10, 4, 102, 1) 0%, rgba(247, 0, 9, 1) 100%);
+}
+
+.gameLink:hover .gameImage {
+    opacity: .2;
+    transition: 300ms;
+}
+
+.gameLink:hover .gameLogo{
+    transform: translateY(-100%);
+}
+
+.gameLink:hover .gameLinkSpan {
+    display: inline;
+}
+
+.gameImage {
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+}
+.floatingLogo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameLogo {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.gameLinkSpan {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 50%;
+    display: none;
+}
+.latest-games {
+    position: relative;
+    margin: 3.2rem;
+    font-size: 1.13rem;
+    display: inline-block;
+}
+.latest-games-link {
+    display: block;
+    position: relative;
+    padding: 1rem 2.6rem;
+    border: 2px solid #161616;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #d2141400;
+    text-align: center;
+}
+.latest-games-link:hover {
+    transform: scale(1.1);
+}
+.latest-games-text {
+    position: absolute;
+    width: 100%;
+    
+    top: 1.1rem;
+    text-align: center;
+}
+
+@media(max-width: 1455px) {
+
+    #gameGallery {
+        margin: 0 8.3vw;
+        max-width: none;
+    }
+
+    .gameLink {
+        max-width: none;
+    }
+    .latest-games-link {
+        padding: 0.7rem 1.8rem;
+    }
+    .latest-games-text {
+        top: 0.8rem;
+    }
+}
+
+@media(max-width: 1025px) {
+    #games-title {
+        font-size: 2rem;
+    }
+    #gameGallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 0 9.3vw;
+    }
+    .latest-games {
+        font-size: 1rem;
+    }
+    .latest-games-link {
+        padding: 0.9rem 2.1rem;
+    }
+    .latest-games-text {
+        top: 1rem;
+    }
+}
+
+@media (max-width: 770px) {
+
+    #gameGallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        align-self: stretch;
+        margin: 0 7.5vw;
+    }
+
+    .gameLinkSpan {
+        font-size: 16px;
+    }
+
+}
+@media(max-width: 640px) {
+    .latest-games {
+        align-self: stretch;
+        margin: 4rem 7.5vw;
+    }
+    .latest-games-link:hover {
+        transform: scaleX(1.01) scaleY(1.1);
+    }
+}

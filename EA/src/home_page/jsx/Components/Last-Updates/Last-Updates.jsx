@@ -7,30 +7,43 @@ import { useNavigate } from "react-router-dom";
 import { useUpdateNews } from "../../Hooks/useUpdateNews";
 import { LanguageContext } from "../../Contexts/LanguageContext";
 import { ReadMore } from "./ReadMore";
+import { useLastUpdatesTexts } from "../../Hooks/useLastUpdatesTexts";
 
 export function LastUpdates() {
   const [selectedTab, setSelectedTab] = useState("");
-  const newsJson = useUpdateNews(useContext(LanguageContext));
+  const lang = useContext(LanguageContext);
+  const { texts, getTexts } = useLastUpdatesTexts(lang);
+  const { news, getNews } = useUpdateNews(texts?.url);
   const splitUrl = window.location.href.split("#");
   const navigate = useNavigate();
 
+  useEffect(() => {
+    getTexts();
+  }, [lang]);
+  useEffect(() => {
+    getNews();
+  }, [texts]);
   useEffect(
-    () => setTab(splitUrl[1], newsJson, selectedTab, setSelectedTab, navigate),
+    () => setTab(splitUrl[1], news, selectedTab, setSelectedTab, navigate),
     [splitUrl]
   );
   return (
     <section id="last-updates">
-      <NewsContext.Provider value={newsJson}>
-        <h2 id="updates-title">Ultimas Actualizaciones</h2>
-        <TabContext.Provider value={selectedTab}>
-          <TabsBar changeTab={setSelectedTab} />
-          <div className="hr"></div>
-          <div id="news">
-            <CardsUpdates />
-            <ReadMore/>
-          </div>
-        </TabContext.Provider>
-      </NewsContext.Provider>
+      {texts && (
+        <>
+          <h2 id="updates-title">{texts.title}</h2>
+          <NewsContext.Provider value={news}>
+            <TabContext.Provider value={{ selectedTab, setSelectedTab }}>
+              <TabsBar />
+              <div className="hr"></div>
+              <div id="news">
+                <CardsUpdates />
+                <ReadMore text={texts.readMore} link={news && news[selectedTab]?.readMoreLink}/>
+              </div>
+            </TabContext.Provider>
+          </NewsContext.Provider>
+        </>
+      )}
     </section>
   );
 }

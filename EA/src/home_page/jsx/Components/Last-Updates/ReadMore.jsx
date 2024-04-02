@@ -1,10 +1,11 @@
-export function ReadMore() {
+export function ReadMore({text,link}) {
   return (
-    <div id="read-more">
-      <a id="read-more-link" href="#read-more">
-        Leer mas
+    <div className="read-more">
+      <span className="read-more-text">{text}</span>
+      <a className="read-more-link" href={link || "#"}>
+      {text}
       </a>
-      <span id="read-more-text">Leer mas</span>
+      
     </div>
   );
 }

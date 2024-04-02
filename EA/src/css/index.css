@@ -1,28 +1,49 @@
 @font-face {
-    font-family: ElectronicArtsDisplay;
-    src: url(../fonts/ElectronicArtsDisplay-Regular.woff2);
+  font-family: ElectronicArtsDisplay;
+  src: url(../fonts/ElectronicArtsDisplay-Regular.woff2);
 }
 @font-face {
-    font-family: ElectronicArtsDisplay;
-    src: url(../fonts/ElectronicArtsDisplay-Bold.woff2);
-    font-weight: bold;
+  font-family: ElectronicArtsDisplay;
+  src: url(../fonts/ElectronicArtsDisplay-Bold.woff2);
+  font-weight: bold;
 }
 @font-face {
-    font-family: ElectronicArtsText;
-    src: url(../fonts/ElectronicArtsText-Regular.woff2);
-    font-weight: normal;
+  font-family: ElectronicArtsText;
+  src: url(../fonts/ElectronicArtsText-Regular.woff2);
+  font-weight: normal;
 }
 @font-face {
-    font-family: ElectronicArtsText;
-    src: url(../fonts/ElectronicArtsText-Bold.woff2);
-    font-weight: bold;
+  font-family: ElectronicArtsText;
+  src: url(../fonts/ElectronicArtsText-Bold.woff2);
+  font-weight: bold;
 }
 @font-face {
-    font-family: ElectronicArtsText;
-    src: url(../fonts/ElectronicArtsText-Light.woff2);
-    font-weight: 100;
+  font-family: ElectronicArtsText;
+  src: url(../fonts/ElectronicArtsText-Light.woff2);
+  font-weight: 100;
 }
-body{
-    margin: 0;
-    width: 100%;
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+footer,
+div,
+p,
+a,
+ul,
+li,
+section,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: currentColor;
 }
