@@ -1,14 +1,15 @@
 import { LanguageContext } from "../../Contexts/LanguageContext";
 import { useContext, useEffect, useRef, useState } from "react";
 
-export default function ButtonSelectorLanguages({ items }) {
+export default function ButtonSelectorLanguages({ items, hasFlags }) {
 
-    const lang = useContext(LanguageContext)        // Codigo para el titulo de la etiqueta
+    const lang = useContext(LanguageContext)        // Button Label
     const [labelItem, setLabelItem] = useState()
     
     if (!labelItem) {
         setLabelItem(items.content.find(item => item.lang === lang))
     } 
+
     
     const [open, setOpen] = useState(false)     // Close selector when click out
     const buttonRef = useRef()
@@ -30,7 +31,8 @@ export default function ButtonSelectorLanguages({ items }) {
         }
     } ,[])
 
-    const columns = []                          // Columnas cuando width > 1400px
+
+    const columns = []                          // Columnas cuando width > 1456px
     let indexColumn = -1
     items.content.forEach(item => {
         if ( !columns.length || columns[indexColumn]?.length >=9) {
@@ -39,6 +41,8 @@ export default function ButtonSelectorLanguages({ items }) {
         }
         columns[indexColumn].push(item)
     })
+    // console.log(columns);
+    // window.innerWidth
     
 
     return (
@@ -57,8 +61,12 @@ export default function ButtonSelectorLanguages({ items }) {
 
             {open && (
             <div tabIndex="0" ref={selectorRef}>
-                {items.content.map(item => (
-                    <LanguageSelector key={item.ISO} item={item} lang={lang}/>
+                {columns.map((column, index) => (
+                    <ul key={index}>
+                        {column.map(item => {
+                            return <SelectorItem key={item.ISO} item={item} hasFlags={hasFlags} />
+                        })}
+                    </ul>
                 ))}
             </div>  )}
         </div> }
@@ -66,10 +74,10 @@ export default function ButtonSelectorLanguages({ items }) {
     );
 }
 
-function LanguageSelector({ item, lang }) {
+function SelectorItem({ item, hasFlags }) {
 
     return (
-        <a href={`/${item.lang}`}>
+        <a href={hasFlags ? `/${item.lang}` : ""}>
             <div>
                 <div >
                     <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} />
@@ -77,7 +85,7 @@ function LanguageSelector({ item, lang }) {
                 <div>{item.country}</div>
             </div>
             <div className="footer-icon">
-                {item.lang === lang && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
+                {hasFlags && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
             </div>
          </a>
     )
