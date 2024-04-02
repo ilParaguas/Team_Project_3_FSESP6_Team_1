@@ -11,6 +11,7 @@ export default function Header() {
   let navBlack, navWhite, sidebar, cover, sidebar_media, nav_username, nav_help;
   const [usernameOpen, setUsernameOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Carga de datos para trabajar mas facilmente y tener un codigo mas claro
   function loadData() {
@@ -44,11 +45,12 @@ export default function Header() {
     cover.style.opacity = 0;
     cover.style.visibility = "hidden";
 
-    if (navBlack.style.top == "0px" && window.scrollY != 0) {
+    if (window.scrollY != 0) {
       editNavs("-40px", "0px");
     }
 
     document.body.style.overflow = "auto";
+    setSidebarOpen(false);
   }
 
   // Funcion que despliega la cobertura negra al abrir una de la barras laterales
@@ -71,6 +73,7 @@ export default function Header() {
     if (navBlack.style.top == "-40px") {
       editNavs("0px", "40px");
     }
+    setSidebarOpen(true);
   }
 
   // Abre la sidebar responsiva (cuando width < 1032px )
@@ -81,15 +84,16 @@ export default function Header() {
     if (navBlack.style.top == "-40px") {
       editNavs("0px", "40px");
     }
+    setSidebarOpen(true);
   }
 
-  // Funcion que abre o cierra el desplegable de registro
+  // Funcion que abre o cierra el desplegable de registro de usuario
   function handleUsername() {
     if (nav_username.style.height !== "400px") {
       closeHelp();
       nav_username.style.height = "400px";
-      document.body.style.overflow = "hidden";
       nav_help.style.height = "0px";
+      document.body.style.overflow = "hidden";
       setUsernameOpen(true);
     } else {
       closeUsername();
@@ -135,7 +139,7 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      if (prevScrollpos > currentScrollPos) {
+      if (prevScrollpos > currentScrollPos && !sidebarOpen) {
         editNavs("0px", "40px");
       } else {
         editNavs("-40px", "0px");
