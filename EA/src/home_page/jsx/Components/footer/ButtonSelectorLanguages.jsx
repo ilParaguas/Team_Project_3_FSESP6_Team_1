@@ -53,8 +53,15 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             }}>
                 <div className="footer-button-label">{items.title}</div>
                 <div className="footer-button-content">
-                    <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" />
-                    <span>{labelItem.country}</span>
+                    <div className="footer-button-content-div">
+                        {hasFlags==="true" && <img src={`./src/home_page/media/img/footer/flags/${labelItem.ISO}.png`} alt="" 
+                            onError={ e => {
+                                e.target.style.display = 'none'
+                                e.target.onerror = null
+                            }}
+                        />}
+                        <span>{labelItem.country}</span>
+                    </div>
                     <img className="footer-button-icon" src="./src/home_page/media/img/footer/flecha-abajo.png" />
                 </div>
             </button>
@@ -79,13 +86,17 @@ function SelectorItem({ item, hasFlags }) {
     return (
         <a href={hasFlags ? `/${item.lang}` : ""}>
             <div>
-                <div >
-                    <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} />
-                </div>
+                {hasFlags==="true" && <div className="footer-icon">
+                    <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} 
+                    onError={ e => {
+                        e.target.style.display = 'none'
+                        e.target.onerror = null
+                    }} />
+                </div>}
                 <div>{item.country}</div>
             </div>
             <div className="footer-icon">
-                {hasFlags && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
+                <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />
             </div>
          </a>
     )
