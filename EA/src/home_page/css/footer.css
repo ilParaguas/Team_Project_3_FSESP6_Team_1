@@ -436,9 +436,14 @@
 }
 .footer-button-content span {
     color: rgb(22, 22, 22);
-    margin: 0px 8px;
 
     flex-grow: 1;
+}
+.footer-button-content-div {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 8px;
+    align-items: center;
 }
 .footer-button-icon {
     width: 16px;

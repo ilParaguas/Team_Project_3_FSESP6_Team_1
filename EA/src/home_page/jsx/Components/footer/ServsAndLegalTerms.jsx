@@ -7,8 +7,6 @@ export function ServsAndLegalTerms() {
     const data = useContext(JsonContext);
     const lang = useContext(LanguageContext);
 
-    console.log(`./src/home_page/media/img/footer/truste/privacity-policy-${lang}.svg`);
-
     return <div id="servs-and-legal">
         {data && <section id="servs-and-legal-section">
             <div><a href="" title={data["servs-and-legal-terms"]["ea-icon"]}><img id="ea-violet" src="./src/home_page/media/img/footer/ea-violet.png" alt="ea-logo" /></a></div>
@@ -18,8 +16,8 @@ export function ServsAndLegalTerms() {
                         <div className="servs-link" key={link}><a href="">{link}</a></div>
                     ))}</div>
                     <div id="footer-buttons">
-                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} hasFlags="true" />
                         <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} hasFlags="false" />
+                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} hasFlags="true" />
                     </div>
                 </div>
 
