@@ -7,7 +7,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     const [labelItem, setLabelItem] = useState()
     
     if (!labelItem) {
-        setLabelItem(items.content.find(item => item.lang === lang))
+        setLabelItem(items.content.find(item => item.lang === lang))        // Fallo
     } 
 
     
@@ -31,24 +31,29 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
         }
     } ,[])
 
+    
+    const [columns, setColumns] = useState()                          // Columnas cuando width > 1456px
+    useEffect( () => {
+        const columns = []
+        let indexColumn = -1
+        items.content.forEach(item => {
+            if ( !columns.length || columns[indexColumn]?.length >=9) {
+                indexColumn ++
+                columns.push([])
+            }
+            columns[indexColumn].push(item)
+        })
+        setColumns(columns)
+    }, [items.content])
 
-    const columns = []                          // Columnas cuando width > 1456px
-    let indexColumn = -1
-    items.content.forEach(item => {
-        if ( !columns.length || columns[indexColumn]?.length >=9) {
-            indexColumn ++
-            columns.push([])
-        }
-        columns[indexColumn].push(item)
-    })
-    // console.log(columns);
-    // window.innerWidth
+
+    
     
 
     return (
         <>
         {labelItem && <div className="footer-button-selector">
-            <button className="footer-button" ref={buttonRef} onClick={() => {
+            <button className={"footer-button"} ref={buttonRef} onClick={() => {
                 setOpen(open => !open)
             }}>
                 <div className="footer-button-label">{items.title}</div>
@@ -67,7 +72,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             </button>
 
             {open && (
-            <div tabIndex="0" ref={selectorRef}>
+            <div className="footer-div-selector" tabIndex="0" ref={selectorRef}>
                 {columns.map((column, index) => (
                     <ul key={index}>
                         {column.map(item => {
