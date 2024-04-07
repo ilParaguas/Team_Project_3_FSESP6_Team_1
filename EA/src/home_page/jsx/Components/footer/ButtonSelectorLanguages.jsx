@@ -7,17 +7,21 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     const [labelItem, setLabelItem] = useState()
     
     if (!labelItem) {
-        setLabelItem(items.content.find(item => item.lang === lang))        // Fallo
+        if (hasFlags === "true") {
+            setLabelItem(items.content.find(item => item.lang === lang))
+        } else {
+            setLabelItem(items.content.find(item => item.country === "Spain" ))  //Precios por defecto en España porq no aparece ninguno
+        }
     } 
 
     
-    const [open, setOpen] = useState(false)     // Close selector when click out
+    const [open, setOpen] = useState(false)     
     const buttonRef = useRef()
     const selectorRef = useRef()
 
     useEffect( () => {
         let ref = buttonRef.current
-        window.addEventListener("click", event => {
+        window.addEventListener("click", event => {         // Close selector when click out
             if (!buttonRef.current?.contains(event.target) && !selectorRef.current?.contains(event.target)) {
                 setOpen(false)
             }
@@ -47,7 +51,11 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     }, [items.content])
 
 
-    
+    // useEffect( () => {
+    //     if (open) {
+            
+    //     }
+    // }, [])
     
 
     return (
@@ -74,9 +82,9 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             {open && (
             <div className="footer-div-selector" tabIndex="0" ref={selectorRef}>
                 {columns.map((column, index) => (
-                    <ul key={index}>
+                    <ul key={index} className="footer-div-selector-column">
                         {column.map(item => {
-                            return <SelectorItem key={item.ISO} item={item} hasFlags={hasFlags} />
+                            return <SelectorItem key={item.ISO} item={item} hasFlags={hasFlags} checkedCountry={labelItem.country}/>
                         })}
                     </ul>
                 ))}
@@ -86,7 +94,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     );
 }
 
-function SelectorItem({ item, hasFlags }) {
+function SelectorItem({ item, hasFlags, checkedCountry }) {
 
     return (
         <a href={hasFlags ? `/${item.lang}` : ""}>
@@ -101,7 +109,7 @@ function SelectorItem({ item, hasFlags }) {
                 <div>{item.country}</div>
             </div>
             <div className="footer-icon">
-                <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />
+                {checkedCountry===item.country && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
             </div>
          </a>
     )
