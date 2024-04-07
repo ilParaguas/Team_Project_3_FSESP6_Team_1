@@ -505,8 +505,8 @@
   display: flex;
   transition: all 0.1s ease-in-out;
 }
-.footer-column-link-content:hover {
-  transform: translateX(5px);
+.footer-column-link:hover .footer-column-link-content {
+  transform: translateX(7px);
 }
 .footer-column-link-gap {
   margin-left: 8px;
