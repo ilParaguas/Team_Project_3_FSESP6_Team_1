@@ -16,7 +16,7 @@ export function ServsAndLegalTerms() {
                         <div className="servs-link" key={link}><a href="">{link}</a></div>
                     ))}</div>
                     <div id="footer-buttons">
-                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} hasFlags="false" />
+                        <ButtonSelectorLanguages items={data["servs-and-legal-terms"].prices} hasFlags="false" />
                         <ButtonSelectorLanguages items={data["servs-and-legal-terms"].langs} hasFlags="true" />
                     </div>
                 </div>

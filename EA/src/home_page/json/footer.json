@@ -44,7 +44,7 @@
                     { "country": "Romania", "ISO": "ro" },
                     { "country": "Slovakia", "ISO": "slk" },
                     { "country": "Slovenia", "ISO": "sln" },
-                    { "country": "Spain", "ISO": "sp" },
+                    { "country": "Spain", "ISO": "sp", "lang": "es-es" },
                     { "country": "Sweden", "ISO": "swe" },
                     { "country": "Switzerland", "ISO": "swi" }                  
                 ]
