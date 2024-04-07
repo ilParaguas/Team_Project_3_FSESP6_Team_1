@@ -54,9 +54,12 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     // useEffect( () => {
     //     if (open) {
             
+    //     } else if (!open) {
+
     //     }
     // }, [])
-    
+    // girar flecha y añadir clase
+    // select -> sombra del boton, focus y cambio de colo del borde, no girar la flecha?
 
     return (
         <>

@@ -395,6 +395,7 @@
 }
 .footer-button {        /*   Parte de boton   */
     font-size: 15px;
+    background-color: inherit;
     line-height: 1.5em;
     font-family: ElectronicArtsText;
     border: none;
