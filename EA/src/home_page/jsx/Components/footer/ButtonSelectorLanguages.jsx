@@ -80,13 +80,13 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             </button>
 
             {open && (
-            <div className="footer-div-selector" tabIndex="0" ref={selectorRef}>
+            <div className="footer-div-selector footer-shadow" tabIndex="0" ref={selectorRef}>
                 {columns.map((column, index) => (
-                    <ul key={index} className="footer-div-selector-column">
+                    <div key={index} className="footer-div-selector-column">
                         {column.map(item => {
                             return <SelectorItem key={item.ISO} item={item} hasFlags={hasFlags} checkedCountry={labelItem.country}/>
                         })}
-                    </ul>
+                    </div>
                 ))}
             </div>  )}
         </div> }
@@ -97,8 +97,8 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
 function SelectorItem({ item, hasFlags, checkedCountry }) {
 
     return (
-        <a href={hasFlags ? `/${item.lang}` : ""}>
-            <div>
+        <a className="footer-column-link" href={hasFlags ? `/${item.lang}` : ""}>
+            <div className="footer-column-link-content">
                 {hasFlags==="true" && <div className="footer-icon">
                     <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} 
                     onError={ e => {
@@ -106,7 +106,7 @@ function SelectorItem({ item, hasFlags, checkedCountry }) {
                         e.target.onerror = null
                     }} />
                 </div>}
-                <div>{item.country}</div>
+                <div className="footer-column-link-gap">{item.country}</div>
             </div>
             <div className="footer-icon">
                 {checkedCountry===item.country && <img className="footer-icon" src="./src/home_page/media/img/footer/check.png" />}
