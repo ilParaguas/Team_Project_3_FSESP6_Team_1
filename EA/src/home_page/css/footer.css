@@ -503,6 +503,10 @@
 }
 .footer-column-link-content {
   display: flex;
+  transition: all 0.1s ease-in-out;
+}
+.footer-column-link-content:hover {
+  transform: translateX(5px);
 }
 .footer-column-link-gap {
   margin-left: 8px;
