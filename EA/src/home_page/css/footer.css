@@ -430,10 +430,30 @@
     right: -3px;
 }
 
-.footer-button-selected {        /*   Boton onClick   */
+.footer-button-selected {         /*   Boton onClick   */
   background-color: #f3f3f3;
 }
-
+.footer-button-selected::before {       
+    top: -3px;
+    left: -3px;
+    bottom: -3px;
+    right: -3px;
+    border-width: 3px;
+    transition: all 0s;
+}
+.footer-button-selected::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #f3f3f3;
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  z-index: 11;
+}
+.footer-rotate {
+  transform: rotate(180deg);
+}
 
 .footer-button-label {  /*Titulo*/
     color: rgb(90, 90, 88);
@@ -462,6 +482,7 @@
     width: 16px;
     height: 12px;
     width: fit-content;
+    transition: all 0s;
 }
 
 .footer-div-selector {   /*   Parte del selector   */ 
@@ -526,6 +547,10 @@
 
     .footer-button {
         width: 100%;
+    }
+
+    .footer-div-selector {
+
     }
 }
 @media (max-width: 768px) {

@@ -50,21 +50,13 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
         setColumns(columns)
     }, [items.content])
 
-
-    // useEffect( () => {
-    //     if (open) {
-            
-    //     } else if (!open) {
-
-    //     }
-    // }, [])
-    // girar flecha y añadir clase
+    
     // select -> sombra del boton, focus y cambio de colo del borde, no girar la flecha?
 
     return (
         <>
         {labelItem && <div className="footer-button-selector">
-            <button className={"footer-button"} ref={buttonRef} onClick={() => {
+            <button className={`footer-button ${open ? "footer-button-selected" : ""}`} ref={buttonRef} onClick={() => {
                 setOpen(open => !open)
             }}>
                 <div className="footer-button-label">{items.title}</div>
@@ -78,7 +70,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
                         />}
                         <span>{labelItem.country}</span>
                     </div>
-                    <img className="footer-button-icon" src="./src/home_page/media/img/footer/flecha-abajo.png" />
+                    <img className={`footer-button-icon ${open ? `footer-rotate` : ``}`} src="./src/home_page/media/img/footer/flecha-abajo.png" />
                 </div>
             </button>
 
