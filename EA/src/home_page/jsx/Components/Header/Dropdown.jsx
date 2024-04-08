@@ -8,7 +8,7 @@ export default function Dropdown({ header, itemList }) {
       </div>
 
       <div className="f_dropcontent">
-        {itemList.map((item, index) => (
+        {itemList?.map((item, index) => (
           <a href="" key={index}>
             {item}
           </a>

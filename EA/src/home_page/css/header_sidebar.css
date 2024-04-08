@@ -168,5 +168,10 @@
 }
 
 .f_sidebar_text:hover {
-  color: tomato;
+  color: #ff6347;
+}
+
+#f_closebtn:hover {
+  filter: invert(45%) sepia(29%) saturate(2021%) hue-rotate(327deg)
+    brightness(106%) contrast(100%);
 }

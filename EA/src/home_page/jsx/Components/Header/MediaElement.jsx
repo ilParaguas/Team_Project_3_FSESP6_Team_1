@@ -116,7 +116,7 @@ export default function MediaElement({ big, item }) {
             )}
 
             <div className="f_sidebar_media_content_link_wrapper">
-              {item.list.map((el, index) => (
+              {item.list?.map((el, index) => (
                 <ContentLink key={index} text={el} />
               ))}
             </div>
@@ -126,7 +126,7 @@ export default function MediaElement({ big, item }) {
             <div>
               <p onClick={handleClickContent}>{item.listTitle2}</p>
               <div className="f_sidebar_media_content_link_wrapper">
-                {item.list2.map((el, index) => (
+                {item.list2?.map((el, index) => (
                   <ContentLink key={index} text={el} />
                 ))}
               </div>

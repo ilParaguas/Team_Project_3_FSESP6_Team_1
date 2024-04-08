@@ -1,0 +1,82 @@
+{
+  "menuItems": [
+    {
+      "title": "JUEGOS",
+      "listTitle": "EXPLORAR JUEGOS",
+      "list": [
+        "Últimos juegos",
+        "Próximamente",
+        "Juegos gratuitos",
+        "EA SPORTS",
+        "EA Originals",
+        "Biblioteca de juegos",
+        "Ofertas de la EA app"
+      ],
+      "listTitle2": "PLATAFORMAS",
+      "list2": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch",
+        "Móviles",
+        "Pogo"
+      ]
+    },
+    {
+      "title": "EXPERIENCIAS",
+      "list": ["EA app", "EA Play", "Juego competitivo", "Pruebas de juego"]
+    },
+    {
+      "title": "ACERCA DE",
+      "list": [
+        "Compañía",
+        "Trabajar en EA",
+        "Noticias",
+        "Tecnología",
+        "Estudios de EA",
+        "EA Partners"
+      ]
+    },
+    {
+      "title": "COMPROMISOS",
+      "list": [
+        "Nuestros compromisos",
+        "Juego positivo",
+        "Diversidad e inclusión",
+        "Impacto social",
+        "Empleados y cultura",
+        "Medioambiente"
+      ]
+    },
+    {
+      "title": "RECURSOS",
+      "list": [
+        "Ayuda",
+        "Foros",
+        "Herramientas de juego y parentales",
+        "Accesibilidad",
+        "Prensa",
+        "Inversores"
+      ]
+    }
+  ],
+
+  "sidebar_header": "Todos los juegos",
+
+  "nav_username": {
+    "login": "Iniciar sesión",
+    "signin": "Crear cuenta"
+  },
+
+  "nav_help": {
+    "title": "¿Necesitas ayuda?",
+    "verify": "Verifica mi inicio de sesión de EA",
+    "linkAcc": "Vinculación de las cuentas de las plataformas a la Cuenta EA",
+    "redeemCode": "¿Cómo canjeo un código?",
+    "onlineIssue": "¡No puedo jugar online!",
+    "whiteText1": "¿No encuentras lo que buscas? Visita la ",
+    "redText1": "Ayuda de EA, Answers HQ",
+    "whiteText2": " o los ",
+    "redText2": "foros de EA."
+  }
+}

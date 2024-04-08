@@ -17,5 +17,5 @@ export function useUpdateNews(url) {
       console.error(error);
     }
   };
-  return {news,getNews};
+  return { news, getNews };
 }

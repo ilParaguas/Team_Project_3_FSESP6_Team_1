@@ -5,13 +5,19 @@ import NavbarBlack from "./NavbarBlack";
 import NavUsername from "./NavUsername";
 import NavbarWhite from "./NavbarWhite";
 import NavHelp from "./NavHelp";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { LanguageContext } from "../../Contexts/LanguageContext";
+import useHeader from "../../Hooks/useHeader";
 
 export default function Header() {
   let navBlack, navWhite, sidebar, cover, sidebar_media, nav_username, nav_help;
   const [usernameOpen, setUsernameOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Fetch data
+  const lang = useContext(LanguageContext);
+  const { data, loading } = useHeader(lang);
 
   // Carga de datos para trabajar mas facilmente y tener un codigo mas claro
   function loadData() {
@@ -28,9 +34,11 @@ export default function Header() {
 
   // Funcion para mover la posicion de las barras de navegacion superiores
   function editNavs(blackTop, whiteTop) {
-    if (document.body.style.overflow != "hidden") {
-      navBlack.style.top = blackTop;
-      navWhite.style.top = whiteTop;
+    if (navWhite && navBlack) {
+      if (document.body.style.overflow != "hidden") {
+        navBlack.style.top = blackTop;
+        navWhite.style.top = whiteTop;
+      }
     }
   }
 
@@ -134,6 +142,7 @@ export default function Header() {
       document.body.style.overflow = "auto";
     }
   }
+
   // El useEffect controla el movimiento del navbar negro cuando se scrollea por la pagina
   const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
   useEffect(() => {
@@ -152,22 +161,47 @@ export default function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [prevScrollpos]);
+
+  // Debug
+  if (loading) {
+    return <div> Loading...</div>;
+  }
 
   return (
     <div>
-      <Sidebar close={close} />
-      <Sidebar_media close={close} />
-      <Cover close={close} />
-      <div id="f_nav">
-        <NavbarBlack handleUsername={handleUsername} handleHelp={handleHelp} />
-        <NavUsername closeUsername={closeUsername} helpOpen={helpOpen} />
-        <NavHelp closeHelp={closeHelp} usernameOpen={usernameOpen} />
-        <NavbarWhite
-          openSidebar={openSidebar}
-          openSidebarMedia={openSidebarMedia}
-        />
-      </div>
+      {!loading && (
+        <>
+          <Sidebar close={close} headerText={data.sidebar_header} />
+
+          <Sidebar_media close={close} menu={data.menuItems} />
+          <Cover close={close} />
+          <div id="f_nav">
+            <NavbarBlack
+              handleUsername={handleUsername}
+              handleHelp={handleHelp}
+            />
+            <NavUsername
+              closeUsername={closeUsername}
+              helpOpen={helpOpen}
+              loginText={data.nav_username.login}
+              signInText={data.nav_username.signin}
+            />
+            <NavHelp
+              closeHelp={closeHelp}
+              usernameOpen={usernameOpen}
+              textData={data.nav_help}
+            />
+            <NavbarWhite
+              openSidebar={openSidebar}
+              openSidebarMedia={openSidebarMedia}
+              menu={data.menuItems}
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 }
