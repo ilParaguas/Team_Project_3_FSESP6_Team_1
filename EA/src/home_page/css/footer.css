@@ -41,12 +41,12 @@
 }
 @media (max-width: 1024px) {
   #terms-EA {
-    margin: 48px 60px 0px;
+    padding: 48px 60px 0px;
   }
 }
 @media (max-width: 768px) {
   #terms-EA {
-    margin: 32px 22px 0px;
+    padding: 32px 22px 0px;
   }
 }
 
