@@ -2,6 +2,11 @@
     background-color: #f3f3f3;
     color: #161616;
     font-family: ElectronicArtsText;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 #updates-title {
@@ -12,21 +17,42 @@
     word-wrap: break-word;
 }
 
-#arrow-left,
-#arrow-right {
-    position: absolute;
-    height: 100%;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    background-color: #f3f3f3;
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: visible;
+    position: relative;
 }
 
 #tabs-bar {
     margin: 0;
-    position: relative;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    margin-bottom: 3.5rem;
+}
+
+#last-updates::after {
+    content: "";
+    border-top: 2px solid #cdcdcd;
+    position: absolute;
+    width: 100%;
+    top: 9.1rem;
+    left: 0;
+}
+
+#tabs-slide {
+    overflow-x: auto;
+}
+
+#arrow-left,
+#arrow-right {
+    position: absolute;
+    height: 56px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    z-index: 1;
 }
 
 #arrow-left {
@@ -58,24 +84,19 @@
     fill: #1616168e;
 }
 
-#tabs-slide {
-
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
 #tabs-slide::-webkit-scrollbar {
     display: none;
 }
 
 #updates-tabs {
-    display: flex;
     list-style: none;
     color: #161616;
     font-size: 1.13rem;
-    padding: 0 1.5rem 0 1.5rem;
     white-space: nowrap;
+}
+
+#updates-tabs li {
+    display: inline-block;
 }
 
 #updates-tabs li:hover,
@@ -111,23 +132,12 @@ li:has(> .tab-radio:checked) {
     border-color: #ff4747;
 }
 
-.hr {
-    width: 100%;
-    border-top: 2px solid #cdcdcd;
-    margin-bottom: 3.5rem;
-}
-
-#news {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #cards-updates {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     max-width: 1100px;
+    margin: 0 2rem;
 }
 
 .card-updates {
@@ -177,7 +187,6 @@ li:has(> .tab-radio:checked) {
     font-size: 1.5rem;
     margin: 0.4rem 0;
     word-wrap: break-word;
-
 }
 
 .card-text {
@@ -192,6 +201,7 @@ li:has(> .tab-radio:checked) {
     margin: 3.2rem;
     font-size: 1.13rem;
     display: inline-block;
+    align-self: center;
 }
 
 .read-more-link {
@@ -218,9 +228,11 @@ li:has(> .tab-radio:checked) {
 }
 
 @media(max-width: 1455px) {
+    #news {
+        margin: 0 4vw;
+    }
 
     #cards-updates {
-        margin: 0 8.3vw;
         max-width: none;
     }
 
@@ -246,14 +258,19 @@ li:has(> .tab-radio:checked) {
         font-size: 1rem;
     }
 
-    .hr {
+    #tabs-bar {
         margin-bottom: 3rem;
     }
 
+    #news {
+        margin: 0 2vw;
+    }
+    #last-updates::after {
+        top: 8rem;
+    }
     #cards-updates {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
-        margin: 0 9.3vw;
     }
 
     .card-title {
@@ -271,6 +288,7 @@ li:has(> .tab-radio:checked) {
 
     .read-more {
         font-size: 1rem;
+        align-self: center;
     }
 
     .read-more-link {
@@ -288,16 +306,22 @@ li:has(> .tab-radio:checked) {
         padding: 0.8rem 1rem;
     }
 
-    .hr {
+    #cards-updates {
         margin-bottom: 2.3rem;
     }
 
     #cards-updates {
-        /* grid-template-columns: 1fr; */
         display: flex;
         flex-direction: column;
         align-self: stretch;
-        margin: 0 7.5vw;
+    }
+    #last-updates::after {
+        top: 7.3rem;
+    }
+    #arrow-left,
+    #arrow-right {
+        position: absolute;
+        height: 46px;
     }
 
     .card-img,
@@ -316,7 +340,7 @@ li:has(> .tab-radio:checked) {
 @media(max-width: 640px) {
     .read-more {
         align-self: stretch;
-        margin: 4rem 7.5vw;
+        margin: 4rem 2rem;
     }
 
     .read-more-link:hover {
