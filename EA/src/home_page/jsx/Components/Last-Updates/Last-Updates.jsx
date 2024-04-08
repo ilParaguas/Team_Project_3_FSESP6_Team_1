@@ -38,7 +38,10 @@ export function LastUpdates() {
               <div className="hr"></div>
               <div id="news">
                 <CardsUpdates />
-                <ReadMore text={texts.readMore} link={news && news[selectedTab]?.readMoreLink}/>
+                <ReadMore
+                  text={texts.readMore}
+                  link={news && news[selectedTab]?.readMoreLink}
+                />
               </div>
             </TabContext.Provider>
           </NewsContext.Provider>

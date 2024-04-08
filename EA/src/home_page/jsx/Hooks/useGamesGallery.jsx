@@ -17,5 +17,5 @@ export function useGamesGallery(url) {
       console.error(error);
     }
   };
-  return {gallery,getGallery};
+  return { gallery, getGallery };
 }

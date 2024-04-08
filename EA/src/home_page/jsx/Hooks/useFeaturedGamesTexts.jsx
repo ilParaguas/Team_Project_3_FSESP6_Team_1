@@ -14,5 +14,5 @@ export function useFeaturedGamesTexts(language) {
       console.error(error);
     }
   };
-  return {texts,getTexts};
+  return { texts, getTexts };
 }

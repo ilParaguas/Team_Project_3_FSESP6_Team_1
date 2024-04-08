@@ -14,6 +14,6 @@ export function useLastUpdatesTexts(language) {
       console.error(error);
     }
   };
-  
-  return {texts,getTexts};
+
+  return { texts, getTexts };
 }

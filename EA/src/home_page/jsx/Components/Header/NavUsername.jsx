@@ -5,7 +5,12 @@ import iconregister from "/src/home_page/media/img/svg/eaglobalnav-iconregister.
 import x from "/src/home_page/media/img/svg/x_nav.svg";
 import { useEffect, useRef } from "react";
 
-export default function NavUsername({ closeUsername, helpOpen }) {
+export default function NavUsername({
+  closeUsername,
+  helpOpen,
+  loginText,
+  signInText,
+}) {
   let usernameRef = useRef();
 
   useEffect(() => {
@@ -43,13 +48,13 @@ export default function NavUsername({ closeUsername, helpOpen }) {
             aClass="f_username_link"
             srcClass="f_username_svg"
             src={iconuser}
-            aText="Iniciar sesión"
+            aText={loginText}
           />
           <IconButton
             aClass="f_username_link"
             srcClass="f_username_svg"
             src={iconregister}
-            aText="Crear cuenta"
+            aText={signInText}
           />
         </div>
       </div>

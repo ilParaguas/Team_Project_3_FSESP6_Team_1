@@ -21,14 +21,14 @@ import battlefieldContent from "/src/home_page/media/img/svg/battlefield_logo.sv
 import simsLink from "/src/home_page/media/img/Header/sims.jpg";
 import simsContent from "/src/home_page/media/img/Header/the-sims-4-mono-logo.png";
 
-export default function Sidebar({ close }) {
+export default function Sidebar({ close, headerText }) {
   return (
     <div className="f_sidebar" id="f_sidebar">
       <div className="f_sidebar_wrapper">
         <div className="f_sidebar_top">
           <a className="f_sidebar_text" href="">
             {" "}
-            Todos los juegos
+            {headerText}
           </a>
           <img className="f_nav_x" id="f_closebtn" src={x} onClick={close} />
         </div>
