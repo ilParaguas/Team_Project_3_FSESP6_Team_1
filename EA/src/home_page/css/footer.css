@@ -556,7 +556,7 @@
     .footer-button {
         width: 100%;
     }
-    .footer-button-selected:focus::before {
+    .footer-button-selected::before {
       border-color: black;  
       border-width: 2px;
       box-shadow: .5px .5px 1px rgba(27, 26, 26, 0.466) inset;
