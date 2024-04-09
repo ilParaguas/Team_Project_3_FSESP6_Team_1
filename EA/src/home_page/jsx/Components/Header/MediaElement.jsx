@@ -56,7 +56,6 @@ export default function MediaElement({ item }) {
       }
 
       for (const el of elements) {
-        if (el.nodeName != "P") {
           if (el.style.opacity === "visible") {
             el.style.visibility = "hidden";
             el.style.height = "0px";
@@ -65,7 +64,7 @@ export default function MediaElement({ item }) {
             el.style.visibility = "visible";
             el.style.height = "45px";
             el.style.opacity = 1;
-          }
+          
         }
       }
     }

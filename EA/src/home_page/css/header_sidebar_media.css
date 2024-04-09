@@ -1,6 +1,6 @@
 .f_sidebar_media {
   background-color: white;
-  display: none; /* Default es none */
+  display: none;
   z-index: 203;
   position: fixed;
   top: 0px;
@@ -25,6 +25,7 @@
   flex: 0 0 53px;
   justify-content: space-between;
   width: 100%;
+  background-color: #f3f3f3;
 }
 
 .f_sidebar_media_text {
@@ -39,14 +40,14 @@
 }
 
 .f_sidebar_media_himage {
-  height: 20px;
+  height: 23px;
 }
 
 .f_sidebar_media_x {
   height: 36px;
   width: 36px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 14px;
 }
 
 .f_sidebar_media_body {

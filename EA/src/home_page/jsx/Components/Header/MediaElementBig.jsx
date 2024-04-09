@@ -84,16 +84,14 @@ export default function MediaElementBig({ item }) {
 
       <div className="f_sidebar_media_content_body" id="f_body_big">
         <div className="f_sidebar_media_content_link">
-          {item.listTitle && (
+          <div className="f_sidebar_media_content_link_border">
             <p onClick={handleClickContent}>{item.listTitle}</p>
-          )}
-
-          <div className="f_sidebar_media_content_link_wrapper">
-            {item.list?.map((el, index) => (
-              <ContentLink key={index} text={el} />
-            ))}
+            <div className="f_sidebar_media_content_link_wrapper">
+              {item.list?.map((el, index) => (
+                <ContentLink key={index} text={el} />
+              ))}
+            </div>
           </div>
-
           {item.listTitle2 && (
             <div className="f_sidebar_media_content_link_border">
               <p onClick={handleClickContent}>{item.listTitle2}</p>
@@ -103,7 +101,7 @@ export default function MediaElementBig({ item }) {
                 ))}
               </div>
             </div>
-          )}
+          )}{" "}
         </div>
       </div>
     </div>
