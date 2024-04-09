@@ -18,17 +18,20 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     const [open, setOpen] = useState(false)     
     const buttonRef = useRef()
     const selectorRef = useRef()
+    const selectRef = useRef()
 
     useEffect( () => {
-        let ref = buttonRef.current
+        let bref = buttonRef.current
+        let sref = selectorRef.current
+        let slref = selectRef.current
         window.addEventListener("click", event => {         // Close selector when click out
-            if (!buttonRef.current?.contains(event.target) && !selectorRef.current?.contains(event.target)) {
+            if (!buttonRef.current?.contains(event.target) && !selectorRef.current?.contains(event.target) && !selectRef.current?.contains(event.target)) {
                 setOpen(false)
             }
         }) 
         return () => {
             window.removeEventListener("click", event => {
-                if (!ref.contains(event.target) && !ref.contains(event.target)) {
+                if (!bref.contains(event.target) && !sref.contains(event.target) && !slref.contains(event.target)) {
                     setOpen(false)
                 }
             })
@@ -51,13 +54,14 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
     }, [items.content])
 
     
-    // select -> sombra del boton, focus y cambio de colo del borde, no girar la flecha?
+    // sombra del boton, focus, bg
 
     return (
         <>
         {labelItem && <div className="footer-button-selector">
-            <button className={`footer-button ${open ? "footer-button-selected" : ""}`} ref={buttonRef} onClick={() => {
+            <button className={`footer-button ${open ? "footer-button-selected" : ""}`} ref={buttonRef} onClick={(e) => {
                 setOpen(open => !open)
+                e.target.focus()
             }}>
                 <div className="footer-button-label">{items.title}</div>
                 <div className="footer-button-content">
@@ -75,7 +79,8 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             </button>
 
             {open && (
-            <div className="footer-div-selector footer-shadow" tabIndex="0" ref={selectorRef}>
+            <>
+            <div className="footer-div-selector" tabIndex="0" ref={selectRef}>
                 {columns.map((column, index) => (
                     <div key={index} className="footer-div-selector-column">
                         {column.map(item => {
@@ -83,7 +88,14 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
                         })}
                     </div>
                 ))}
-            </div>  )}
+            </div>  
+            <div className="footer-div-select" tabIndex="0" ref={selectorRef}>
+                {items.content.map( item => (
+                    <a href={hasFlags ? `/${item.lang}` : ""} className="footer-div-link" key={item.ISO}>{item.country}</a>
+                ))}
+            </div>
+            </>
+            )}
         </div> }
         </>     
     );
