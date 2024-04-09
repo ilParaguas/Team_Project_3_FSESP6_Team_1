@@ -70,12 +70,16 @@
   cursor: pointer;
 }
 
-#f_sidebar_icon,
+#f_sidebar_icon {
+  cursor: pointer;
+  margin-right: -1px;
+  margin-left: 16px;
+}
+
 #f_icon_anvorgesa {
   cursor: pointer;
-  width: 20px;
-  margin-right: 15px;
-  margin-left: 25px;
+  margin-right: -10px;
+  margin-left: 13px;
 }
 
 #f_sidebar_icon {
@@ -91,6 +95,11 @@
   pointer-events: none;
   height: 22px;
   width: 22px;
+}
+
+.f_anvorgesa {
+  width: 20px;
+  margin-left: 1px;
 }
 
 #f_icon_anvorgesa {
@@ -134,8 +143,17 @@
   width: 22px;
 }
 
+.f_nav_svg {
+  width: 18px;
+  height: 18px;
+}
+
 .f_nav_svg:hover {
-  filter: brightness(130%);
+  filter: brightness(150%);
+}
+
+#f_eaicon:hover {
+  filter: brightness(80%);
 }
 
 #f_ealogo {
@@ -155,7 +173,10 @@
 }
 
 .f_nav_hidden > .f_nav_x {
-  margin-right: 28px;
+  margin-top: 36px;
+  margin-right: 34px;
+  margin-bottom: -62px;
+  width: 14px;
   z-index: 205;
   filter: invert(100%) sepia(0%) saturate(7492%) hue-rotate(227deg)
     brightness(99%) contrast(103%);
@@ -164,6 +185,7 @@
 #f_eaimage {
   margin-left: 33px;
   max-height: 40px;
+  height: 23px;
 }
 
 .f_username_content,
@@ -174,7 +196,9 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
+  height: 100%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .f_username_wrapper,
@@ -182,10 +206,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
-  width: 70%;
+  width: 40%;
   height: 100%;
 }
 
@@ -193,41 +217,40 @@
 .f_help_link {
   display: flex;
   flex-direction: column;
-  margin: 0;
   align-items: center;
   flex: 0 0 auto;
-  transition: margin-top 0.3s ease-in-out;
-  width: calc(50% - 16px);
+  width: 25%;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  min-width: 50%;
 }
 
 .f_username_link:hover,
 .f_help_link:hover {
   cursor: pointer;
-  margin-top: -5px;
+  transform: translateY(-6px);
 }
 
 .f_username_svg,
 .f_help_svg {
   max-width: 36px;
   cursor: pointer;
-  height: 22px;
-  width: 22px;
+  height: 54px;
+  width: 36px;
 }
 
 .f_help_title {
   font-size: 18px;
-  letter-spacing: 0.04rem;
   margin: 32px 0 0 0;
   width: 100%;
   text-align: center;
+  font-weight: bold;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+  letter-spacing: -0.08rem;
 }
 
 .f_help_wrapper {
   margin: 24px;
-}
-
-.f_help_link {
-  max-width: calc(50% - 24px);
 }
 
 .f_help_p {
@@ -239,11 +262,18 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1032px) {
+@media screen and (max-width: 1456px) {
   #f_nav_white {
-    height: 50px;
+    height: 56px;
   }
 
+  .f_dropdown {
+    margin-right: -15px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1032px) {
   .f_blackcover {
     top: -10px;
   }
@@ -266,5 +296,93 @@
 
   .f_sidebar_media {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .f_username_link,
+  .f_help_link {
+    max-width: 80%;
+    flex-direction: row;
+    margin-top: -20px;
+    justify-content: initial;
+    text-align: justify;
+  }
+
+  .f_help_wrapper {
+    width: 70%;
+  }
+
+  .f_username_link .f_username_svg,
+  .f_help_link .f_help_svg {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .f_eaimage_src {
+    width: 110px;
+    margin-left: -9px;
+    margin-top: 5px;
+  }
+
+  #f_nav_white {
+    height: 53px;
+  }
+
+  .f_username_wrapper {
+    width: 70%;
+  }
+
+  .f_username_link .f_username_svg,
+  .f_help_link .f_help_svg {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .f_username_link,
+  .f_help_link {
+    width: 85%;
+    margin-bottom: inherit;
+    justify-content: initial;
+    text-align: justify;
+  }
+
+  .f_username_wrapper {
+    margin-top: 8rem;
+    height: 40%;
+  }
+
+  .f_username_link {
+    justify-content: center;
+  }
+
+  .f_help_link .f_help_svg {
+    margin-right: 10px;
+  }
+
+  .f_help_wrapper {
+    width: 70%;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
+  .f_help_title {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .f_eaimage_src {
+    width: 100px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .f_eaimage_src {
+    width: 90px;
+    margin-top: 6px;
   }
 }

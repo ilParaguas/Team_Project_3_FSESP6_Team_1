@@ -212,6 +212,7 @@ body {
   .imgZonaPurple {
     width: 100%;
     height: 37vw;
+    margin-top: -4px;
   }
   .imagenFormula1 {
     width: 35vw;
