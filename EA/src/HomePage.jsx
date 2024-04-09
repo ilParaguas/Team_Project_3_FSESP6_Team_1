@@ -1,4 +1,4 @@
-import "./home_page/css/styles.css"
+import "./home_page/css/styles.css";
 import Header from "./home_page/jsx/Components/Header/Header";
 import { useNavigate, useParams } from "react-router-dom";
 import { LastUpdates } from "./home_page/jsx/Components/Last-Updates/Last-Updates";
@@ -11,21 +11,19 @@ import { FeaturedGames } from "./home_page/jsx/Components/Featured-Games/Feature
 const languages = ["es-es", "en-gb", "en-us"];
 
 export function HomePage() {
-
   const { lang } = useParams();
   const navigate = useNavigate();
-  useEffect(()=>{
+  useEffect(() => {
     if (lang && !languages.includes(lang)) navigate("/");
-  },[lang]);
+  }, [lang]);
 
   return (
-    <LanguageContext.Provider
-      value={lang || "es-es"}>
+    <LanguageContext.Provider value={lang || "es-es"}>
       <Header />
-      <PlaySectionsHeader/>
-      <FeaturedGames/>
-      <LastUpdates/>
-      <PlaySectionsFooter/>
+      <PlaySectionsHeader />
+      <FeaturedGames />
+      <LastUpdates />
+      <PlaySectionsFooter />
       <Footer />
     </LanguageContext.Provider>
   );

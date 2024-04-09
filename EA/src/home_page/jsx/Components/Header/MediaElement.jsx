@@ -1,6 +1,6 @@
 import ContentLink from "./ContentLink";
 
-export default function MediaElement({ big, item }) {
+export default function MediaElement({ item }) {
   function handleClickHeader(event) {
     let element = event.currentTarget.nextElementSibling;
 
@@ -10,10 +10,18 @@ export default function MediaElement({ big, item }) {
       event.currentTarget.classList.remove("f_tomato");
     }
 
-    if (!element.classList.contains("f_open")) {
-      element.classList.add("f_open");
+    if (
+      element.style.height === 0 ||
+      element.style.height === "0px" ||
+      !element.style.height
+    ) {
+      element.style.height = item.height;
+      element.style.opacity = 1;
+      element.style.visibility = "visible";
     } else {
-      element.classList.remove("f_open");
+      element.style.height = "0px";
+      element.style.opacity = 0;
+      element.style.visibility = "hidden";
     }
 
     let chevron = event.currentTarget.childNodes[1];
@@ -31,8 +39,8 @@ export default function MediaElement({ big, item }) {
       chevron2.classList.remove("f_rotatechevron2");
     }
 
-    // Este codigo funciona cuando no hay titulo de la lista
     if (!item.listTitle) {
+      console.log("ENTRO")
       let wrapper =
         event.currentTarget.nextElementSibling.firstChild.firstChild.firstChild;
       let elements = wrapper.children;
@@ -42,51 +50,22 @@ export default function MediaElement({ big, item }) {
         wrapper.style.height === "0px" ||
         !wrapper.style.height
       ) {
-        wrapper.style.height = "fit-content";
+        wrapper.style.height = 45 * item.list.length + "px";
       } else {
         wrapper.style.height = "0px";
       }
 
       for (const el of elements) {
         if (el.nodeName != "P") {
-          if (el.style.visibility === "visible") {
+          if (el.style.opacity === "visible") {
             el.style.visibility = "hidden";
             el.style.height = "0px";
             el.style.opacity = 0;
           } else {
             el.style.visibility = "visible";
-            el.style.height = "auto";
+            el.style.height = "45px";
             el.style.opacity = 1;
           }
-        }
-      }
-    }
-  }
-
-  function handleClickContent(event) {
-    let elements = event.currentTarget.nextElementSibling.children;
-    let wrapper = event.currentTarget.nextElementSibling;
-
-    if (
-      wrapper.style.height === 0 ||
-      wrapper.style.height === "0px" ||
-      !wrapper.style.height
-    ) {
-      wrapper.style.height = "fit-content";
-    } else {
-      wrapper.style.height = "0px";
-    }
-
-    for (const element of elements) {
-      if (element.nodeName != "P") {
-        if (element.style.visibility === "visible") {
-          element.style.visibility = "hidden";
-          element.style.height = "0px";
-          element.style.opacity = 0;
-        } else {
-          element.style.visibility = "visible";
-          element.style.height = "auto";
-          element.style.opacity = 1;
         }
       }
     }
@@ -99,21 +78,16 @@ export default function MediaElement({ big, item }) {
         onClick={handleClickHeader}
       >
         <p> {item.title} </p>
-        <div className="f_chevron">
+        <div className="f_chevron_sidebar">
           <span></span>
           <span></span>
         </div>
       </div>
 
-      <div
-        className="f_sidebar_media_content_body"
-        id={big ? "f_body_big" : ""}
-      >
+      <div className="f_sidebar_media_content_body">
         <div className="f_sidebar_media_content_link">
-          <div>
-            {item.listTitle && (
-              <p onClick={handleClickContent}>{item.listTitle}</p>
-            )}
+          <div className="f_sidebar_media_content_link_border">
+            {item.listTitle && <p>{item.listTitle}</p>}
 
             <div className="f_sidebar_media_content_link_wrapper">
               {item.list?.map((el, index) => (
@@ -121,17 +95,6 @@ export default function MediaElement({ big, item }) {
               ))}
             </div>
           </div>
-
-          {item.listTitle2 && (
-            <div>
-              <p onClick={handleClickContent}>{item.listTitle2}</p>
-              <div className="f_sidebar_media_content_link_wrapper">
-                {item.list2?.map((el, index) => (
-                  <ContentLink key={index} text={el} />
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </div>
     </div>
