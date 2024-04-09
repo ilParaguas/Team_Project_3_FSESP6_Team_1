@@ -6,6 +6,7 @@
     font-size: 25px;
     padding-top: 2rem;
     background-color: #f3f3f3;
+    padding: 0 4vw;
     
 }
 #games-title {
@@ -21,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.7rem;
+    margin: 0 2.8rem;
 }
 
 .gameLink {
@@ -78,7 +80,8 @@
 }
 .latest-games {
     position: relative;
-    margin: 3.2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
     font-size: 1.13rem;
     display: inline-block;
 }
@@ -104,9 +107,10 @@
 }
 
 @media(max-width: 1455px) {
-
+    #featured-games{
+        padding: 0 4vw;
+    }
     #gameGallery {
-        margin: 0 8.3vw;
         max-width: none;
     }
 
@@ -122,13 +126,16 @@
 }
 
 @media(max-width: 1025px) {
+    #featured-games{
+        padding: 0 2vw;
+    }
     #games-title {
         font-size: 2rem;
     }
     #gameGallery {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        margin: 0 9.3vw;
+        margin: 0 2.1rem;
     }
     .latest-games {
         font-size: 1rem;
@@ -147,7 +154,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         align-self: stretch;
-        margin: 0 7.5vw;
+        margin: 0 4vw;
     }
 
     .gameLinkSpan {
@@ -158,7 +165,7 @@
 @media(max-width: 640px) {
     .latest-games {
         align-self: stretch;
-        margin: 4rem 7.5vw;
+        margin: 1rem 4vw 3rem 4vw;
     }
     .latest-games-link:hover {
         transform: scaleX(1.01) scaleY(1.1);

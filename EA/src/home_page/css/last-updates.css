@@ -29,6 +29,8 @@
     margin: 0;
     display: grid;
     margin-bottom: 3.5rem;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 #last-updates::after {
@@ -47,26 +49,26 @@
 #arrow-left,
 #arrow-right {
     position: absolute;
-    height: 56px;
+    height: 60px;
+    width: 20px;
     border: none;
     padding: 0;
     cursor: pointer;
     background-color: #f3f3f3;
     z-index: 1;
+    top: 0;
 }
 
 #arrow-left {
     box-shadow: 13px 0px 10px 3px #f3f3f3;
     display: none;
     left: 0;
-    top: 0;
 }
 
 #arrow-right {
     box-shadow: -13px 0px 10px 3px #f3f3f3;
     display: none;
     right: 0;
-    top: 0;
 }
 
 #arrow-right div,
@@ -93,6 +95,7 @@
     color: #161616;
     font-size: 1.13rem;
     white-space: nowrap;
+    
 }
 
 #updates-tabs li {
@@ -137,7 +140,7 @@ li:has(> .tab-radio:checked) {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     max-width: 1100px;
-    margin: 0 2rem;
+    margin: 0 2.8rem;
 }
 
 .card-updates {
@@ -271,6 +274,7 @@ li:has(> .tab-radio:checked) {
     #cards-updates {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+        margin: 0 2rem;
     }
 
     .card-title {
@@ -307,21 +311,19 @@ li:has(> .tab-radio:checked) {
     }
 
     #cards-updates {
-        margin-bottom: 2.3rem;
-    }
-
-    #cards-updates {
         display: flex;
         flex-direction: column;
         align-self: stretch;
+        margin: 0 4vw;
+        margin-bottom: 2.3rem;
+    
     }
     #last-updates::after {
         top: 7.3rem;
     }
     #arrow-left,
     #arrow-right {
-        position: absolute;
-        height: 46px;
+        height: 48px;
     }
 
     .card-img,
@@ -335,12 +337,15 @@ li:has(> .tab-radio:checked) {
         align-items: center;
         text-align: center;
     }
+    .read-more {
+        margin-top: 1rem; 
+    }
 }
 
 @media(max-width: 640px) {
     .read-more {
         align-self: stretch;
-        margin: 4rem 2rem;
+        margin: 1rem 4vw 3rem 4vw;
     }
 
     .read-more-link:hover {
@@ -348,7 +353,11 @@ li:has(> .tab-radio:checked) {
     }
 
 }
-
+@media(max-width: 363px) {
+    #last-updates::after {
+        top: 10rem;
+    }
+}
 @media(max-width: 250px) {
     .card-title {
         word-break: break-all;
