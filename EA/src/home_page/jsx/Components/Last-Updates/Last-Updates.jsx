@@ -8,6 +8,7 @@ import { useUpdateNews } from "../../Hooks/useUpdateNews";
 import { LanguageContext } from "../../Contexts/LanguageContext";
 import { ReadMore } from "./ReadMore";
 import { useLastUpdatesTexts } from "../../Hooks/useLastUpdatesTexts";
+import { SlideArrow } from "./Slide-Arrow";
 
 export function LastUpdates() {
   const [selectedTab, setSelectedTab] = useState("");
@@ -34,9 +35,12 @@ export function LastUpdates() {
           <h2 id="updates-title">{texts.title}</h2>
           <NewsContext.Provider value={news}>
             <TabContext.Provider value={{ selectedTab, setSelectedTab }}>
-              <TabsBar />
-              <div className="hr"></div>
+              {/* <div className="hr"></div> */}
+
               <div id="news">
+              <SlideArrow direction="left" />
+              <SlideArrow direction="right" />
+                <TabsBar />
                 <CardsUpdates />
                 <ReadMore
                   text={texts.readMore}

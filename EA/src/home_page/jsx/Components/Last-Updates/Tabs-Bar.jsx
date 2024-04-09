@@ -1,4 +1,3 @@
-import { SlideArrow } from "./Slide-Arrow";
 import { useContext, useEffect, useRef } from "react";
 import { Tab } from "./Tab";
 import { NewsContext } from "../../Contexts/NewsContext";
@@ -20,11 +19,9 @@ export function TabsBar() {
   
   return (
     <div id="tabs-bar">
-      <SlideArrow direction="left" />
       <div id="tabs-slide" onScroll={handleScroll} ref={tabSlideRef}>
         <ul id="updates-tabs">{toArray(newsJson)}</ul>
       </div>
-      <SlideArrow direction="right" />
     </div>
   );
 }
@@ -56,12 +53,14 @@ const handleScroll = (event) => {
   }
   if (
     Math.ceil(event.target.scrollLeft + event.target.clientWidth) <
-    event.target.scrollWidth
+    event.target.scrollWidth-3
   ) {
     arrowR.style.display = "block";
   } else {
     arrowR.style.display = "none";
   }
+  console.log("srcoll "+ (event.target.scrollLeft + event.target.clientWidth))
+  console.log("width "+event.target.scrollWidth)
 };
 const handleResize = (element) => {
   const arrowL = document.getElementById("arrow-left");
