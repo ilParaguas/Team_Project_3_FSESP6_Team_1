@@ -91,7 +91,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
             </div>  
             <div className="footer-div-select" tabIndex="0" ref={selectorRef}>
                 {items.content.map( item => (
-                    <a href={hasFlags ? `/${item.lang}` : ""} className="footer-div-link" key={item.ISO}>{item.country}</a>
+                    <a href={hasFlags && item.lang ? `/${item.lang}` : ""} className="footer-div-link" key={item.ISO}>{item.country}</a>
                 ))}
             </div>
             </>
@@ -104,7 +104,7 @@ export default function ButtonSelectorLanguages({ items, hasFlags }) {
 function SelectorItem({ item, hasFlags, checkedCountry }) {
 
     return (
-        <a className="footer-column-link" href={hasFlags ? `/${item.lang}` : ""}>
+        <a className="footer-column-link" href={hasFlags && item.lang ? `/${item.lang}` : ""}>
             <div className="footer-column-link-content">
                 {hasFlags==="true" && <div className="footer-icon">
                     <img src={`./src/home_page/media/img/footer/flags/${item.ISO}.png`} 
