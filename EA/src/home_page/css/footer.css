@@ -439,6 +439,8 @@
     bottom: -3px;
     right: -3px;
     border-width: 3px;
+    box-shadow: 0px 10px 10px rgba(170, 170, 170, 0.5);
+
     transition: all 0s;
 }
 .footer-button-selected::after {
@@ -497,6 +499,7 @@
     border: 3px solid rgb(194, 194, 194);
     z-index: 5;
     overflow-y: hidden;
+    box-shadow: 0px 10px 10px rgba(170, 170, 170, 0.5);
 
     display: grid;
     grid-auto-flow: column;
@@ -535,6 +538,10 @@
   margin-right: 8px;
 }
 
+.footer-div-select {
+  display: none;
+}
+
 @media (max-width: 1456px) {
   .footer-div-selector {
     padding: 12px 0px;
@@ -548,9 +555,53 @@
     .footer-button {
         width: 100%;
     }
+    .footer-button-selected::before {     
+      border-color: black;  
+      border-width: 2px;
+      box-shadow: .5px .5px 1px rgba(27, 26, 26, 0.466) inset;
 
-    .footer-div-selector {
+      transition: all 0s;
+    }
+    .footer-button-selected:focus::before {
+      border-color: black;  
+      border-width: 2px;
+      box-shadow: .5px .5px 1px rgba(27, 26, 26, 0.466) inset;
 
+      transition: all 0s;
+    }
+    .footer-button-selected:hover::before {     
+      box-shadow: none;
+    }
+    .footer-button-selected::after {     
+      display: none;
+    }
+
+    .footer-div-selector {    /*Cambio de selector*/
+      display: none;
+    }
+    .footer-div-select {
+      width: auto;
+      height: 450px;
+      background-color: #f3f3f3;
+      border: 1px solid #5a5a5a;
+      border-bottom: none;
+
+      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+      
+      position: absolute;
+      bottom: 100%;
+      left: -2px;
+      right: -2px;
+    }
+    .footer-div-link {
+      padding-left: 24px;
+      cursor: default;
+    }
+    .footer-div-link:hover {
+      color: #f3f3f3;
+      background-color: rgb(27, 95, 196);
     }
 }
 @media (max-width: 768px) {
@@ -627,6 +678,6 @@
     height: 16px;
     width: fit-content;
 }
-.footer-shadow {
-  box-shadow: 0px 10px 10px rgba(110, 110, 100, 0.5);
+.footer-hidden {
+  display: none;
 }
