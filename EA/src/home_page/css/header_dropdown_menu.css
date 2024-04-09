@@ -60,14 +60,12 @@
 .f_chevron span {
   display: flex;
   border-radius: 0.5em;
-  border-top: 0.1em solid currentColor;
+  border-top: 0.1em solid;
   height: 0.1em;
   width: 0.5em;
   top: 50%;
 
   -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
 

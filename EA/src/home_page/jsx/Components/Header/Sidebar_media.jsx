@@ -2,6 +2,7 @@ import IconButton from "./IconButton";
 import MediaElement from "./MediaElement";
 import x_media from "/src/home_page/media/img/svg/x_media.svg";
 import ealogo from "/src/home_page/media/img/svg/ealogo.svg";
+import MediaElementBig from "./MediaElementBig";
 
 export default function Sidebar_media({ close, menu }) {
   return (
@@ -23,9 +24,13 @@ export default function Sidebar_media({ close, menu }) {
         </div>
         <div className="f_sidebar_media_body">
           <div className="f_sidebar_media_body_wrapper">
-            {menu?.map((element, index) => (
-              <MediaElement big={index === 0} item={element} key={index} />
-            ))}
+            {menu?.map((element, index) =>
+              index === 0 ? (
+                <MediaElementBig item={element} key={index} />
+              ) : (
+                <MediaElement item={element} key={index} />
+              )
+            )}
           </div>
         </div>
       </div>

@@ -20,11 +20,13 @@
         "Nintendo Switch",
         "Móviles",
         "Pogo"
-      ]
+      ],
+      "height": "108px"
     },
     {
       "title": "EXPERIENCIAS",
-      "list": ["EA app", "EA Play", "Juego competitivo", "Pruebas de juego"]
+      "list": ["EA app", "EA Play", "Juego competitivo", "Pruebas de juego"],
+      "height": "217px"
     },
     {
       "title": "ACERCA DE",
@@ -35,7 +37,8 @@
         "Tecnología",
         "Estudios de EA",
         "EA Partners"
-      ]
+      ],
+      "height": "325px"
     },
     {
       "title": "COMPROMISOS",
@@ -46,7 +49,8 @@
         "Impacto social",
         "Empleados y cultura",
         "Medioambiente"
-      ]
+      ],
+      "height": "325px"
     },
     {
       "title": "RECURSOS",
@@ -57,7 +61,8 @@
         "Accesibilidad",
         "Prensa",
         "Inversores"
-      ]
+      ],
+      "height": "325px"
     }
   ],
 
@@ -69,7 +74,7 @@
   },
 
   "nav_help": {
-    "title": "¿Necesitas ayuda?",
+    "title": "¿NECESITAS AYUDA?",
     "verify": "Verifica mi inicio de sesión de EA",
     "linkAcc": "Vinculación de las cuentas de las plataformas a la Cuenta EA",
     "redeemCode": "¿Cómo canjeo un código?",

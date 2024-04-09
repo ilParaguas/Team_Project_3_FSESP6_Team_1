@@ -268,9 +268,3 @@
     display: block;
   }
 }
-
-@media screen and (max-width: 321px) {
-  .f_sidebar_media {
-    width: 100% !important;
-  }
-}
