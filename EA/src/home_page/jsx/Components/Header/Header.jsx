@@ -78,7 +78,7 @@ export default function Header() {
     if (window.innerWidth > 1456) {
       sidebar.style.width = "26rem";
     } else {
-      sidebar.style.width = "22%";
+      sidebar.style.width = "26%";
     }
     sidebar.style.top = "40px";
     openCover();
