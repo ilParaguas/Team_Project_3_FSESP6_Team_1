@@ -75,7 +75,11 @@ export default function Header() {
 
   // Abre la sidebar por defecto
   function openSidebar() {
-    sidebar.style.width = "20rem";
+    if (window.innerWidth > 1456) {
+      sidebar.style.width = "26rem";
+    } else {
+      sidebar.style.width = "22%";
+    }
     sidebar.style.top = "40px";
     openCover();
     if (navBlack.style.top == "-40px") {
@@ -87,7 +91,6 @@ export default function Header() {
   // Abre la sidebar responsiva (cuando width < 1032px )
   function openSidebarMedia() {
     if (window.innerWidth < 321) {
-      console.log("SCREEN PEQUEÑA");
       sidebar_media.style.width = "100%";
     } else {
       sidebar_media.style.width = "86.5%";
