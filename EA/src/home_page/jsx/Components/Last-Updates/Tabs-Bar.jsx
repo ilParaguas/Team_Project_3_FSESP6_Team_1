@@ -59,8 +59,6 @@ const handleScroll = (event) => {
   } else {
     arrowR.style.display = "none";
   }
-  console.log("srcoll "+ (event.target.scrollLeft + event.target.clientWidth))
-  console.log("width "+event.target.scrollWidth)
 };
 const handleResize = (element) => {
   const arrowL = document.getElementById("arrow-left");

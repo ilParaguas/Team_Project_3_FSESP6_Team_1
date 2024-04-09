@@ -4,9 +4,9 @@ export function SlideArrow({ direction }) {
   useEffect(() => {
     const slideBar = document.getElementById("tabs-slide");
     setTimeout(() => {
-      slideBar.scrollBy(5, 0);
-      slideBar.scrollBy(-5, 0);
-    }, 200);
+      slideBar.scrollBy(1, 0);
+      slideBar.scrollBy(-1, 0);
+    }, 1000);
   }, []);
   
   return (

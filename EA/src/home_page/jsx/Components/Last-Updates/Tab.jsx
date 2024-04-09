@@ -2,19 +2,21 @@ import { useContext, useEffect, useRef } from "react";
 import { TabContext } from "../../Contexts/TabContext";
 
 export function Tab({ news, isFirst, isLast }) {
-  const {selectedTab,setSelectedTab} = useContext(TabContext);
+  const { selectedTab, setSelectedTab } = useContext(TabContext);
   const tabRef = useRef();
-  useEffect(()=>{
-    if(selectedTab==news){
+  useEffect(() => {
+    if (selectedTab == news) {
       document.getElementById(`radio-${news}`).checked = true;
-      document.getElementById(news+"-link").scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
+      
     }
-  },[selectedTab]);
+  }, [selectedTab]);
 
-  const handleLinkClick = () => {
+  const handleLinkClick = (event) => {
+    document.getElementById(`radio-${news}`).checked = true;
+    document.getElementById(news+"-link").scrollIntoView({block: "nearest",behavior: "smooth",inline: "center"});
     setSelectedTab(news);
   };
-  
+
   return (
     <li>
       <input
@@ -25,7 +27,7 @@ export function Tab({ news, isFirst, isLast }) {
         ref={tabRef}
       ></input>
       <a
-        id={news+"-link"}
+        id={news + "-link"}
         onClick={handleLinkClick}
         href={`#${news}`}
         className="update-tab"
