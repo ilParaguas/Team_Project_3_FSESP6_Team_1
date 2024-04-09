@@ -20,11 +20,13 @@
         "Nintendo Switch",
         "Mobile",
         "Pogo"
-      ]
+      ],
+      "height": "108px"
     },
     {
       "title": "EXPERIENCES",
-      "list": ["The EA app", "EA Play", "Competitive Gaming", "Playtesting"]
+      "list": ["The EA app", "EA Play", "Competitive Gaming", "Playtesting"],
+      "height": "217px"
     },
     {
       "title": "ABOUT",
@@ -35,7 +37,8 @@
         "Technology",
         "EA Studios",
         "EA Partners"
-      ]
+      ],
+      "height": "325px"
     },
     {
       "title": "COMMITMENTS",
@@ -46,7 +49,8 @@
         "Social Impact",
         "People & Culture",
         "Environment"
-      ]
+      ],
+      "height": "325px"
     },
     {
       "title": "RESOURCES",
@@ -57,7 +61,8 @@
         "Accessibility",
         "Press",
         "Investors"
-      ]
+      ],
+      "height": "325px"
     }
   ],
 
