@@ -38,6 +38,17 @@ export default function Header() {
       if (document.body.style.overflow != "hidden") {
         navBlack.style.top = blackTop;
         navWhite.style.top = whiteTop;
+        const dropDownClass = document.getElementsByClassName("f_dropcontent");
+
+        if (blackTop == "0px") {
+          for (let i = 0; i < dropDownClass.length; i++) {
+            dropDownClass[i].style.top = "100px";
+          }
+        } else {
+          for (let i = 0; i < dropDownClass.length; i++) {
+            dropDownClass[i].style.top = "60px";
+          }
+        }
       }
     }
   }
