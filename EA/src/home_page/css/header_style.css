@@ -2,6 +2,10 @@
 @import url("./header_sidebar.css");
 @import url("./header_sidebar_media.css");
 
+:root {
+  --menu-item-offset: 0px;
+}
+
 #f_nav {
   height: fit-content;
   width: 100%;
