@@ -33,18 +33,20 @@ export default function MediaElement({ item }) {
           <span></span>
         </div>
       </div>
-      <MediaContentBody
-        listTitle={item.listTitle}
-        itemList={item.list}
-        big={!!item.listTitle}
-      />
-      {item.listTitle2 && (
+      <div className="f_sidebar_media_content_body">
         <MediaContentBody
-          listTitle={item.listTitle2}
-          itemList={item.list2}
-          big={true}
+          listTitle={item.listTitle}
+          itemList={item.list}
+          big={!!item.listTitle}
         />
-      )}
+        {item.listTitle2 && (
+          <MediaContentBody
+            listTitle={item.listTitle2}
+            itemList={item.list2}
+            big={true}
+          />
+        )}
+      </div>
     </div>
   );
 }
