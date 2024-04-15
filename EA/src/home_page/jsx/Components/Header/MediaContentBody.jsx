@@ -9,7 +9,7 @@ export default function ContentLink({ listTitle, itemList, big }) {
     const chevron1 = chevron.childNodes[0];
     const chevron2 = chevron.childNodes[1];
 
-    const sectionHeight = 35 * (itemList.length + 1);
+    const sectionHeight = 40 * (itemList.length + 1);
     const bodyHeight = parseInt(body.style.height.replace("px", ""));
 
     if (

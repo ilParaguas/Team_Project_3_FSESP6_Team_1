@@ -1,6 +1,12 @@
 import MediaContentBody from "./MediaContentBody";
 
 export default function MediaElement({ item }) {
+
+  // JAJAJAJA
+  // SIRVE PARA RECORDAR LA ALTURA QUE TENIA LA
+  // PESTAÑA AL CERRARSE
+  let elementHeight = item.height;
+
   function handleClickHeader(event) {
     let element = event.currentTarget.nextElementSibling;
 
@@ -10,11 +16,12 @@ export default function MediaElement({ item }) {
 
     if (!event.currentTarget.classList.contains("f_tomato")) {
       event.currentTarget.classList.add("f_tomato");
-      element.style.height = item.height;
+      element.style.height = elementHeight;
       chevron1.classList.add("f_rotatechevron1");
       chevron2.classList.add("f_rotatechevron2");
     } else {
       event.currentTarget.classList.remove("f_tomato");
+      elementHeight = element.style.height;
       element.style.height = "0px";
       chevron1.classList.remove("f_rotatechevron1");
       chevron2.classList.remove("f_rotatechevron2");

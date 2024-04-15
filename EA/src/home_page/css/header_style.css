@@ -3,7 +3,7 @@
 @import url("./header_sidebar_media.css");
 
 :root {
-  --menu-item-offset: 0px;
+  --offset: 0px;
 }
 
 #f_nav {
