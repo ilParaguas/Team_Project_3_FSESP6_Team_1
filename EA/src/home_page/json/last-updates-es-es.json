@@ -3,6 +3,7 @@
     "readMoreLink": "https://www.ea.com/es-es/news",
     "cardsInfo": [
       {
+        "id":1,
         "Company": "Electronic Arts Inc.",
         "Date": "20-mar-2024",
         "Title": "Un vistazo a la extraordinaria trayectoria de liderazgo de Kate Gorman",
@@ -11,6 +12,7 @@
         "link": "https://www.ea.com/es-es/news/leading-the-sims-franchise-kate-gorman"
       },
       {
+        "id":2,
         "Company": "Electronic Arts Inc.",
         "Date": "13-mar-2024",
         "Title": "Celebramos el liderazgo femenino en los videojuegos con Charity Joy",
@@ -19,6 +21,7 @@
         "link": "https://www.ea.com/es-es/news/from-producer-to-general-manager-charity-joy"
       },
       {
+        "id":3,
         "Company": "Electronic Arts Inc.",
         "Date": "12-mar-2024",
         "Title": "Presentaciones de EA sobre gráficos, jugabilidad y tecnología generativa en…",
@@ -27,6 +30,7 @@
         "link": "https://www.ea.com/es-es/news/ea-technology-gdc-2024"
       },
       {
+        "id":4,
         "Company": "Electronic Arts Inc.",
         "Date": "11-mar-2024",
         "Title": "EA SPORTS Madden presenta Field the Future para dejar un impacto positivo",
@@ -35,6 +39,7 @@
         "link": "https://www.ea.com/es-es/news/empowering-women-in-american-football"
       },
       {
+        "id":5,
         "Company": "Electronic Arts Inc.",
         "Date": "08-mar-2024",
         "Title": "Liderando la carga: El camino a la excelencia en videojuegos de Rebecka Cou…",
@@ -43,6 +48,7 @@
         "link": "https://www.ea.com/es-es/news/meet-rebecka-coutaz-general-manager-at-dice"
       },
       {
+        "id":6,
         "Company": "Electronic Arts Inc.",
         "Date": "09-feb-2024",
         "Title": "EA SPORTS FC™ - Vida en el equipo",
@@ -56,6 +62,7 @@
     "readMoreLink": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news",
     "cardsInfo": [
       {
+        "id":7,
         "Company": "",
         "Date": "21-mar-2024",
         "Title": "EA SPORTS FC™ 24 - Oferta de 2024 MLS Season Pass para FC Founders",
@@ -64,6 +71,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc24-mls-founders-offer-faq"
       },
       {
+        "id":8,
         "Company": "",
         "Date": "12-mar-2024",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Actualización de primavera",
@@ -71,7 +79,7 @@
         "Picture": "ea-sports-fc-11.jpg",
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-spring-update"
       },
-      {
+      {"id":9,
         "Company": "",
         "Date": "02-feb-2024",
         "Title": "Actualización del DCP de ligas del TOTY 86+ - Sitio oficial de EA SPORTS",
@@ -80,6 +88,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/update-on-toty-86-plus-leagues-sbc"
       },
       {
+        "id":10,
         "Company": "",
         "Date": "05-dic-2023",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Actualización festiva",
@@ -87,7 +96,7 @@
         "Picture": "ea-sports-fc-1.jpg",
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-holiday-update"
       },
-      {
+      {"id":12,
         "Company": "",
         "Date": "23-nov-2023",
         "Title": "EA SPORTS FC™ 24 - UEFA EURO 2024",
@@ -96,6 +105,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/euro-2024"
       },
       {
+        "id":13,
         "Company": "",
         "Date": "03-nov-2023",
         "Title": "Ultimate Team™ 24 - Elecciones de especialista",
@@ -103,7 +113,7 @@
         "Picture": "ea-sports-fc-3.jpg",
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/pundit-picks"
       },
-      {
+      {"id":14,
         "Company": "",
         "Date": "26-oct-2023",
         "Title": "24 días de EA SPORTS FC™ 24 - Sitio oficial de EA SPORTS",
@@ -112,6 +122,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/24-days-of-ea-sports-fc-24"
       },
       {
+        "id":15,
         "Company": "",
         "Date": "26-oct-2023",
         "Title": "EA SPORTS FC 24 - Oferta de adidas para FC Founders - Sitio oficial de EA S…",
@@ -120,6 +131,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc24-adidas-founders-offer-faq"
       },
       {
+        "id":16,
         "Company": "",
         "Date": "22-sep-2023",
         "Title": "EA SPORTS FC™ 24 | Novedades para PC",
@@ -128,6 +140,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-pc-update"
       },
       {
+        "id":17,
         "Company": "",
         "Date": "22-sep-2023",
         "Title": "EA SPORTS FC™ 24 - Probabilidades de los sobres",
@@ -136,6 +149,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-pack-probabilities"
       },
       {
+        "id":18,
         "Company": "",
         "Date": "20-sep-2023",
         "Title": "EA SPORTS FC 24 | Notas a pie de campo - Análisis detallado de Estilos de j…",
@@ -144,6 +158,7 @@
         "link": "https://www.ea.com/es-es/games/ea-sports-fc/fc-24/news/fc-24-playstyles-deepdive"
       },
       {
+        "id":19,
         "Company": "",
         "Date": "20-sep-2023",
         "Title": "EA SPORTS FC™ 24 | Notas a pie de campo - Análisis detallado de Nintendo Sw…",
@@ -157,6 +172,7 @@
     "readMoreLink": "https://www.ea.com/es-es/games/starwars/jedi/jedi-survivor/news",
     "cardsInfo": [
       {
+        "id":20,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "13-mar-2024",
         "Title": "Revelación de kit - Reina Amidala",
@@ -165,6 +181,7 @@
         "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-queen-amidala"
       },
       {
+        "id":21,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "05-mar-2023",
         "Title": "Revelación de kit - Capitán Tarpals",
@@ -173,6 +190,7 @@
         "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-captain-tarpals"
       },
       {
+        "id":22,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "27-feb-2024",
         "Title": "Vista previa del calendario de marzo",
@@ -180,7 +198,7 @@
         "Picture": "star-wars-3.jpg",
         "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/march-calendar-2024"
       },
-      {
+      {"id":23,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "22-feb-2024",
         "Title": "Revelación de kit - Jefe Nass",
@@ -188,7 +206,7 @@
         "Picture": "star-wars-4.png",
         "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/kit-reveal-boss-nass"
       },
-      {
+      {"id":24,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "20-feb-2024",
         "Title": "Lo que nos espera: febrero de 2024",
@@ -196,7 +214,7 @@
         "Picture": "star-wars-5.jpg",
         "link": "https://www.ea.com/es-es/games/starwars/galaxy-of-heroes/news/the-road-ahead-february-2024"
       },
-      {
+      {"id":25,
         "Company": "Star Wars™ Galaxy of Heroes",
         "Date": "08-feb-2024",
         "Title": "Revelación de kit - PAM",
@@ -209,7 +227,7 @@
   "Apex-Legends": {
     "readMoreLink": "https://www.ea.com/es-es/games/apex-legends/news",
     "cardsInfo": [
-      {
+      {"id":26,
         "Company": "Apex Legends",
         "Date": "21-mar-2024",
         "Title": "Domina la clandestinidad en el evento Sociedad oculta",
@@ -217,7 +235,7 @@
         "Picture": "apex-legends-1.png",
         "link": "https://www.ea.com/es-es/games/apex-legends/news/shadow-society-event"
       },
-      {
+      {"id":27,
         "Company": "Apex Legends",
         "Date": "17-mar-2024",
         "Title": "Eliminatorias de la División 1 de la ALGS: anuncio de recinto + fechas",
@@ -225,7 +243,7 @@
         "Picture": "apex-legends-2.jpg",
         "link": "https://www.ea.com/es-es/games/apex-legends/news/year4-split1-playoffs"
       },
-      {
+      {"id":28,
         "Company": "Apex Legends",
         "Date": "04-mar-2024",
         "Title": "Comienza La caza en el evento de colección Bestia interior",
@@ -233,7 +251,7 @@
         "Picture": "apex-legends-3.png",
         "link": "https://www.ea.com/es-es/games/apex-legends/news/inner-beast-event"
       },
-      {
+      {"id":29,
         "Company": "Apex Legends",
         "Date": "12-feb-2024",
         "Title": "Notas del parche de Apex Legends™: Revelación",
@@ -241,7 +259,7 @@
         "Picture": "apex-legends-4.png",
         "link": "https://www.ea.com/es-es/games/apex-legends/news/breakout-patch-notes"
       },
-      {
+      {"id":30,
         "Company": "Apex Legends",
         "Date": "08-feb-2024",
         "Title": "Celebra 5 años de Apex Legends con el evento de colección del aniversario",
@@ -249,7 +267,7 @@
         "Picture": "apex-legends-5.png",
         "link": "https://www.ea.com/es-es/games/apex-legends/news/fifth-anniversary-collection-event"
       },
-      {
+      {"id":31,
         "Company": "Apex Legends",
         "Date": "06-feb-2024",
         "Title": "Recompensas de Apex Legends™: Revelación",
@@ -262,7 +280,7 @@
   "Los-Sims4": {
     "readMoreLink": "https://www.ea.com/es-es/games/the-sims/the-sims-4/pc/news",
     "cardsInfo": [
-      {
+      {"id":32,
         "Company": "Los Sims 4",
         "Date": "06-mar-2024",
         "Title": "Actualización: 06/03/2024",
@@ -270,7 +288,7 @@
         "Picture": "sims4-1.jpg",
         "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-3-6-2024"
       },
-      {
+      {"id":33,
         "Company": "Los Sims 4",
         "Date": "28-feb-2024",
         "Title": "Actualización: 28/02/2024",
@@ -278,7 +296,7 @@
         "Picture": "sims4-1.jpg",
         "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-2-28-2024"
       },
-      {
+      {"id":34,
         "Company": "Los Sims 4",
         "Date": "28-feb-2024",
         "Title": "La colección de joyas de Los Sims en la vida real con Plumbobs",
@@ -286,7 +304,7 @@
         "Picture": "sims4-3.png",
         "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/plumbob-collection-merch-shop"
       },
-      {
+      {"id":35,
         "Company": "Los Sims 4",
         "Date": "27-feb-2024",
         "Title": "Actualización: 02/27/2024",
@@ -294,7 +312,7 @@
         "Picture": "sims4-1.jpg",
         "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/update-2-27-2024"
       },
-      {
+      {"id":36,
         "Company": "Los Sims 4",
         "Date": "22-feb-2024",
         "Title": "Joyas de ArethaBee en Los Sims 4 Creaciones Cristalinas",
@@ -302,7 +320,7 @@
         "Picture": "sims4-5.png",
         "link": "https://www.ea.com/es-es/games/the-sims/the-sims-4/news/ymts-with-arethabee"
       },
-      {
+      {"id":37,
         "Company": "Los Sims 4",
         "Date": "20-feb-2024",
         "Title": "Crea tus joyas de cristales con Los Sims 4 Creaciones Cristalinas Pack de A…",
@@ -315,7 +333,7 @@
   "F1": {
     "readMoreLink": "https://www.ea.com/es-es/games/f1/f1-23/news",
     "cardsInfo": [
-      {
+      {"id":38,
         "Company": "F1® 23",
         "Date": "12-dic-2023",
         "Title": "EA SPORTS™ F1® - CELEBRACIÓN DE MAX",
@@ -323,7 +341,7 @@
         "Picture": "f1-1.png",
         "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-max-celebration"
       },
-      {
+      {"id":39,
         "Company": "F1® 23",
         "Date": "07-dic-2023",
         "Title": "ACTUALIZACIÓN DE LAS VALORACIONES DE PILOTOS DE F1® 23 (FINAL DE TEMPORADA)",
@@ -331,7 +349,7 @@
         "Picture": "f1-2.png",
         "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-driver-ratings-end-of-season"
       },
-      {
+      {"id":40,
         "Company": "F1® 23",
         "Date": "16-oct-2023",
         "Title": "NOTAS DEL PARCHE DE F1® 23 (v1.15)",
@@ -339,7 +357,7 @@
         "Picture": "f1-3.jpg",
         "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-patch-notes-v115"
       },
-      {
+      {"id":41,
         "Company": "F1® 23",
         "Date": "16-oct-2023",
         "Title": "HA LLEGADO F2™ 2023 Y LA ACTUALIZACIÓN DEPORTIVA",
@@ -347,7 +365,7 @@
         "Picture": "f1-4.jpg",
         "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-sports-update"
       },
-      {
+      {"id":42,
         "Company": "F1® 23",
         "Date": "19-sep-2023",
         "Title": "ACTUALIZACIÓN DE LAS VALORACIONES DE PILOTOS DE F1® 23 (SEPTIEMBRE)",
@@ -355,7 +373,7 @@
         "Picture": "f1-5.png",
         "link": "https://www.ea.com/es-es/games/f1/f1-23/news/f1-23-driver-ratings-september"
       },
-      {
+      {"id":43,
         "Company": "F1® 23",
         "Date": "29-ago-2023",
         "Title": "NOTAS DEL PARCHE DE F1® 23 (v1.10)",
@@ -368,7 +386,7 @@
   "Battlefield": {
     "readMoreLink": "https://www.ea.com/es-es/games/battlefield/news",
     "cardsInfo": [
-      {
+      {"id":44,
         "Company": "Battlefield 2042",
         "Date": "15-mar-2024",
         "Title": "ACTUALIZACIÓN N.º 7.0.0 DE BATTLEFIELD 2042",
@@ -376,7 +394,7 @@
         "Picture": "battlefield-3.jpg",
         "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-7-0-0"
       },
-      {
+      {"id":45,
         "Company": "Battlefield 2042",
         "Date": "14-mar-2024",
         "Title": "NOTAS DEL DESARROLLO - REFUGIO",
@@ -384,7 +402,7 @@
         "Picture": "battlefield-4.jpg",
         "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/dev-notes-haven"
       },
-      {
+      {"id":46,
         "Company": "Battlefield 2042",
         "Date": "23-feb-2024",
         "Title": "ACTUALIZACIÓN N.º 6.4.0 DE BATTLEFIELD 2042",
@@ -392,7 +410,7 @@
         "Picture": "battlefield-5.jpg",
         "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-4-0"
       },
-      {
+      {"id":47,
         "Company": "Battlefield 2042",
         "Date": "26-ene-2024",
         "Title": "ACTUALIZACIÓN N.º 6.3.0 DE BATTLEFIELD 2042",
@@ -400,7 +418,7 @@
         "Picture": "battlefield-6.png",
         "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-3-0"
       },
-      {
+      {"id":48,
         "Company": "Battlefield 2042",
         "Date": "12-ene-2024",
         "Title": "ACTUALIZACIÓN N.º 6.2.1 DE BATTLEFIELD 2042",
@@ -408,7 +426,7 @@
         "Picture": "battlefield-1.jpg",
         "link": "https://www.ea.com/es-es/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-6-2-1"
       },
-      {
+      {"id":49,
         "Company": "Battlefield 2042",
         "Date": "01-dic-2023",
         "Title": "ACTUALIZACIÓN N.º 6.2.0 DE BATTLEFIELD 2042",

@@ -9,8 +9,8 @@ export function CardsUpdates() {
   return (
     <div id="cards-updates">
       {news && news[selectedTab]?.cardsInfo &&
-        news[selectedTab]?.cardsInfo.map((card, index) => (
-          <Card key={index} content={card} />
+        news[selectedTab]?.cardsInfo.map((card) => (
+          <Card key={card.id} content={card} />
         ))}
     </div>
   );
