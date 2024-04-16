@@ -58,7 +58,7 @@
   overflow-y: auto;
   border-bottom: solid 1px;
   overflow: scroll;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 .f_sidebar_media_body_wrapper {
@@ -85,8 +85,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 7px;
-  margin-left: 18px;
+  margin-right: 28px;
+  margin-left: 28px;
   border-bottom: solid 1px;
 }
 
@@ -151,7 +151,7 @@
 .f_sidebar_media_content_body {
   height: 0px;
   margin-left: 18px;
-  margin-right: 7px;
+  margin-right: 29px;
   overflow: hidden;
   transform-origin: top;
   transition-delay: 0.1s;
